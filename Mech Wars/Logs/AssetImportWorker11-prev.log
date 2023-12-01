@@ -1,0 +1,275 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.11f1 (d00248457e15) revision 13632072'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 65440 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Program Files\Unity Hub\2022.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker11
+-projectPath
+F:/Mech Wars/Mech Wars
+-logFile
+Logs/AssetImportWorker11.log
+-srvPort
+60980
+Successfully changed project path to: F:/Mech Wars/Mech Wars
+F:/Mech Wars/Mech Wars
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [69196] Host "[IP] 192.168.1.45 [Port] 0 [Flags] 2 [Guid] 3998920357 [EditorId] 3998920357 [Version] 1048832 [Id] WindowsEditor(7,Erics-Desktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [69196] Host "[IP] 192.168.1.45 [Port] 0 [Flags] 2 [Guid] 3998920357 [EditorId] 3998920357 [Version] 1048832 [Id] WindowsEditor(7,Erics-Desktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 31 workers.
+Refreshing native plugins compatible for Editor in 6.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.11f1 (d00248457e15)
+[Subsystems] Discovering subsystems at path D:/Program Files/Unity Hub/2022.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/Mech Wars/Mech Wars/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6800 XT (ID=0x73bf)
+    Vendor:   ATI
+    VRAM:     16338 MB
+    Driver:   31.0.12027.9001
+Initialize mono
+Mono path[0] = 'D:/Program Files/Unity Hub/2022.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/Unity Hub/2022.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Program Files/Unity Hub/2022.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56596
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files/Unity Hub/2022.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Program Files/Unity Hub/2022.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005474 seconds.
+- Loaded All Assemblies, in  0.436 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.210 seconds
+Domain Reload Profiling: 644ms
+	BeginReloadAssembly (171ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (163ms)
+		LoadAssemblies (170ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (161ms)
+			TypeCache.Refresh (160ms)
+				TypeCache.ScanAssembly (142ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (211ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (164ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (107ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+Assembly with name 'LlamAcademy.Guns.Editors' already exists (Assets/Scripts/Guns/Editor/LlamAcademy.Guns.Editors.asmdef)
+Assembly with name 'LlamAcademy.Guns.Editors' already exists (Assets/Scripts/Guns/Editor/LlamAcademy.Guns.Editors 1.asmdef)
+========================================================================
+Worker process is ready to serve import requests
+Assembly with name 'LlamAcademy.Guns.Editors' already exists (Assets/Scripts/Guns/Editor/LlamAcademy.Guns.Editors.asmdef)
+Assembly with name 'LlamAcademy.Guns.Editors' already exists (Assets/Scripts/Guns/Editor/LlamAcademy.Guns.Editors 1.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.841 seconds
+Refreshing native plugins compatible for Editor in 1.95 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly with name 'LlamAcademy.Guns.Editors' already exists (Assets/Scripts/Guns/Editor/LlamAcademy.Guns.Editors.asmdef)
+Assembly with name 'LlamAcademy.Guns.Editors' already exists (Assets/Scripts/Guns/Editor/LlamAcademy.Guns.Editors 1.asmdef)
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.636 seconds
+Domain Reload Profiling: 1476ms
+	BeginReloadAssembly (128ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (642ms)
+		LoadAssemblies (397ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (318ms)
+			TypeCache.Refresh (280ms)
+				TypeCache.ScanAssembly (258ms)
+			ScanForSourceGeneratedMonoScriptInfo (29ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (636ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (499ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (346ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 1.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6150 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 93 unused Assets / (0.5 MB). Loaded Objects now: 6614.
+Memory consumption went from 242.2 MB to 241.7 MB.
+Total: 3.756400 ms (FindLiveObjects: 0.427600 ms CreateObjectMapping: 0.301500 ms MarkObjects: 2.809600 ms  DeleteObjects: 0.217300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/JsonDataService.cs: f026935cf7a6dba9e3af1d1b9b2dc7c4 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/Gun Pickups.cs: 9e472622ee0d7b819495691ef02efee1 -> 
+  custom:scripting/monoscript/fileName/GunScriptableObjectEditor.cs: d95f31c758e90103fdc74c4c7a937e2f -> 
+  custom:scripting/monoscript/fileName/ICollisionHandler.cs: bc2a295fbaa33835a2aefa809827fc03 -> 
+  custom:scripting/monoscript/fileName/DeathDestroyCallback.cs: 1ab99ba805b232e57432bd14b9fa991e -> 
+  custom:scripting/monoscript/fileName/Surface.cs: 69def7cb094fc461c8bd99aaf9a7b98d -> 
+  custom:scripting/monoscript/fileName/Ammo Config Scriptable Object.cs: 47f4dbaa36ba40d5ba799bb91c2c31e4 -> 
+  custom:scripting/monoscript/fileName/SurfaceEffect.cs: cde42a1f5499d2b6f2946567d6302cb2 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/FloatModifier.cs: 2ca6406414b81d5610d5ab0b32c7456e -> 
+  custom:scripting/monoscript/fileName/AudioConfigScriptableObject.cs: 1e772aff236db6bf49597dd8425356f1 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/GunScriptableObject.cs: 8d5ca171cca37eb27e314efb03a86a50 -> 
+  custom:scripting/monoscript/fileName/PlayerIK.cs: 792bc7fe915be3ef2af8363b52efc6ae -> 
+  custom:scripting/monoscript/fileName/ISlowable.cs: 910fb311f0185ed5788b4ccc07f23c1e -> 
+  custom:scripting/monoscript/fileName/EnemyHealth.cs: b9251a5d81940ca7b22404cbfa9defa9 -> 
+  custom:scripting/monoscript/fileName/ImpactEffectReplacementModifier.cs: 336b1f7f3449579bc473205c578d6969 -> 
+  custom:scripting/monoscript/fileName/GunModifierApplier.cs: 7ade406e4f660cc42929d9bb7ad240a3 -> 
+  custom:scripting/monoscript/fileName/ImpactTypeModifier.cs: f35d8719a942215bfb5f389dc0e63e4f -> 
+  custom:scripting/monoscript/fileName/DamageModifier.cs: 7c7f4ee295cee7d32445ca50db89665c -> 
+  custom:scripting/monoscript/fileName/PoolableObject.cs: 10fa9fc9b3873217657168c8d638dc41 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:scripting/monoscript/fileName/Vector3Modifier.cs: 36938660103a4cb8719ad112249f64d3 -> 
+  custom:scripting/monoscript/fileName/TrailConfigScriptableObjectPropertyDrawer.cs: a6551f7c063b00f56d8ab78d811d1e07 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Abstract Value Modifier.cs: baf4ef768c5dac2c62db840a5127318e -> 
+  custom:scripting/monoscript/fileName/Shoot Configuration Scriptable Object.cs: 42f0866e786a2fb5d19ee20de245a7f3 -> 
+  custom:scripting/monoscript/fileName/Explode.cs: f1e719c4bae748595307d9c3fb58bbe6 -> 
+  custom:scripting/monoscript/fileName/Utilities.cs: 20e5dee9341cc5fc032d663c9369beef -> 
+  custom:scripting/monoscript/fileName/BulletProjectile.cs: 9889cdb978cda4373ee9d166c1f5f3f3 -> 
+  custom:scripting/monoscript/fileName/I Damageable.cs: e64f76ace9702e1e0c6016368cb48d14 -> 
+  custom:scripting/monoscript/fileName/Attachment.cs: f14c8e261d2f48dfc50e1dcf14907d6c -> 
+  custom:scripting/monoscript/fileName/Gun Scriptable Object.cs: cd2f82d16dcb6520f6c567afe8eadc05 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/SurfaceManager.cs: c6a1a5009ee289e5c24a548886bda2b5 -> 
+  custom:scripting/monoscript/fileName/BulletPenetrationConfigScriptableObject.cs: 208dca35e535256e6afe9ba44a5bf9f8 -> 
+  custom:scripting/monoscript/fileName/ObjectPool.cs: 44ef958af71a66d860d582ad3e685c6a -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/Damage Config Scriptable Object.cs: 798dd4f821239c25e70c6353cb43e333 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/ScriptableObjectCreator.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/DamageConfigScriptableObject.cs: 1545e92f9f42224b115b39359d2d50d1 -> 
+  custom:scripting/monoscript/fileName/Frost.cs: 9d0e38dc4a3c61ed288ff64fcf1f7e53 -> 
+  custom:scripting/monoscript/fileName/ShootConfigScriptableObjectPropertyDrawer.cs: 29cecd7d900c3283a58b0a28f6fc69e1 -> 
+  custom:scripting/monoscript/fileName/AmmoPickup.cs: e9b098d793782e784f0b1b53967be096 -> 
+  custom:scripting/monoscript/fileName/PlayerGunSelector.cs: 9b8cb64b313cb9101d92a2ef23584f8e -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/LookAtIK.cs: b7e5a0d94fd76df4edf086470fbac08e -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/Bullet Penetration Config Scriptable Object.cs: 39c4b8c98635c7417f1c548cc1364b9c -> 
+  custom:scripting/monoscript/fileName/IDataService.cs: 4ee93f2f1765e685fb151faf12aa910f -> 
+  custom:scripting/monoscript/fileName/SpawnParticleSystemOnDeath.cs: de8cba89e7c38ca5f1eec36695e5a4e4 -> 
+  custom:scripting/monoscript/fileName/ShootConfigScriptableObject.cs: cef5da2a0f72f19fa395b7ae907347be -> 
+  custom:scripting/monoscript/fileName/SimpleClickToShoot.cs: 6dd4e8839ce685b356e641b0afe2772e -> 
+  custom:scripting/monoscript/fileName/Loadout.cs: 7571a00536551ddf5e6ec9da988c2f74 -> 
+  custom:scripting/monoscript/fileName/EnemyPainResponse.cs: 2787749355392ec54f69294aef66088f -> 
+  custom:scripting/monoscript/fileName/AttachmentSlot.cs: cdea3bb153e645e467a7903a24ec61af -> 
+  custom:scripting/monoscript/fileName/PlayerActionEditor.cs: 9f18f9a663547f8e240bae07059cf932 -> 
+  custom:scripting/monoscript/fileName/PlayAudioEffect.cs: 42cc89509bfe611e035beaab62679702 -> 
+  custom:scripting/monoscript/fileName/Enemy.cs: 6b13fb8ffd652ca2b4bb2abd7b43b952 -> 
+  custom:scripting/monoscript/fileName/Trail Config Scriptable Object.cs: 78f12ed30ed49c943ff8a7e77519b3fb -> 
+  custom:scripting/monoscript/fileName/ImpactType.cs: 8053e34f9803ca0456c8540443b7224c -> 
+  custom:scripting/monoscript/fileName/DamageConfigScriptableObjectPropertyDrawer.cs: 29ed1a402778dfee22122f3321ab3496 -> 
+  custom:scripting/monoscript/fileName/GunPickup.cs: b59c37bfaec7d5e55569cc495f206f20 -> 
+  custom:scripting/monoscript/fileName/SliderWithInput.cs: 42750342e5a3c5177dfadc3a10691fa0 -> 
+  custom:scripting/monoscript/fileName/Ammo Displayer.cs: a3d3a7bb1fb01a2f4778df69feff85b0 -> 
+  custom:scripting/monoscript/fileName/FadeOutDecal.cs: 5a52a3c8109935b4ae0307041ea23d08 -> 
+  custom:scripting/monoscript/fileName/BulletPenetrationConfigScriptableObjectPropertyDrawer.cs: b266e6101d6575bb914709486d71e7dc -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/AmmoDisplayer.cs: 0458fb7f0441507e9892a2f6e04e8bd9 -> 
+  custom:scripting/monoscript/fileName/IDamageable.cs: 144d583aa1c63fd8cc39df7824ac5b3d -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/InvalidPathSpecifiedException.cs: 2930539d33edc81930f129e07280b689 -> 
+  custom:scripting/monoscript/fileName/Player Action.cs: a80cb126aeae4eae3279b1ce167414de -> 
+  custom:scripting/monoscript/fileName/Player Gun Selector.cs: 96571425e73632567606906c4e4dd21b -> 
+  custom:scripting/monoscript/fileName/Bullet.cs: 16945fd0c5f70d55970b40df67cf81cb -> 
+  custom:scripting/monoscript/fileName/Enemy Health.cs: a4d027726692f4f1a1dc379aafbb87e2 -> 
+  custom:scripting/monoscript/fileName/AbstractAreaOfEffect.cs: 77c1ce6e1864a956b4d31c259db65594 -> 
+  custom:scripting/monoscript/fileName/IModifier.cs: 45c579ec4eaf2333a54298a6c79b7aaa -> 
+  custom:scripting/monoscript/fileName/PlayerAction.cs: 3932dc7f5d863532d116683e30e5e6f3 -> 
+  custom:scripting/monoscript/fileName/EnemyMovement.cs: fd371b94d0452bed70b0891060a26e5f -> 
+  custom:scripting/monoscript/fileName/TrailConfigScriptableObject.cs: a540cb746be867968a226bb3db126824 -> 
+  custom:scripting/monoscript/fileName/PickUpController.cs: 777d515f181318d223004f3f507611f9 -> 
+  custom:scripting/monoscript/fileName/SurfaceType.cs: 0106246c6a15d9e6acde1f7c19ea7a2c -> 
+  custom:scripting/monoscript/fileName/AmmoConfigScriptableObjectPropertyDrawer.cs: 4d6e3f271617e38807b1e08e5b96dc8f -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ThirdPersonShooterController.cs: eb7a196ee7e52d156d81d0e5d5898927 -> 
+  custom:scripting/monoscript/fileName/SpawnObjectEffect.cs: 2dcfcba2e56b35ccfa6ca5e60d76b671 -> 
+  custom:scripting/monoscript/fileName/AmmoConfigScriptableObject.cs: 61f90f79fd9819093c0a073d1bc0fdd5 -> 
+  custom:scripting/monoscript/fileName/AbstractValueModifier.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/AudioConfigScriptableObjectPropertyDrawer.cs: 3c87e1ee2fcd810e50718bcc64ede80b -> 
+  custom:scripting/monoscript/fileName/Spawn Particle System On Death.cs: 41b39abdf758126a5c95e2e5da4f8c27 -> 
+  custom:scripting/monoscript/fileName/BulletTarget.cs: 8a42b17f44e363892eac3fceae261b5a -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

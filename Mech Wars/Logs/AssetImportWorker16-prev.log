@@ -1,0 +1,2185 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.11f1 (d00248457e15) revision 13632072'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 65440 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Program Files\Unity Hub\2022.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker16
+-projectPath
+F:/Mech Wars/Mech Wars
+-logFile
+Logs/AssetImportWorker16.log
+-srvPort
+60980
+Successfully changed project path to: F:/Mech Wars/Mech Wars
+F:/Mech Wars/Mech Wars
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [73520] Host "[IP] 192.168.1.45 [Port] 0 [Flags] 2 [Guid] 623979634 [EditorId] 623979634 [Version] 1048832 [Id] WindowsEditor(7,Erics-Desktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [73520] Host "[IP] 192.168.1.45 [Port] 0 [Flags] 2 [Guid] 623979634 [EditorId] 623979634 [Version] 1048832 [Id] WindowsEditor(7,Erics-Desktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 31 workers.
+Refreshing native plugins compatible for Editor in 5.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.11f1 (d00248457e15)
+[Subsystems] Discovering subsystems at path D:/Program Files/Unity Hub/2022.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/Mech Wars/Mech Wars/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6800 XT (ID=0x73bf)
+    Vendor:   ATI
+    VRAM:     16338 MB
+    Driver:   31.0.12027.9001
+Initialize mono
+Mono path[0] = 'D:/Program Files/Unity Hub/2022.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/Unity Hub/2022.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Program Files/Unity Hub/2022.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56676
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files/Unity Hub/2022.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Program Files/Unity Hub/2022.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005183 seconds.
+- Loaded All Assemblies, in  0.334 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.203 seconds
+Domain Reload Profiling: 535ms
+	BeginReloadAssembly (127ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (119ms)
+		LoadAssemblies (126ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (117ms)
+			TypeCache.Refresh (116ms)
+				TypeCache.ScanAssembly (104ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (203ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (157ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (104ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.665 seconds
+Refreshing native plugins compatible for Editor in 1.92 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.599 seconds
+Domain Reload Profiling: 1262ms
+	BeginReloadAssembly (136ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (460ms)
+		LoadAssemblies (307ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (231ms)
+			TypeCache.Refresh (198ms)
+				TypeCache.ScanAssembly (184ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (599ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (466ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (331ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6143 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 93 unused Assets / (0.5 MB). Loaded Objects now: 6607.
+Memory consumption went from 241.9 MB to 241.4 MB.
+Total: 3.578000 ms (FindLiveObjects: 0.426100 ms CreateObjectMapping: 0.158900 ms MarkObjects: 2.738500 ms  DeleteObjects: 0.254000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/JsonDataService.cs: e60860cdad46bb199939d2bb6e3da4b1 -> f026935cf7a6dba9e3af1d1b9b2dc7c4
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/Gun Pickups.cs: 9e472622ee0d7b819495691ef02efee1 -> 
+  custom:scripting/monoscript/fileName/GunScriptableObjectEditor.cs: a585e75eb7c08c1af5858952c3814444 -> d95f31c758e90103fdc74c4c7a937e2f
+  custom:scripting/monoscript/fileName/ICollisionHandler.cs: 4fddd33d4f279082ce82d181e5ec7673 -> bc2a295fbaa33835a2aefa809827fc03
+  custom:scripting/monoscript/fileName/DeathDestroyCallback.cs: ae6498255b9de1a2e55d99d9ccd684cb -> 1ab99ba805b232e57432bd14b9fa991e
+  custom:scripting/monoscript/fileName/Surface.cs: 95094f06edf3ebe24d74b052e4a43297 -> 68534428341647e57d6a181bef022969
+  custom:scripting/monoscript/fileName/Ammo Config Scriptable Object.cs: 47f4dbaa36ba40d5ba799bb91c2c31e4 -> 
+  custom:scripting/monoscript/fileName/SurfaceEffect.cs: 1dc51154a812101a5576d3bca2073c09 -> 22399b4309ab5cc2c85ddfaa6d6eac80
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/FloatModifier.cs: e21a32c39ce2968825ff4400d41cdfa3 -> 2ca6406414b81d5610d5ab0b32c7456e
+  custom:scripting/monoscript/fileName/AudioConfigScriptableObject.cs: 836c8db00b4bd829500dcba3f8e41cd8 -> ae34c94c52e8b47652c466c4811b9213
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/GunScriptableObject.cs: 41c2704e31df92477cdbd4e4393dbb20 -> 8d5ca171cca37eb27e314efb03a86a50
+  custom:scripting/monoscript/fileName/PlayerIK.cs: 792bc7fe915be3ef2af8363b52efc6ae -> 
+  custom:scripting/monoscript/fileName/ISlowable.cs: 8f8f4c84fd22bb033939350dec359cf9 -> 910fb311f0185ed5788b4ccc07f23c1e
+  custom:scripting/monoscript/fileName/EnemyHealth.cs: 110f063c9f7758b0c01a2919c5697336 -> b9251a5d81940ca7b22404cbfa9defa9
+  custom:scripting/monoscript/fileName/ImpactEffectReplacementModifier.cs: b255265f86535fb4bb51a450cb2346d6 -> 336b1f7f3449579bc473205c578d6969
+  custom:scripting/monoscript/fileName/GunModifierApplier.cs: 01b3a478c3cf06e8ead2ad699bb48f38 -> 8cfe49117fbd0a2f3db11d43006a3845
+  custom:scripting/monoscript/fileName/ImpactTypeModifier.cs: b7d28ee1e1cad5e1d9c8d3f476f303bd -> f35d8719a942215bfb5f389dc0e63e4f
+  custom:scripting/monoscript/fileName/DamageModifier.cs: ebb190d66dc569c62451fe4369c612e2 -> 7ae3f6046c277141eb81de0c917c9a8a
+  custom:scripting/monoscript/fileName/PoolableObject.cs: c67b0f9f0ce5fd450e4aec3442b199b8 -> d154161691f6fc8ba9ff3c098c6dbddb
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:scripting/monoscript/fileName/Vector3Modifier.cs: 52a59b446dc5ac56aa228ae45aa2f70a -> bfc4555fa65faeb3c7244482398dcf65
+  custom:scripting/monoscript/fileName/TrailConfigScriptableObjectPropertyDrawer.cs: f47142f68a516040725c0393d7fd4858 -> a6551f7c063b00f56d8ab78d811d1e07
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Abstract Value Modifier.cs: baf4ef768c5dac2c62db840a5127318e -> 
+  custom:scripting/monoscript/fileName/Shoot Configuration Scriptable Object.cs: 42f0866e786a2fb5d19ee20de245a7f3 -> 
+  custom:scripting/monoscript/fileName/Explode.cs: 546a5bb4e87e9dc75b694aec300a0c04 -> f1e719c4bae748595307d9c3fb58bbe6
+  custom:scripting/monoscript/fileName/Utilities.cs: a0d84f982f1be314ccfebfc0110364af -> 4afc183a3f6c3e542da5a596c51f3a5b
+  custom:scripting/monoscript/fileName/BulletProjectile.cs: 9889cdb978cda4373ee9d166c1f5f3f3 -> 
+  custom:scripting/monoscript/fileName/I Damageable.cs: e64f76ace9702e1e0c6016368cb48d14 -> 
+  custom:scripting/monoscript/fileName/Attachment.cs: 9c6b29555d89d3d438c699e6eea7e550 -> f14c8e261d2f48dfc50e1dcf14907d6c
+  custom:scripting/monoscript/fileName/Gun Scriptable Object.cs: cd2f82d16dcb6520f6c567afe8eadc05 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/SurfaceManager.cs: 0aa3a33e77ffb9a3a1febbc528489e42 -> ae37eca1708437b07d63e32da8638631
+  custom:scripting/monoscript/fileName/BulletPenetrationConfigScriptableObject.cs: 062e0db62b1ed46051ec232e0da81c6d -> 208dca35e535256e6afe9ba44a5bf9f8
+  custom:scripting/monoscript/fileName/ObjectPool.cs: 44ef958af71a66d860d582ad3e685c6a -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/Damage Config Scriptable Object.cs: 798dd4f821239c25e70c6353cb43e333 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/ScriptableObjectCreator.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
+  custom:scripting/monoscript/fileName/DamageConfigScriptableObject.cs: 0039fd9f12f1ee0bc0f5340b7c3d9ee2 -> 1545e92f9f42224b115b39359d2d50d1
+  custom:scripting/monoscript/fileName/Frost.cs: e29bf70ad1f8b5d39f626a74ea37fbd8 -> 9d0e38dc4a3c61ed288ff64fcf1f7e53
+  custom:scripting/monoscript/fileName/ShootConfigScriptableObjectPropertyDrawer.cs: 4ae7adb550f517cb69dca69bb057c0bd -> 29cecd7d900c3283a58b0a28f6fc69e1
+  custom:scripting/monoscript/fileName/AmmoPickup.cs: 2166c5ddd871b1850292b42ab1efacad -> e9b098d793782e784f0b1b53967be096
+  custom:scripting/monoscript/fileName/PlayerGunSelector.cs: 009e1c50d972f1af86c893092ffca3b6 -> 9b8cb64b313cb9101d92a2ef23584f8e
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/LookAtIK.cs: b7e5a0d94fd76df4edf086470fbac08e -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/Bullet Penetration Config Scriptable Object.cs: 39c4b8c98635c7417f1c548cc1364b9c -> 
+  custom:scripting/monoscript/fileName/IDataService.cs: 96364535b02cdd3dfa8d5d96b624ab89 -> 4ee93f2f1765e685fb151faf12aa910f
+  custom:scripting/monoscript/fileName/SpawnParticleSystemOnDeath.cs: a25b8e12f2fe1e45b8dec54f01b26d7d -> de8cba89e7c38ca5f1eec36695e5a4e4
+  custom:scripting/monoscript/fileName/ShootConfigScriptableObject.cs: 1c61ce1b12590eb66f38fc8a8f518560 -> cef5da2a0f72f19fa395b7ae907347be
+  custom:scripting/monoscript/fileName/SimpleClickToShoot.cs: 6dd4e8839ce685b356e641b0afe2772e -> 
+  custom:scripting/monoscript/fileName/Loadout.cs: 75999a4c27e6c570d3c7091cb2534c01 -> 7571a00536551ddf5e6ec9da988c2f74
+  custom:scripting/monoscript/fileName/EnemyPainResponse.cs: 6faafa6c7d56adba697a418f94e907bb -> 2787749355392ec54f69294aef66088f
+  custom:scripting/monoscript/fileName/AttachmentSlot.cs: 0440d824fd02ed1656330a0bc8b36da6 -> cdea3bb153e645e467a7903a24ec61af
+  custom:scripting/monoscript/fileName/PlayerActionEditor.cs: 958d39d02f1073431df39c1b14352c36 -> 9f18f9a663547f8e240bae07059cf932
+  custom:scripting/monoscript/fileName/PlayAudioEffect.cs: 00bb738034b14a204444973c7a013921 -> 0440b77c81855d6e344e482eb6c7af7e
+  custom:scripting/monoscript/fileName/Enemy.cs: 55e62eab2991045b0bcacfe03761ec57 -> 848585670dd5cada5f125876120d8c50
+  custom:scripting/monoscript/fileName/Trail Config Scriptable Object.cs: 78f12ed30ed49c943ff8a7e77519b3fb -> 
+  custom:scripting/monoscript/fileName/ImpactType.cs: 5827c959c3b94c83ea8cb0f6aae80676 -> 3f39bbe75450299bb6c8f40f91381a1d
+  custom:scripting/monoscript/fileName/DamageConfigScriptableObjectPropertyDrawer.cs: 642e9db7cfce23eaa81d9db20174268a -> 29ed1a402778dfee22122f3321ab3496
+  custom:scripting/monoscript/fileName/GunPickup.cs: ffc9f72a029f6b4e40ac5d02441bc439 -> b59c37bfaec7d5e55569cc495f206f20
+  custom:scripting/monoscript/fileName/SliderWithInput.cs: dc2876dd8543808db56d49bf58b42b20 -> 42750342e5a3c5177dfadc3a10691fa0
+  custom:scripting/monoscript/fileName/Ammo Displayer.cs: a3d3a7bb1fb01a2f4778df69feff85b0 -> 
+  custom:scripting/monoscript/fileName/FadeOutDecal.cs: 5a52a3c8109935b4ae0307041ea23d08 -> 
+  custom:scripting/monoscript/fileName/BulletPenetrationConfigScriptableObjectPropertyDrawer.cs: 804b14044b26636b0812efe66658561f -> b266e6101d6575bb914709486d71e7dc
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/AmmoDisplayer.cs: 9405eb42726234bc5910c3aa85ead717 -> 0458fb7f0441507e9892a2f6e04e8bd9
+  custom:scripting/monoscript/fileName/IDamageable.cs: 0143820b2f653153f25947ad89b8c329 -> 144d583aa1c63fd8cc39df7824ac5b3d
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/InvalidPathSpecifiedException.cs: 131f0dc635f42d89b5b05fbe988bfb29 -> 89276a9330fcf18a3c4b7f79ea6c0cd0
+  custom:scripting/monoscript/fileName/Player Action.cs: a80cb126aeae4eae3279b1ce167414de -> 
+  custom:scripting/monoscript/fileName/Player Gun Selector.cs: 96571425e73632567606906c4e4dd21b -> 
+  custom:scripting/monoscript/fileName/Bullet.cs: 4e6d5c58b10435ea673435acbbb0da4b -> e17213f521d9d8e6d7102a4ba21ee9c1
+  custom:scripting/monoscript/fileName/Enemy Health.cs: a4d027726692f4f1a1dc379aafbb87e2 -> 
+  custom:scripting/monoscript/fileName/AbstractAreaOfEffect.cs: d4f7faeacacabfe3cf90fcad5fa19bd0 -> 77c1ce6e1864a956b4d31c259db65594
+  custom:scripting/monoscript/fileName/IModifier.cs: e2d40a0e4bcbde4f760f40762f9cd1fc -> 9a7b05eb101c44930a3c4d514118cd8b
+  custom:scripting/monoscript/fileName/PlayerAction.cs: 985d39e7b50500d035729d8f75893f37 -> 3932dc7f5d863532d116683e30e5e6f3
+  custom:scripting/monoscript/fileName/EnemyMovement.cs: 98c5129cf93758925b0107f10295effd -> fd371b94d0452bed70b0891060a26e5f
+  custom:scripting/monoscript/fileName/TrailConfigScriptableObject.cs: 6eab7ed5edad01304f48e9019943cf98 -> a540cb746be867968a226bb3db126824
+  custom:scripting/monoscript/fileName/PickUpController.cs: 777d515f181318d223004f3f507611f9 -> 
+  custom:scripting/monoscript/fileName/SurfaceType.cs: 0e5c1a9ebcea6d404d1fe3d8fd88ef21 -> 66099f67005033465403c25208937ea4
+  custom:scripting/monoscript/fileName/AmmoConfigScriptableObjectPropertyDrawer.cs: 51d8dd6afeeb7fc7bd0f2fe861f2ec2e -> 4d6e3f271617e38807b1e08e5b96dc8f
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ThirdPersonShooterController.cs: eb7a196ee7e52d156d81d0e5d5898927 -> 
+  custom:scripting/monoscript/fileName/SpawnObjectEffect.cs: eeb2926ba0fbcd58f5779732eeb65fce -> 21549e5323461ecc0365665c368541de
+  custom:scripting/monoscript/fileName/AmmoConfigScriptableObject.cs: 194e946c0c18a68190c3c5ce5596e8cb -> 61f90f79fd9819093c0a073d1bc0fdd5
+  custom:scripting/monoscript/fileName/AbstractValueModifier.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/AudioConfigScriptableObjectPropertyDrawer.cs: c0dc63617eb1d7c60bc39164d18f7b2c -> 3c87e1ee2fcd810e50718bcc64ede80b
+  custom:scripting/monoscript/fileName/Spawn Particle System On Death.cs: 41b39abdf758126a5c95e2e5da4f8c27 -> 
+  custom:scripting/monoscript/fileName/BulletTarget.cs: 8a42b17f44e363892eac3fceae261b5a -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1069882.803803 seconds.
+  path: Assets/PBR_Modular_Mechs/Models/Arming/A_Arms/HUM_arms_v1/Skins/HUM_arms_v1_yellow.mat
+  artifactKey: Guid(d5f9b384723f7af4295e41eeece452c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Modular_Mechs/Models/Arming/A_Arms/HUM_arms_v1/Skins/HUM_arms_v1_yellow.mat using Guid(d5f9b384723f7af4295e41eeece452c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '676319e59abb0797b2fc8394019e2fbc') in 0.292699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.021874 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Body.mat
+  artifactKey: Guid(43714b68324cc2c409d534d9874f2a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Body.mat using Guid(43714b68324cc2c409d534d9874f2a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02771a329a326cd1c8f40c3d08c242a0') in 0.036528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Legs.mat
+  artifactKey: Guid(8b25e99361ac31d4e9ae83c46aee69ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Legs.mat using Guid(8b25e99361ac31d4e9ae83c46aee69ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d9222cc9c9fb0060bde62c61682e7ca') in 0.011611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefab/Guns/Source/Missile_hive_v1/Skins/Mobile/Missile_hive_v1_red_flat.mat
+  artifactKey: Guid(b5532409c7144964cb2b5054e5dc70a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Guns/Source/Missile_hive_v1/Skins/Mobile/Missile_hive_v1_red_flat.mat using Guid(b5532409c7144964cb2b5054e5dc70a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e36a224f57e0103c533aba9a3ca9ec0') in 0.057122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Prefab/Guns/Source/Missile_hive_v1/Skins/Mobile/Missile_hive_v1_yellow_flat.mat
+  artifactKey: Guid(6ea0ef6938260bc44867d2fb438155e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Guns/Source/Missile_hive_v1/Skins/Mobile/Missile_hive_v1_yellow_flat.mat using Guid(6ea0ef6938260bc44867d2fb438155e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cfa6a878add53e3c8368fc63ccfd60f') in 0.017039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Prefab/Guns/Source/Missile_hive_v2/Skins/Mobile/Missile_hive_v2_red_flat.mat
+  artifactKey: Guid(65250ce2000884d48b9a5aa6830bbad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Guns/Source/Missile_hive_v2/Skins/Mobile/Missile_hive_v2_red_flat.mat using Guid(65250ce2000884d48b9a5aa6830bbad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '053f30bd96e86f703e9918d8d80f9249') in 0.480676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba7b29186bb33d3301f547c5c146e84') in 0.046922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Arms.mat
+  artifactKey: Guid(766fd3ff04aab4745a764d33daac86fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Arms.mat using Guid(766fd3ff04aab4745a764d33daac86fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2fdc76ce026bfe230614ad420b4b254') in 0.013062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '982fb46874278bfffbebf3de94678a8e') in 0.074515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefab/Guns/Source/Missile_hive_v2/Skins/Mobile/Missile_hive_v2_yellow_flat.mat
+  artifactKey: Guid(abfb4ba43dee94347a352acba0a763ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Guns/Source/Missile_hive_v2/Skins/Mobile/Missile_hive_v2_yellow_flat.mat using Guid(abfb4ba43dee94347a352acba0a763ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44cb42236e90995925a9243a1ced0b85') in 0.016373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PBR_Modular_Mechs/Models/Arming/A_Arms/HUM_arms_v1/Skins/Mobile/HUM_arms_v1_yellow_flat.mat
+  artifactKey: Guid(6c1ab8557dff1344881f792ddfb79eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Modular_Mechs/Models/Arming/A_Arms/HUM_arms_v1/Skins/Mobile/HUM_arms_v1_yellow_flat.mat using Guid(6c1ab8557dff1344881f792ddfb79eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e8a7f6b8c63d1bd398cd2099ac48199') in 0.062129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaf637bc678872d34f84ebb9cda21084') in 0.027667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.011062 seconds.
+  path: Assets/Prefab/Guns/Source/Missile_hive_v2/Skins/Mobile/Missile_hive_v2_default_flat.mat
+  artifactKey: Guid(884c73081f2b3234c8257ceb60842a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Guns/Source/Missile_hive_v2/Skins/Mobile/Missile_hive_v2_default_flat.mat using Guid(884c73081f2b3234c8257ceb60842a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd5e2acc74708e55e72ac2a5c4d44123') in 0.015435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.002089 seconds.
+  path: Assets/Samples/Polybrush/1.1.5/Shader Examples (URP)/Shader/Lit Vertex Color URP.ShaderGraph
+  artifactKey: Guid(58f77a5b5b5fdf0439bb3d7045541cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Polybrush/1.1.5/Shader Examples (URP)/Shader/Lit Vertex Color URP.ShaderGraph using Guid(58f77a5b5b5fdf0439bb3d7045541cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c2d67090398758d6ba3d064e415a86a') in 0.784292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/boxes_pack/Materials/pbr_box_supply.mat
+  artifactKey: Guid(f7322d1245cced745b60f5b18bcbc68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/boxes_pack/Materials/pbr_box_supply.mat using Guid(f7322d1245cced745b60f5b18bcbc68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c3ba856b809a77a9134f78935b03bdd') in 0.032731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 1.314515 seconds.
+  path: Assets/Prefab/Guns/Source/Small_guns_v1/Skins/Mobile/Small_guns_v1_blue_flat.mat
+  artifactKey: Guid(988173a74e9289d42970b2dbbe9b157c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Guns/Source/Small_guns_v1/Skins/Mobile/Small_guns_v1_blue_flat.mat using Guid(988173a74e9289d42970b2dbbe9b157c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9fbe0c049b214f7dbccd266dfb857a5') in 0.010966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Prefab/Guns/Source/Small_guns_v1/Skins/Mobile/Small_guns_v1_default_flat.mat
+  artifactKey: Guid(f7fcae7fbe4eca240bcda861cc0b9b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Guns/Source/Small_guns_v1/Skins/Mobile/Small_guns_v1_default_flat.mat using Guid(f7fcae7fbe4eca240bcda861cc0b9b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92f889b7fe21e8d9534417d337261bca') in 0.018906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.088624 seconds.
+  path: Assets/Prefab/Guns/Source/Small_lasers_v1/Skins/Small_laser_v1_blue.mat
+  artifactKey: Guid(9186d05b56a6b1e4b9e0c7522a964d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Guns/Source/Small_lasers_v1/Skins/Small_laser_v1_blue.mat using Guid(9186d05b56a6b1e4b9e0c7522a964d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be91678e3d971538aadf9c8bc946cf03') in 0.013663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Prefab/Guns/Source/Small_lasers_v1/Skins/Mobile/Small_laser_v1_default_flat.mat
+  artifactKey: Guid(3d2f71e7cd6a4814dace39fdc46f195b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Guns/Source/Small_lasers_v1/Skins/Mobile/Small_laser_v1_default_flat.mat using Guid(3d2f71e7cd6a4814dace39fdc46f195b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11c7bb454e0ac720f474c6cc69f9fc91') in 0.013668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefab/Guns/Source/Small_lasers_v1/Skins/Small_laser_v1_red.mat
+  artifactKey: Guid(1b54d1840637dc94088979b1fc4a9094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Guns/Source/Small_lasers_v1/Skins/Small_laser_v1_red.mat using Guid(1b54d1840637dc94088979b1fc4a9094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '376e64e99fe0210f680bab25b3cd5474') in 0.012771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.433 seconds
+Refreshing native plugins compatible for Editor in 2.01 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.894 seconds
+Domain Reload Profiling: 1325ms
+	BeginReloadAssembly (150ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (220ms)
+		LoadAssemblies (241ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (46ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (10ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (894ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (441ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (305ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 2.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6092 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 86 unused Assets / (3.9 MB). Loaded Objects now: 6800.
+Memory consumption went from 228.0 MB to 224.1 MB.
+Total: 4.871100 ms (FindLiveObjects: 0.490600 ms CreateObjectMapping: 0.342900 ms MarkObjects: 3.059300 ms  DeleteObjects: 0.977700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/JsonDataService.cs: e60860cdad46bb199939d2bb6e3da4b1 -> f026935cf7a6dba9e3af1d1b9b2dc7c4
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/Gun Pickups.cs: 9e472622ee0d7b819495691ef02efee1 -> 
+  custom:scripting/monoscript/fileName/GunScriptableObjectEditor.cs: a585e75eb7c08c1af5858952c3814444 -> d95f31c758e90103fdc74c4c7a937e2f
+  custom:scripting/monoscript/fileName/ICollisionHandler.cs: 4fddd33d4f279082ce82d181e5ec7673 -> bc2a295fbaa33835a2aefa809827fc03
+  custom:scripting/monoscript/fileName/DeathDestroyCallback.cs: ae6498255b9de1a2e55d99d9ccd684cb -> 1ab99ba805b232e57432bd14b9fa991e
+  custom:scripting/monoscript/fileName/Surface.cs: 95094f06edf3ebe24d74b052e4a43297 -> 68534428341647e57d6a181bef022969
+  custom:scripting/monoscript/fileName/Ammo Config Scriptable Object.cs: 47f4dbaa36ba40d5ba799bb91c2c31e4 -> 
+  custom:scripting/monoscript/fileName/SurfaceEffect.cs: 1dc51154a812101a5576d3bca2073c09 -> 22399b4309ab5cc2c85ddfaa6d6eac80
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/FloatModifier.cs: e21a32c39ce2968825ff4400d41cdfa3 -> 2ca6406414b81d5610d5ab0b32c7456e
+  custom:scripting/monoscript/fileName/AudioConfigScriptableObject.cs: 836c8db00b4bd829500dcba3f8e41cd8 -> ae34c94c52e8b47652c466c4811b9213
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/GunScriptableObject.cs: 41c2704e31df92477cdbd4e4393dbb20 -> 8d5ca171cca37eb27e314efb03a86a50
+  custom:scripting/monoscript/fileName/PlayerIK.cs: 792bc7fe915be3ef2af8363b52efc6ae -> 
+  custom:scripting/monoscript/fileName/ISlowable.cs: 8f8f4c84fd22bb033939350dec359cf9 -> 910fb311f0185ed5788b4ccc07f23c1e
+  custom:scripting/monoscript/fileName/EnemyHealth.cs: 110f063c9f7758b0c01a2919c5697336 -> b9251a5d81940ca7b22404cbfa9defa9
+  custom:scripting/monoscript/fileName/ImpactEffectReplacementModifier.cs: b255265f86535fb4bb51a450cb2346d6 -> 336b1f7f3449579bc473205c578d6969
+  custom:scripting/monoscript/fileName/GunModifierApplier.cs: 01b3a478c3cf06e8ead2ad699bb48f38 -> 8cfe49117fbd0a2f3db11d43006a3845
+  custom:scripting/monoscript/fileName/ImpactTypeModifier.cs: b7d28ee1e1cad5e1d9c8d3f476f303bd -> f35d8719a942215bfb5f389dc0e63e4f
+  custom:scripting/monoscript/fileName/DamageModifier.cs: ebb190d66dc569c62451fe4369c612e2 -> 7ae3f6046c277141eb81de0c917c9a8a
+  custom:scripting/monoscript/fileName/PoolableObject.cs: c67b0f9f0ce5fd450e4aec3442b199b8 -> d154161691f6fc8ba9ff3c098c6dbddb
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:scripting/monoscript/fileName/Vector3Modifier.cs: 52a59b446dc5ac56aa228ae45aa2f70a -> bfc4555fa65faeb3c7244482398dcf65
+  custom:scripting/monoscript/fileName/TrailConfigScriptableObjectPropertyDrawer.cs: f47142f68a516040725c0393d7fd4858 -> a6551f7c063b00f56d8ab78d811d1e07
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Abstract Value Modifier.cs: baf4ef768c5dac2c62db840a5127318e -> 
+  custom:scripting/monoscript/fileName/Shoot Configuration Scriptable Object.cs: 42f0866e786a2fb5d19ee20de245a7f3 -> 
+  custom:scripting/monoscript/fileName/Explode.cs: 546a5bb4e87e9dc75b694aec300a0c04 -> f1e719c4bae748595307d9c3fb58bbe6
+  custom:scripting/monoscript/fileName/Utilities.cs: a0d84f982f1be314ccfebfc0110364af -> 4afc183a3f6c3e542da5a596c51f3a5b
+  custom:scripting/monoscript/fileName/BulletProjectile.cs: 9889cdb978cda4373ee9d166c1f5f3f3 -> 
+  custom:scripting/monoscript/fileName/I Damageable.cs: e64f76ace9702e1e0c6016368cb48d14 -> 
+  custom:scripting/monoscript/fileName/Attachment.cs: 9c6b29555d89d3d438c699e6eea7e550 -> f14c8e261d2f48dfc50e1dcf14907d6c
+  custom:scripting/monoscript/fileName/Gun Scriptable Object.cs: cd2f82d16dcb6520f6c567afe8eadc05 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/SurfaceManager.cs: 0aa3a33e77ffb9a3a1febbc528489e42 -> ae37eca1708437b07d63e32da8638631
+  custom:scripting/monoscript/fileName/BulletPenetrationConfigScriptableObject.cs: 062e0db62b1ed46051ec232e0da81c6d -> 208dca35e535256e6afe9ba44a5bf9f8
+  custom:scripting/monoscript/fileName/ObjectPool.cs: 44ef958af71a66d860d582ad3e685c6a -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/Damage Config Scriptable Object.cs: 798dd4f821239c25e70c6353cb43e333 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/ScriptableObjectCreator.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
+  custom:scripting/monoscript/fileName/DamageConfigScriptableObject.cs: 0039fd9f12f1ee0bc0f5340b7c3d9ee2 -> 1545e92f9f42224b115b39359d2d50d1
+  custom:scripting/monoscript/fileName/Frost.cs: e29bf70ad1f8b5d39f626a74ea37fbd8 -> 9d0e38dc4a3c61ed288ff64fcf1f7e53
+  custom:scripting/monoscript/fileName/ShootConfigScriptableObjectPropertyDrawer.cs: 4ae7adb550f517cb69dca69bb057c0bd -> 29cecd7d900c3283a58b0a28f6fc69e1
+  custom:scripting/monoscript/fileName/AmmoPickup.cs: 2166c5ddd871b1850292b42ab1efacad -> e9b098d793782e784f0b1b53967be096
+  custom:scripting/monoscript/fileName/PlayerGunSelector.cs: 009e1c50d972f1af86c893092ffca3b6 -> 9b8cb64b313cb9101d92a2ef23584f8e
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/LookAtIK.cs: b7e5a0d94fd76df4edf086470fbac08e -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/Bullet Penetration Config Scriptable Object.cs: 39c4b8c98635c7417f1c548cc1364b9c -> 
+  custom:scripting/monoscript/fileName/IDataService.cs: 96364535b02cdd3dfa8d5d96b624ab89 -> 4ee93f2f1765e685fb151faf12aa910f
+  custom:scripting/monoscript/fileName/SpawnParticleSystemOnDeath.cs: a25b8e12f2fe1e45b8dec54f01b26d7d -> de8cba89e7c38ca5f1eec36695e5a4e4
+  custom:scripting/monoscript/fileName/ShootConfigScriptableObject.cs: 1c61ce1b12590eb66f38fc8a8f518560 -> cef5da2a0f72f19fa395b7ae907347be
+  custom:scripting/monoscript/fileName/SimpleClickToShoot.cs: 6dd4e8839ce685b356e641b0afe2772e -> 
+  custom:scripting/monoscript/fileName/Loadout.cs: 75999a4c27e6c570d3c7091cb2534c01 -> 7571a00536551ddf5e6ec9da988c2f74
+  custom:scripting/monoscript/fileName/EnemyPainResponse.cs: 6faafa6c7d56adba697a418f94e907bb -> 2787749355392ec54f69294aef66088f
+  custom:scripting/monoscript/fileName/AttachmentSlot.cs: 0440d824fd02ed1656330a0bc8b36da6 -> cdea3bb153e645e467a7903a24ec61af
+  custom:scripting/monoscript/fileName/PlayerActionEditor.cs: 958d39d02f1073431df39c1b14352c36 -> 9f18f9a663547f8e240bae07059cf932
+  custom:scripting/monoscript/fileName/PlayAudioEffect.cs: 00bb738034b14a204444973c7a013921 -> 0440b77c81855d6e344e482eb6c7af7e
+  custom:scripting/monoscript/fileName/Enemy.cs: 55e62eab2991045b0bcacfe03761ec57 -> 848585670dd5cada5f125876120d8c50
+  custom:scripting/monoscript/fileName/Trail Config Scriptable Object.cs: 78f12ed30ed49c943ff8a7e77519b3fb -> 
+  custom:scripting/monoscript/fileName/ImpactType.cs: 5827c959c3b94c83ea8cb0f6aae80676 -> 3f39bbe75450299bb6c8f40f91381a1d
+  custom:scripting/monoscript/fileName/DamageConfigScriptableObjectPropertyDrawer.cs: 642e9db7cfce23eaa81d9db20174268a -> 29ed1a402778dfee22122f3321ab3496
+  custom:scripting/monoscript/fileName/GunPickup.cs: ffc9f72a029f6b4e40ac5d02441bc439 -> b59c37bfaec7d5e55569cc495f206f20
+  custom:scripting/monoscript/fileName/SliderWithInput.cs: dc2876dd8543808db56d49bf58b42b20 -> 42750342e5a3c5177dfadc3a10691fa0
+  custom:scripting/monoscript/fileName/Ammo Displayer.cs: a3d3a7bb1fb01a2f4778df69feff85b0 -> 
+  custom:scripting/monoscript/fileName/FadeOutDecal.cs: 5a52a3c8109935b4ae0307041ea23d08 -> 
+  custom:scripting/monoscript/fileName/BulletPenetrationConfigScriptableObjectPropertyDrawer.cs: 804b14044b26636b0812efe66658561f -> b266e6101d6575bb914709486d71e7dc
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/AmmoDisplayer.cs: 9405eb42726234bc5910c3aa85ead717 -> 0458fb7f0441507e9892a2f6e04e8bd9
+  custom:scripting/monoscript/fileName/IDamageable.cs: 0143820b2f653153f25947ad89b8c329 -> 144d583aa1c63fd8cc39df7824ac5b3d
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/InvalidPathSpecifiedException.cs: 131f0dc635f42d89b5b05fbe988bfb29 -> 89276a9330fcf18a3c4b7f79ea6c0cd0
+  custom:scripting/monoscript/fileName/Player Action.cs: a80cb126aeae4eae3279b1ce167414de -> 
+  custom:scripting/monoscript/fileName/Player Gun Selector.cs: 96571425e73632567606906c4e4dd21b -> 
+  custom:scripting/monoscript/fileName/Bullet.cs: 4e6d5c58b10435ea673435acbbb0da4b -> e17213f521d9d8e6d7102a4ba21ee9c1
+  custom:scripting/monoscript/fileName/Enemy Health.cs: a4d027726692f4f1a1dc379aafbb87e2 -> 
+  custom:scripting/monoscript/fileName/AbstractAreaOfEffect.cs: d4f7faeacacabfe3cf90fcad5fa19bd0 -> 77c1ce6e1864a956b4d31c259db65594
+  custom:scripting/monoscript/fileName/IModifier.cs: e2d40a0e4bcbde4f760f40762f9cd1fc -> 9a7b05eb101c44930a3c4d514118cd8b
+  custom:scripting/monoscript/fileName/PlayerAction.cs: 985d39e7b50500d035729d8f75893f37 -> 3932dc7f5d863532d116683e30e5e6f3
+  custom:scripting/monoscript/fileName/EnemyMovement.cs: 98c5129cf93758925b0107f10295effd -> fd371b94d0452bed70b0891060a26e5f
+  custom:scripting/monoscript/fileName/TrailConfigScriptableObject.cs: 6eab7ed5edad01304f48e9019943cf98 -> a540cb746be867968a226bb3db126824
+  custom:scripting/monoscript/fileName/PickUpController.cs: 777d515f181318d223004f3f507611f9 -> 
+  custom:scripting/monoscript/fileName/SurfaceType.cs: 0e5c1a9ebcea6d404d1fe3d8fd88ef21 -> 66099f67005033465403c25208937ea4
+  custom:scripting/monoscript/fileName/AmmoConfigScriptableObjectPropertyDrawer.cs: 51d8dd6afeeb7fc7bd0f2fe861f2ec2e -> 4d6e3f271617e38807b1e08e5b96dc8f
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ThirdPersonShooterController.cs: eb7a196ee7e52d156d81d0e5d5898927 -> 
+  custom:scripting/monoscript/fileName/SpawnObjectEffect.cs: eeb2926ba0fbcd58f5779732eeb65fce -> 21549e5323461ecc0365665c368541de
+  custom:scripting/monoscript/fileName/AmmoConfigScriptableObject.cs: 194e946c0c18a68190c3c5ce5596e8cb -> 61f90f79fd9819093c0a073d1bc0fdd5
+  custom:scripting/monoscript/fileName/AbstractValueModifier.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/AudioConfigScriptableObjectPropertyDrawer.cs: c0dc63617eb1d7c60bc39164d18f7b2c -> 3c87e1ee2fcd810e50718bcc64ede80b
+  custom:scripting/monoscript/fileName/Spawn Particle System On Death.cs: 41b39abdf758126a5c95e2e5da4f8c27 -> 
+  custom:scripting/monoscript/fileName/BulletTarget.cs: 8a42b17f44e363892eac3fceae261b5a -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.471 seconds
+Refreshing native plugins compatible for Editor in 1.88 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.862 seconds
+Domain Reload Profiling: 1331ms
+	BeginReloadAssembly (131ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (282ms)
+		LoadAssemblies (220ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (124ms)
+			TypeCache.Refresh (94ms)
+				TypeCache.ScanAssembly (84ms)
+			ScanForSourceGeneratedMonoScriptInfo (20ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (863ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (434ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (300ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 1.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6091 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 86 unused Assets / (3.9 MB). Loaded Objects now: 6816.
+Memory consumption went from 229.6 MB to 225.7 MB.
+Total: 4.715200 ms (FindLiveObjects: 0.437300 ms CreateObjectMapping: 0.291800 ms MarkObjects: 2.896700 ms  DeleteObjects: 1.088500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/JsonDataService.cs: e60860cdad46bb199939d2bb6e3da4b1 -> f026935cf7a6dba9e3af1d1b9b2dc7c4
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/Gun Pickups.cs: 9e472622ee0d7b819495691ef02efee1 -> 
+  custom:scripting/monoscript/fileName/GunScriptableObjectEditor.cs: a585e75eb7c08c1af5858952c3814444 -> d95f31c758e90103fdc74c4c7a937e2f
+  custom:scripting/monoscript/fileName/ICollisionHandler.cs: 4fddd33d4f279082ce82d181e5ec7673 -> bc2a295fbaa33835a2aefa809827fc03
+  custom:scripting/monoscript/fileName/DeathDestroyCallback.cs: ae6498255b9de1a2e55d99d9ccd684cb -> 1ab99ba805b232e57432bd14b9fa991e
+  custom:scripting/monoscript/fileName/Surface.cs: 95094f06edf3ebe24d74b052e4a43297 -> 68534428341647e57d6a181bef022969
+  custom:scripting/monoscript/fileName/Ammo Config Scriptable Object.cs: 47f4dbaa36ba40d5ba799bb91c2c31e4 -> 
+  custom:scripting/monoscript/fileName/SurfaceEffect.cs: 1dc51154a812101a5576d3bca2073c09 -> 22399b4309ab5cc2c85ddfaa6d6eac80
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/FloatModifier.cs: e21a32c39ce2968825ff4400d41cdfa3 -> 2ca6406414b81d5610d5ab0b32c7456e
+  custom:scripting/monoscript/fileName/AudioConfigScriptableObject.cs: 836c8db00b4bd829500dcba3f8e41cd8 -> ae34c94c52e8b47652c466c4811b9213
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/GunScriptableObject.cs: 41c2704e31df92477cdbd4e4393dbb20 -> 8d5ca171cca37eb27e314efb03a86a50
+  custom:scripting/monoscript/fileName/PlayerIK.cs: 792bc7fe915be3ef2af8363b52efc6ae -> 
+  custom:scripting/monoscript/fileName/ISlowable.cs: 8f8f4c84fd22bb033939350dec359cf9 -> 910fb311f0185ed5788b4ccc07f23c1e
+  custom:scripting/monoscript/fileName/EnemyHealth.cs: 110f063c9f7758b0c01a2919c5697336 -> b9251a5d81940ca7b22404cbfa9defa9
+  custom:scripting/monoscript/fileName/ImpactEffectReplacementModifier.cs: b255265f86535fb4bb51a450cb2346d6 -> 336b1f7f3449579bc473205c578d6969
+  custom:scripting/monoscript/fileName/GunModifierApplier.cs: 01b3a478c3cf06e8ead2ad699bb48f38 -> 8cfe49117fbd0a2f3db11d43006a3845
+  custom:scripting/monoscript/fileName/ImpactTypeModifier.cs: b7d28ee1e1cad5e1d9c8d3f476f303bd -> f35d8719a942215bfb5f389dc0e63e4f
+  custom:scripting/monoscript/fileName/DamageModifier.cs: ebb190d66dc569c62451fe4369c612e2 -> 7ae3f6046c277141eb81de0c917c9a8a
+  custom:scripting/monoscript/fileName/PoolableObject.cs: c67b0f9f0ce5fd450e4aec3442b199b8 -> d154161691f6fc8ba9ff3c098c6dbddb
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:scripting/monoscript/fileName/Vector3Modifier.cs: 52a59b446dc5ac56aa228ae45aa2f70a -> bfc4555fa65faeb3c7244482398dcf65
+  custom:scripting/monoscript/fileName/TrailConfigScriptableObjectPropertyDrawer.cs: f47142f68a516040725c0393d7fd4858 -> a6551f7c063b00f56d8ab78d811d1e07
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Abstract Value Modifier.cs: baf4ef768c5dac2c62db840a5127318e -> 
+  custom:scripting/monoscript/fileName/Shoot Configuration Scriptable Object.cs: 42f0866e786a2fb5d19ee20de245a7f3 -> 
+  custom:scripting/monoscript/fileName/Explode.cs: 546a5bb4e87e9dc75b694aec300a0c04 -> f1e719c4bae748595307d9c3fb58bbe6
+  custom:scripting/monoscript/fileName/Utilities.cs: a0d84f982f1be314ccfebfc0110364af -> 4afc183a3f6c3e542da5a596c51f3a5b
+  custom:scripting/monoscript/fileName/BulletProjectile.cs: 9889cdb978cda4373ee9d166c1f5f3f3 -> 
+  custom:scripting/monoscript/fileName/I Damageable.cs: e64f76ace9702e1e0c6016368cb48d14 -> 
+  custom:scripting/monoscript/fileName/Attachment.cs: 9c6b29555d89d3d438c699e6eea7e550 -> f14c8e261d2f48dfc50e1dcf14907d6c
+  custom:scripting/monoscript/fileName/Gun Scriptable Object.cs: cd2f82d16dcb6520f6c567afe8eadc05 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/SurfaceManager.cs: 0aa3a33e77ffb9a3a1febbc528489e42 -> ae37eca1708437b07d63e32da8638631
+  custom:scripting/monoscript/fileName/BulletPenetrationConfigScriptableObject.cs: 062e0db62b1ed46051ec232e0da81c6d -> 208dca35e535256e6afe9ba44a5bf9f8
+  custom:scripting/monoscript/fileName/ObjectPool.cs: 44ef958af71a66d860d582ad3e685c6a -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/Damage Config Scriptable Object.cs: 798dd4f821239c25e70c6353cb43e333 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/ScriptableObjectCreator.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
+  custom:scripting/monoscript/fileName/DamageConfigScriptableObject.cs: 0039fd9f12f1ee0bc0f5340b7c3d9ee2 -> 1545e92f9f42224b115b39359d2d50d1
+  custom:scripting/monoscript/fileName/Frost.cs: e29bf70ad1f8b5d39f626a74ea37fbd8 -> 9d0e38dc4a3c61ed288ff64fcf1f7e53
+  custom:scripting/monoscript/fileName/ShootConfigScriptableObjectPropertyDrawer.cs: 4ae7adb550f517cb69dca69bb057c0bd -> 29cecd7d900c3283a58b0a28f6fc69e1
+  custom:scripting/monoscript/fileName/AmmoPickup.cs: 2166c5ddd871b1850292b42ab1efacad -> e9b098d793782e784f0b1b53967be096
+  custom:scripting/monoscript/fileName/PlayerGunSelector.cs: 009e1c50d972f1af86c893092ffca3b6 -> 9b8cb64b313cb9101d92a2ef23584f8e
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/LookAtIK.cs: b7e5a0d94fd76df4edf086470fbac08e -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/Bullet Penetration Config Scriptable Object.cs: 39c4b8c98635c7417f1c548cc1364b9c -> 
+  custom:scripting/monoscript/fileName/IDataService.cs: 96364535b02cdd3dfa8d5d96b624ab89 -> 4ee93f2f1765e685fb151faf12aa910f
+  custom:scripting/monoscript/fileName/SpawnParticleSystemOnDeath.cs: a25b8e12f2fe1e45b8dec54f01b26d7d -> de8cba89e7c38ca5f1eec36695e5a4e4
+  custom:scripting/monoscript/fileName/ShootConfigScriptableObject.cs: 1c61ce1b12590eb66f38fc8a8f518560 -> cef5da2a0f72f19fa395b7ae907347be
+  custom:scripting/monoscript/fileName/SimpleClickToShoot.cs: 6dd4e8839ce685b356e641b0afe2772e -> 
+  custom:scripting/monoscript/fileName/Loadout.cs: 75999a4c27e6c570d3c7091cb2534c01 -> 7571a00536551ddf5e6ec9da988c2f74
+  custom:scripting/monoscript/fileName/EnemyPainResponse.cs: 6faafa6c7d56adba697a418f94e907bb -> 2787749355392ec54f69294aef66088f
+  custom:scripting/monoscript/fileName/AttachmentSlot.cs: 0440d824fd02ed1656330a0bc8b36da6 -> cdea3bb153e645e467a7903a24ec61af
+  custom:scripting/monoscript/fileName/PlayerActionEditor.cs: 958d39d02f1073431df39c1b14352c36 -> 9f18f9a663547f8e240bae07059cf932
+  custom:scripting/monoscript/fileName/PlayAudioEffect.cs: 00bb738034b14a204444973c7a013921 -> 0440b77c81855d6e344e482eb6c7af7e
+  custom:scripting/monoscript/fileName/Enemy.cs: 55e62eab2991045b0bcacfe03761ec57 -> 848585670dd5cada5f125876120d8c50
+  custom:scripting/monoscript/fileName/Trail Config Scriptable Object.cs: 78f12ed30ed49c943ff8a7e77519b3fb -> 
+  custom:scripting/monoscript/fileName/ImpactType.cs: 5827c959c3b94c83ea8cb0f6aae80676 -> 3f39bbe75450299bb6c8f40f91381a1d
+  custom:scripting/monoscript/fileName/DamageConfigScriptableObjectPropertyDrawer.cs: 642e9db7cfce23eaa81d9db20174268a -> 29ed1a402778dfee22122f3321ab3496
+  custom:scripting/monoscript/fileName/GunPickup.cs: ffc9f72a029f6b4e40ac5d02441bc439 -> b59c37bfaec7d5e55569cc495f206f20
+  custom:scripting/monoscript/fileName/SliderWithInput.cs: dc2876dd8543808db56d49bf58b42b20 -> 42750342e5a3c5177dfadc3a10691fa0
+  custom:scripting/monoscript/fileName/Ammo Displayer.cs: a3d3a7bb1fb01a2f4778df69feff85b0 -> 
+  custom:scripting/monoscript/fileName/FadeOutDecal.cs: 5a52a3c8109935b4ae0307041ea23d08 -> 
+  custom:scripting/monoscript/fileName/BulletPenetrationConfigScriptableObjectPropertyDrawer.cs: 804b14044b26636b0812efe66658561f -> b266e6101d6575bb914709486d71e7dc
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/AmmoDisplayer.cs: 9405eb42726234bc5910c3aa85ead717 -> 0458fb7f0441507e9892a2f6e04e8bd9
+  custom:scripting/monoscript/fileName/IDamageable.cs: 0143820b2f653153f25947ad89b8c329 -> 144d583aa1c63fd8cc39df7824ac5b3d
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/InvalidPathSpecifiedException.cs: 131f0dc635f42d89b5b05fbe988bfb29 -> 89276a9330fcf18a3c4b7f79ea6c0cd0
+  custom:scripting/monoscript/fileName/Player Action.cs: a80cb126aeae4eae3279b1ce167414de -> 
+  custom:scripting/monoscript/fileName/Player Gun Selector.cs: 96571425e73632567606906c4e4dd21b -> 
+  custom:scripting/monoscript/fileName/Bullet.cs: 4e6d5c58b10435ea673435acbbb0da4b -> e17213f521d9d8e6d7102a4ba21ee9c1
+  custom:scripting/monoscript/fileName/Enemy Health.cs: a4d027726692f4f1a1dc379aafbb87e2 -> 
+  custom:scripting/monoscript/fileName/AbstractAreaOfEffect.cs: d4f7faeacacabfe3cf90fcad5fa19bd0 -> 77c1ce6e1864a956b4d31c259db65594
+  custom:scripting/monoscript/fileName/IModifier.cs: e2d40a0e4bcbde4f760f40762f9cd1fc -> 9a7b05eb101c44930a3c4d514118cd8b
+  custom:scripting/monoscript/fileName/PlayerAction.cs: 985d39e7b50500d035729d8f75893f37 -> 3932dc7f5d863532d116683e30e5e6f3
+  custom:scripting/monoscript/fileName/EnemyMovement.cs: 98c5129cf93758925b0107f10295effd -> fd371b94d0452bed70b0891060a26e5f
+  custom:scripting/monoscript/fileName/TrailConfigScriptableObject.cs: 6eab7ed5edad01304f48e9019943cf98 -> a540cb746be867968a226bb3db126824
+  custom:scripting/monoscript/fileName/PickUpController.cs: 777d515f181318d223004f3f507611f9 -> 
+  custom:scripting/monoscript/fileName/SurfaceType.cs: 0e5c1a9ebcea6d404d1fe3d8fd88ef21 -> 66099f67005033465403c25208937ea4
+  custom:scripting/monoscript/fileName/AmmoConfigScriptableObjectPropertyDrawer.cs: 51d8dd6afeeb7fc7bd0f2fe861f2ec2e -> 4d6e3f271617e38807b1e08e5b96dc8f
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ThirdPersonShooterController.cs: eb7a196ee7e52d156d81d0e5d5898927 -> 
+  custom:scripting/monoscript/fileName/SpawnObjectEffect.cs: eeb2926ba0fbcd58f5779732eeb65fce -> 21549e5323461ecc0365665c368541de
+  custom:scripting/monoscript/fileName/AmmoConfigScriptableObject.cs: 194e946c0c18a68190c3c5ce5596e8cb -> 61f90f79fd9819093c0a073d1bc0fdd5
+  custom:scripting/monoscript/fileName/AbstractValueModifier.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/AudioConfigScriptableObjectPropertyDrawer.cs: c0dc63617eb1d7c60bc39164d18f7b2c -> 3c87e1ee2fcd810e50718bcc64ede80b
+  custom:scripting/monoscript/fileName/Spawn Particle System On Death.cs: 41b39abdf758126a5c95e2e5da4f8c27 -> 
+  custom:scripting/monoscript/fileName/BulletTarget.cs: 8a42b17f44e363892eac3fceae261b5a -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.380 seconds
+Refreshing native plugins compatible for Editor in 1.91 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.916 seconds
+Domain Reload Profiling: 1294ms
+	BeginReloadAssembly (132ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (189ms)
+		LoadAssemblies (214ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (38ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (20ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (916ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (446ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (311ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 2.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6102 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 90 unused Assets / (5.2 MB). Loaded Objects now: 6839.
+Memory consumption went from 234.0 MB to 228.8 MB.
+Total: 5.209900 ms (FindLiveObjects: 0.446200 ms CreateObjectMapping: 0.341900 ms MarkObjects: 2.918400 ms  DeleteObjects: 1.502600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/JsonDataService.cs: e60860cdad46bb199939d2bb6e3da4b1 -> f026935cf7a6dba9e3af1d1b9b2dc7c4
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/Gun Pickups.cs: 9e472622ee0d7b819495691ef02efee1 -> 
+  custom:scripting/monoscript/fileName/GunScriptableObjectEditor.cs: a585e75eb7c08c1af5858952c3814444 -> d95f31c758e90103fdc74c4c7a937e2f
+  custom:scripting/monoscript/fileName/ICollisionHandler.cs: 4fddd33d4f279082ce82d181e5ec7673 -> bc2a295fbaa33835a2aefa809827fc03
+  custom:scripting/monoscript/fileName/DeathDestroyCallback.cs: ae6498255b9de1a2e55d99d9ccd684cb -> 1ab99ba805b232e57432bd14b9fa991e
+  custom:scripting/monoscript/fileName/Surface.cs: 95094f06edf3ebe24d74b052e4a43297 -> 68534428341647e57d6a181bef022969
+  custom:scripting/monoscript/fileName/Ammo Config Scriptable Object.cs: 47f4dbaa36ba40d5ba799bb91c2c31e4 -> 
+  custom:scripting/monoscript/fileName/SurfaceEffect.cs: 1dc51154a812101a5576d3bca2073c09 -> 22399b4309ab5cc2c85ddfaa6d6eac80
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/FloatModifier.cs: e21a32c39ce2968825ff4400d41cdfa3 -> 2ca6406414b81d5610d5ab0b32c7456e
+  custom:scripting/monoscript/fileName/AudioConfigScriptableObject.cs: 836c8db00b4bd829500dcba3f8e41cd8 -> ae34c94c52e8b47652c466c4811b9213
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/GunScriptableObject.cs: 41c2704e31df92477cdbd4e4393dbb20 -> 8d5ca171cca37eb27e314efb03a86a50
+  custom:scripting/monoscript/fileName/PlayerIK.cs: 792bc7fe915be3ef2af8363b52efc6ae -> 
+  custom:scripting/monoscript/fileName/ISlowable.cs: 8f8f4c84fd22bb033939350dec359cf9 -> 910fb311f0185ed5788b4ccc07f23c1e
+  custom:scripting/monoscript/fileName/EnemyHealth.cs: 110f063c9f7758b0c01a2919c5697336 -> b9251a5d81940ca7b22404cbfa9defa9
+  custom:scripting/monoscript/fileName/ImpactEffectReplacementModifier.cs: b255265f86535fb4bb51a450cb2346d6 -> 336b1f7f3449579bc473205c578d6969
+  custom:scripting/monoscript/fileName/GunModifierApplier.cs: 01b3a478c3cf06e8ead2ad699bb48f38 -> 8cfe49117fbd0a2f3db11d43006a3845
+  custom:scripting/monoscript/fileName/ImpactTypeModifier.cs: b7d28ee1e1cad5e1d9c8d3f476f303bd -> f35d8719a942215bfb5f389dc0e63e4f
+  custom:scripting/monoscript/fileName/DamageModifier.cs: ebb190d66dc569c62451fe4369c612e2 -> 7ae3f6046c277141eb81de0c917c9a8a
+  custom:scripting/monoscript/fileName/PoolableObject.cs: c67b0f9f0ce5fd450e4aec3442b199b8 -> d154161691f6fc8ba9ff3c098c6dbddb
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:scripting/monoscript/fileName/Vector3Modifier.cs: 52a59b446dc5ac56aa228ae45aa2f70a -> bfc4555fa65faeb3c7244482398dcf65
+  custom:scripting/monoscript/fileName/TrailConfigScriptableObjectPropertyDrawer.cs: f47142f68a516040725c0393d7fd4858 -> a6551f7c063b00f56d8ab78d811d1e07
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Abstract Value Modifier.cs: baf4ef768c5dac2c62db840a5127318e -> 
+  custom:scripting/monoscript/fileName/Shoot Configuration Scriptable Object.cs: 42f0866e786a2fb5d19ee20de245a7f3 -> 
+  custom:scripting/monoscript/fileName/Explode.cs: 546a5bb4e87e9dc75b694aec300a0c04 -> f1e719c4bae748595307d9c3fb58bbe6
+  custom:scripting/monoscript/fileName/Utilities.cs: a0d84f982f1be314ccfebfc0110364af -> 4afc183a3f6c3e542da5a596c51f3a5b
+  custom:scripting/monoscript/fileName/BulletProjectile.cs: 9889cdb978cda4373ee9d166c1f5f3f3 -> 
+  custom:scripting/monoscript/fileName/I Damageable.cs: e64f76ace9702e1e0c6016368cb48d14 -> 
+  custom:scripting/monoscript/fileName/Attachment.cs: 9c6b29555d89d3d438c699e6eea7e550 -> f14c8e261d2f48dfc50e1dcf14907d6c
+  custom:scripting/monoscript/fileName/Gun Scriptable Object.cs: cd2f82d16dcb6520f6c567afe8eadc05 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/SurfaceManager.cs: 0aa3a33e77ffb9a3a1febbc528489e42 -> ae37eca1708437b07d63e32da8638631
+  custom:scripting/monoscript/fileName/BulletPenetrationConfigScriptableObject.cs: 062e0db62b1ed46051ec232e0da81c6d -> 208dca35e535256e6afe9ba44a5bf9f8
+  custom:scripting/monoscript/fileName/ObjectPool.cs: 44ef958af71a66d860d582ad3e685c6a -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/Damage Config Scriptable Object.cs: 798dd4f821239c25e70c6353cb43e333 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/ScriptableObjectCreator.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
+  custom:scripting/monoscript/fileName/DamageConfigScriptableObject.cs: 0039fd9f12f1ee0bc0f5340b7c3d9ee2 -> 1545e92f9f42224b115b39359d2d50d1
+  custom:scripting/monoscript/fileName/Frost.cs: e29bf70ad1f8b5d39f626a74ea37fbd8 -> 9d0e38dc4a3c61ed288ff64fcf1f7e53
+  custom:scripting/monoscript/fileName/ShootConfigScriptableObjectPropertyDrawer.cs: 4ae7adb550f517cb69dca69bb057c0bd -> 29cecd7d900c3283a58b0a28f6fc69e1
+  custom:scripting/monoscript/fileName/AmmoPickup.cs: 2166c5ddd871b1850292b42ab1efacad -> e9b098d793782e784f0b1b53967be096
+  custom:scripting/monoscript/fileName/PlayerGunSelector.cs: 009e1c50d972f1af86c893092ffca3b6 -> 9b8cb64b313cb9101d92a2ef23584f8e
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/LookAtIK.cs: b7e5a0d94fd76df4edf086470fbac08e -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/Bullet Penetration Config Scriptable Object.cs: 39c4b8c98635c7417f1c548cc1364b9c -> 
+  custom:scripting/monoscript/fileName/IDataService.cs: 96364535b02cdd3dfa8d5d96b624ab89 -> 4ee93f2f1765e685fb151faf12aa910f
+  custom:scripting/monoscript/fileName/SpawnParticleSystemOnDeath.cs: a25b8e12f2fe1e45b8dec54f01b26d7d -> de8cba89e7c38ca5f1eec36695e5a4e4
+  custom:scripting/monoscript/fileName/ShootConfigScriptableObject.cs: 1c61ce1b12590eb66f38fc8a8f518560 -> cef5da2a0f72f19fa395b7ae907347be
+  custom:scripting/monoscript/fileName/SimpleClickToShoot.cs: 6dd4e8839ce685b356e641b0afe2772e -> 
+  custom:scripting/monoscript/fileName/Loadout.cs: 75999a4c27e6c570d3c7091cb2534c01 -> 7571a00536551ddf5e6ec9da988c2f74
+  custom:scripting/monoscript/fileName/EnemyPainResponse.cs: 6faafa6c7d56adba697a418f94e907bb -> 2787749355392ec54f69294aef66088f
+  custom:scripting/monoscript/fileName/AttachmentSlot.cs: 0440d824fd02ed1656330a0bc8b36da6 -> cdea3bb153e645e467a7903a24ec61af
+  custom:scripting/monoscript/fileName/PlayerActionEditor.cs: 958d39d02f1073431df39c1b14352c36 -> 9f18f9a663547f8e240bae07059cf932
+  custom:scripting/monoscript/fileName/PlayAudioEffect.cs: 00bb738034b14a204444973c7a013921 -> 0440b77c81855d6e344e482eb6c7af7e
+  custom:scripting/monoscript/fileName/Enemy.cs: 55e62eab2991045b0bcacfe03761ec57 -> 848585670dd5cada5f125876120d8c50
+  custom:scripting/monoscript/fileName/Trail Config Scriptable Object.cs: 78f12ed30ed49c943ff8a7e77519b3fb -> 
+  custom:scripting/monoscript/fileName/ImpactType.cs: 5827c959c3b94c83ea8cb0f6aae80676 -> 3f39bbe75450299bb6c8f40f91381a1d
+  custom:scripting/monoscript/fileName/DamageConfigScriptableObjectPropertyDrawer.cs: 642e9db7cfce23eaa81d9db20174268a -> 29ed1a402778dfee22122f3321ab3496
+  custom:scripting/monoscript/fileName/GunPickup.cs: ffc9f72a029f6b4e40ac5d02441bc439 -> b59c37bfaec7d5e55569cc495f206f20
+  custom:scripting/monoscript/fileName/SliderWithInput.cs: dc2876dd8543808db56d49bf58b42b20 -> 42750342e5a3c5177dfadc3a10691fa0
+  custom:scripting/monoscript/fileName/Ammo Displayer.cs: a3d3a7bb1fb01a2f4778df69feff85b0 -> 
+  custom:scripting/monoscript/fileName/FadeOutDecal.cs: 5a52a3c8109935b4ae0307041ea23d08 -> 
+  custom:scripting/monoscript/fileName/BulletPenetrationConfigScriptableObjectPropertyDrawer.cs: 804b14044b26636b0812efe66658561f -> b266e6101d6575bb914709486d71e7dc
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/AmmoDisplayer.cs: 9405eb42726234bc5910c3aa85ead717 -> 0458fb7f0441507e9892a2f6e04e8bd9
+  custom:scripting/monoscript/fileName/IDamageable.cs: 0143820b2f653153f25947ad89b8c329 -> 144d583aa1c63fd8cc39df7824ac5b3d
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/InvalidPathSpecifiedException.cs: 131f0dc635f42d89b5b05fbe988bfb29 -> 89276a9330fcf18a3c4b7f79ea6c0cd0
+  custom:scripting/monoscript/fileName/Player Action.cs: a80cb126aeae4eae3279b1ce167414de -> 
+  custom:scripting/monoscript/fileName/Player Gun Selector.cs: 96571425e73632567606906c4e4dd21b -> 
+  custom:scripting/monoscript/fileName/Bullet.cs: 4e6d5c58b10435ea673435acbbb0da4b -> e17213f521d9d8e6d7102a4ba21ee9c1
+  custom:scripting/monoscript/fileName/Enemy Health.cs: a4d027726692f4f1a1dc379aafbb87e2 -> 
+  custom:scripting/monoscript/fileName/AbstractAreaOfEffect.cs: d4f7faeacacabfe3cf90fcad5fa19bd0 -> 77c1ce6e1864a956b4d31c259db65594
+  custom:scripting/monoscript/fileName/IModifier.cs: e2d40a0e4bcbde4f760f40762f9cd1fc -> 9a7b05eb101c44930a3c4d514118cd8b
+  custom:scripting/monoscript/fileName/PlayerAction.cs: 985d39e7b50500d035729d8f75893f37 -> 3932dc7f5d863532d116683e30e5e6f3
+  custom:scripting/monoscript/fileName/EnemyMovement.cs: 98c5129cf93758925b0107f10295effd -> fd371b94d0452bed70b0891060a26e5f
+  custom:scripting/monoscript/fileName/TrailConfigScriptableObject.cs: 6eab7ed5edad01304f48e9019943cf98 -> a540cb746be867968a226bb3db126824
+  custom:scripting/monoscript/fileName/PickUpController.cs: 777d515f181318d223004f3f507611f9 -> 
+  custom:scripting/monoscript/fileName/SurfaceType.cs: 0e5c1a9ebcea6d404d1fe3d8fd88ef21 -> 66099f67005033465403c25208937ea4
+  custom:scripting/monoscript/fileName/AmmoConfigScriptableObjectPropertyDrawer.cs: 51d8dd6afeeb7fc7bd0f2fe861f2ec2e -> 4d6e3f271617e38807b1e08e5b96dc8f
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ThirdPersonShooterController.cs: eb7a196ee7e52d156d81d0e5d5898927 -> 
+  custom:scripting/monoscript/fileName/SpawnObjectEffect.cs: eeb2926ba0fbcd58f5779732eeb65fce -> 21549e5323461ecc0365665c368541de
+  custom:scripting/monoscript/fileName/AmmoConfigScriptableObject.cs: 194e946c0c18a68190c3c5ce5596e8cb -> 61f90f79fd9819093c0a073d1bc0fdd5
+  custom:scripting/monoscript/fileName/AbstractValueModifier.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/AudioConfigScriptableObjectPropertyDrawer.cs: c0dc63617eb1d7c60bc39164d18f7b2c -> 3c87e1ee2fcd810e50718bcc64ede80b
+  custom:scripting/monoscript/fileName/Spawn Particle System On Death.cs: 41b39abdf758126a5c95e2e5da4f8c27 -> 
+  custom:scripting/monoscript/fileName/BulletTarget.cs: 8a42b17f44e363892eac3fceae261b5a -> 
+========================================================================
+Received Import Request.
+  Time since last request: 381.122885 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Magic Effects/Prefabs/IceLance.prefab
+  artifactKey: Guid(1a1c02facd51d87458dcaa3a761e2c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Magic Effects/Prefabs/IceLance.prefab using Guid(1a1c02facd51d87458dcaa3a761e2c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '154dde4abcb2ca140cea485ef3c43aeb') in 0.330848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 80.371466 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/DustExplosion.prefab
+  artifactKey: Guid(d8f0099df63275647a8bcf646df1ca00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/DustExplosion.prefab using Guid(d8f0099df63275647a8bcf646df1ca00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c93c6bba5a1992914edc0a9f06e5051f') in 0.186538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 0.059585 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/MediumFlames.prefab
+  artifactKey: Guid(be6847dd39ab95f4daa2ed98e4f90564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/MediumFlames.prefab using Guid(be6847dd39ab95f4daa2ed98e4f90564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '451c93039298560bf37b7d90ed72cf73') in 0.147995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/WildFire.prefab
+  artifactKey: Guid(f293a2dcc753a4a489fefe7f8f312d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/WildFire.prefab using Guid(f293a2dcc753a4a489fefe7f8f312d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '403982663880aa5ef0aecf568ef302fb') in 0.019230 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/PlasmaExplosionEffect.prefab
+  artifactKey: Guid(96730f8640590934eacb6f860058e7f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/PlasmaExplosionEffect.prefab using Guid(96730f8640590934eacb6f860058e7f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dcd14fd3f48d0b8528319a7fe993fa2') in 0.510081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/TinyExplosion.prefab
+  artifactKey: Guid(25c7aa9ad705fe143a4d71c1c8deb7d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/TinyExplosion.prefab using Guid(25c7aa9ad705fe143a4d71c1c8deb7d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f386e58aec321aaa8e45b1b223b2baa9') in 0.076184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/ParticlesLight.prefab
+  artifactKey: Guid(fa35d75604d172d48b7a6b62a07c7dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/ParticlesLight.prefab using Guid(fa35d75604d172d48b7a6b62a07c7dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2380d7f94a6b324a767cebfe15d9d8a') in 0.001689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/TinyFlames.prefab
+  artifactKey: Guid(ea4fb55d0227e604386f44f905cfe7c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/TinyFlames.prefab using Guid(ea4fb55d0227e604386f44f905cfe7c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8a47c4f110ecd5176c50421db028a49') in 0.008172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/FlameStream.prefab
+  artifactKey: Guid(bccc7a794e75b2a44a4b0dac69160b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/FlameStream.prefab using Guid(bccc7a794e75b2a44a4b0dac69160b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9fa55c0f69e566e2f6c956574851a3a') in 0.008173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/SmallExplosion.prefab
+  artifactKey: Guid(64891a0eb28db934898420d80ca07cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Fire & Explosion Effects/Prefabs/SmallExplosion.prefab using Guid(64891a0eb28db934898420d80ca07cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfdcca10772f9a156bdcda7cd36d7d3f') in 0.533989 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 654.183885 seconds.
+  path: Assets/Impacts/Effects/Audio/Play Bullet Impact Sound.asset
+  artifactKey: Guid(18609b28ef1c2e94ebb94c6c34fbdc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Impacts/Effects/Audio/Play Bullet Impact Sound.asset using Guid(18609b28ef1c2e94ebb94c6c34fbdc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd196dc8b7c757d5c44cd34caae595ab') in 0.001753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 214.495974 seconds.
+  path: Assets/Impacts/Impact Types/Frost Bullet Impact.asset
+  artifactKey: Guid(4f6ee9613cbc1c74080f4bf67714f991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Impacts/Impact Types/Frost Bullet Impact.asset using Guid(4f6ee9613cbc1c74080f4bf67714f991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '599a85c31578f15d8461115f216c6028') in 0.000926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 336.278280 seconds.
+  path: Assets/Guns/Guns/Mini Guns.asset
+  artifactKey: Guid(e25da259c54725640bf95e7ffe08b90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/Guns/Mini Guns.asset using Guid(e25da259c54725640bf95e7ffe08b90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08b5f078fa488f777e7acb5a649d7faa') in 0.005105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 60
+========================================================================
+Received Import Request.
+  Time since last request: 0.043865 seconds.
+  path: Assets/Guns/Guns/Missile Hives 2.asset
+  artifactKey: Guid(69f6e4ba3d3f7c84d95ccdc86c421fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/Guns/Missile Hives 2.asset using Guid(69f6e4ba3d3f7c84d95ccdc86c421fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9f57ea9ce461579d7fbd9ead57612a2') in 0.004362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 66
+========================================================================
+Received Import Request.
+  Time since last request: 26.559246 seconds.
+  path: Assets/Guns/Bullet Pen/Simple Bullet Penetration Config.asset
+  artifactKey: Guid(67518cf58dacbcf45af2168ed5141ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/Bullet Pen/Simple Bullet Penetration Config.asset using Guid(67518cf58dacbcf45af2168ed5141ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37ba8fa027c19b62acd10303375e092b') in 0.000685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.381 seconds
+Refreshing native plugins compatible for Editor in 2.04 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.916 seconds
+Domain Reload Profiling: 1295ms
+	BeginReloadAssembly (140ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (182ms)
+		LoadAssemblies (229ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (916ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (434ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (300ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 1.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6102 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 90 unused Assets / (4.9 MB). Loaded Objects now: 6896.
+Memory consumption went from 236.4 MB to 231.5 MB.
+Total: 4.461500 ms (FindLiveObjects: 0.395600 ms CreateObjectMapping: 0.158300 ms MarkObjects: 2.629900 ms  DeleteObjects: 1.276800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/JsonDataService.cs: e60860cdad46bb199939d2bb6e3da4b1 -> f026935cf7a6dba9e3af1d1b9b2dc7c4
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/Gun Pickups.cs: 9e472622ee0d7b819495691ef02efee1 -> 
+  custom:scripting/monoscript/fileName/GunScriptableObjectEditor.cs: a585e75eb7c08c1af5858952c3814444 -> d95f31c758e90103fdc74c4c7a937e2f
+  custom:scripting/monoscript/fileName/ICollisionHandler.cs: 4fddd33d4f279082ce82d181e5ec7673 -> bc2a295fbaa33835a2aefa809827fc03
+  custom:scripting/monoscript/fileName/DeathDestroyCallback.cs: ae6498255b9de1a2e55d99d9ccd684cb -> 1ab99ba805b232e57432bd14b9fa991e
+  custom:scripting/monoscript/fileName/Surface.cs: 95094f06edf3ebe24d74b052e4a43297 -> 68534428341647e57d6a181bef022969
+  custom:scripting/monoscript/fileName/Ammo Config Scriptable Object.cs: 47f4dbaa36ba40d5ba799bb91c2c31e4 -> 
+  custom:scripting/monoscript/fileName/SurfaceEffect.cs: 1dc51154a812101a5576d3bca2073c09 -> 22399b4309ab5cc2c85ddfaa6d6eac80
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/FloatModifier.cs: e21a32c39ce2968825ff4400d41cdfa3 -> 2ca6406414b81d5610d5ab0b32c7456e
+  custom:scripting/monoscript/fileName/AudioConfigScriptableObject.cs: 836c8db00b4bd829500dcba3f8e41cd8 -> ae34c94c52e8b47652c466c4811b9213
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/GunScriptableObject.cs: 41c2704e31df92477cdbd4e4393dbb20 -> 8d5ca171cca37eb27e314efb03a86a50
+  custom:scripting/monoscript/fileName/PlayerIK.cs: 792bc7fe915be3ef2af8363b52efc6ae -> 
+  custom:scripting/monoscript/fileName/ISlowable.cs: 8f8f4c84fd22bb033939350dec359cf9 -> 910fb311f0185ed5788b4ccc07f23c1e
+  custom:scripting/monoscript/fileName/EnemyHealth.cs: 110f063c9f7758b0c01a2919c5697336 -> b9251a5d81940ca7b22404cbfa9defa9
+  custom:scripting/monoscript/fileName/ImpactEffectReplacementModifier.cs: b255265f86535fb4bb51a450cb2346d6 -> 336b1f7f3449579bc473205c578d6969
+  custom:scripting/monoscript/fileName/GunModifierApplier.cs: 01b3a478c3cf06e8ead2ad699bb48f38 -> 8cfe49117fbd0a2f3db11d43006a3845
+  custom:scripting/monoscript/fileName/ImpactTypeModifier.cs: b7d28ee1e1cad5e1d9c8d3f476f303bd -> f35d8719a942215bfb5f389dc0e63e4f
+  custom:scripting/monoscript/fileName/DamageModifier.cs: ebb190d66dc569c62451fe4369c612e2 -> 7ae3f6046c277141eb81de0c917c9a8a
+  custom:scripting/monoscript/fileName/PoolableObject.cs: c67b0f9f0ce5fd450e4aec3442b199b8 -> d154161691f6fc8ba9ff3c098c6dbddb
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:scripting/monoscript/fileName/Vector3Modifier.cs: 52a59b446dc5ac56aa228ae45aa2f70a -> bfc4555fa65faeb3c7244482398dcf65
+  custom:scripting/monoscript/fileName/TrailConfigScriptableObjectPropertyDrawer.cs: f47142f68a516040725c0393d7fd4858 -> a6551f7c063b00f56d8ab78d811d1e07
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Abstract Value Modifier.cs: baf4ef768c5dac2c62db840a5127318e -> 
+  custom:scripting/monoscript/fileName/Shoot Configuration Scriptable Object.cs: 42f0866e786a2fb5d19ee20de245a7f3 -> 
+  custom:scripting/monoscript/fileName/Explode.cs: 546a5bb4e87e9dc75b694aec300a0c04 -> f1e719c4bae748595307d9c3fb58bbe6
+  custom:scripting/monoscript/fileName/Utilities.cs: a0d84f982f1be314ccfebfc0110364af -> 4afc183a3f6c3e542da5a596c51f3a5b
+  custom:scripting/monoscript/fileName/BulletProjectile.cs: 9889cdb978cda4373ee9d166c1f5f3f3 -> 
+  custom:scripting/monoscript/fileName/I Damageable.cs: e64f76ace9702e1e0c6016368cb48d14 -> 
+  custom:scripting/monoscript/fileName/Attachment.cs: 9c6b29555d89d3d438c699e6eea7e550 -> f14c8e261d2f48dfc50e1dcf14907d6c
+  custom:scripting/monoscript/fileName/Gun Scriptable Object.cs: cd2f82d16dcb6520f6c567afe8eadc05 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/SurfaceManager.cs: 0aa3a33e77ffb9a3a1febbc528489e42 -> ae37eca1708437b07d63e32da8638631
+  custom:scripting/monoscript/fileName/BulletPenetrationConfigScriptableObject.cs: 062e0db62b1ed46051ec232e0da81c6d -> 208dca35e535256e6afe9ba44a5bf9f8
+  custom:scripting/monoscript/fileName/ObjectPool.cs: 44ef958af71a66d860d582ad3e685c6a -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/Damage Config Scriptable Object.cs: 798dd4f821239c25e70c6353cb43e333 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/ScriptableObjectCreator.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
+  custom:scripting/monoscript/fileName/DamageConfigScriptableObject.cs: 0039fd9f12f1ee0bc0f5340b7c3d9ee2 -> 1545e92f9f42224b115b39359d2d50d1
+  custom:scripting/monoscript/fileName/Frost.cs: e29bf70ad1f8b5d39f626a74ea37fbd8 -> 9d0e38dc4a3c61ed288ff64fcf1f7e53
+  custom:scripting/monoscript/fileName/ShootConfigScriptableObjectPropertyDrawer.cs: 4ae7adb550f517cb69dca69bb057c0bd -> 29cecd7d900c3283a58b0a28f6fc69e1
+  custom:scripting/monoscript/fileName/AmmoPickup.cs: 2166c5ddd871b1850292b42ab1efacad -> e9b098d793782e784f0b1b53967be096
+  custom:scripting/monoscript/fileName/PlayerGunSelector.cs: 009e1c50d972f1af86c893092ffca3b6 -> 9b8cb64b313cb9101d92a2ef23584f8e
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/LookAtIK.cs: b7e5a0d94fd76df4edf086470fbac08e -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/Bullet Penetration Config Scriptable Object.cs: 39c4b8c98635c7417f1c548cc1364b9c -> 
+  custom:scripting/monoscript/fileName/IDataService.cs: 96364535b02cdd3dfa8d5d96b624ab89 -> 4ee93f2f1765e685fb151faf12aa910f
+  custom:scripting/monoscript/fileName/SpawnParticleSystemOnDeath.cs: a25b8e12f2fe1e45b8dec54f01b26d7d -> de8cba89e7c38ca5f1eec36695e5a4e4
+  custom:scripting/monoscript/fileName/ShootConfigScriptableObject.cs: 1c61ce1b12590eb66f38fc8a8f518560 -> cef5da2a0f72f19fa395b7ae907347be
+  custom:scripting/monoscript/fileName/SimpleClickToShoot.cs: 6dd4e8839ce685b356e641b0afe2772e -> 
+  custom:scripting/monoscript/fileName/Loadout.cs: 75999a4c27e6c570d3c7091cb2534c01 -> 7571a00536551ddf5e6ec9da988c2f74
+  custom:scripting/monoscript/fileName/EnemyPainResponse.cs: 6faafa6c7d56adba697a418f94e907bb -> 2787749355392ec54f69294aef66088f
+  custom:scripting/monoscript/fileName/AttachmentSlot.cs: 0440d824fd02ed1656330a0bc8b36da6 -> cdea3bb153e645e467a7903a24ec61af
+  custom:scripting/monoscript/fileName/PlayerActionEditor.cs: 958d39d02f1073431df39c1b14352c36 -> 9f18f9a663547f8e240bae07059cf932
+  custom:scripting/monoscript/fileName/PlayAudioEffect.cs: 00bb738034b14a204444973c7a013921 -> 0440b77c81855d6e344e482eb6c7af7e
+  custom:scripting/monoscript/fileName/Enemy.cs: 55e62eab2991045b0bcacfe03761ec57 -> 848585670dd5cada5f125876120d8c50
+  custom:scripting/monoscript/fileName/Trail Config Scriptable Object.cs: 78f12ed30ed49c943ff8a7e77519b3fb -> 
+  custom:scripting/monoscript/fileName/ImpactType.cs: 5827c959c3b94c83ea8cb0f6aae80676 -> 3f39bbe75450299bb6c8f40f91381a1d
+  custom:scripting/monoscript/fileName/DamageConfigScriptableObjectPropertyDrawer.cs: 642e9db7cfce23eaa81d9db20174268a -> 29ed1a402778dfee22122f3321ab3496
+  custom:scripting/monoscript/fileName/GunPickup.cs: ffc9f72a029f6b4e40ac5d02441bc439 -> b59c37bfaec7d5e55569cc495f206f20
+  custom:scripting/monoscript/fileName/SliderWithInput.cs: dc2876dd8543808db56d49bf58b42b20 -> 42750342e5a3c5177dfadc3a10691fa0
+  custom:scripting/monoscript/fileName/Ammo Displayer.cs: a3d3a7bb1fb01a2f4778df69feff85b0 -> 
+  custom:scripting/monoscript/fileName/FadeOutDecal.cs: 5a52a3c8109935b4ae0307041ea23d08 -> 
+  custom:scripting/monoscript/fileName/BulletPenetrationConfigScriptableObjectPropertyDrawer.cs: 804b14044b26636b0812efe66658561f -> b266e6101d6575bb914709486d71e7dc
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/AmmoDisplayer.cs: 9405eb42726234bc5910c3aa85ead717 -> 0458fb7f0441507e9892a2f6e04e8bd9
+  custom:scripting/monoscript/fileName/IDamageable.cs: 0143820b2f653153f25947ad89b8c329 -> 144d583aa1c63fd8cc39df7824ac5b3d
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/InvalidPathSpecifiedException.cs: 131f0dc635f42d89b5b05fbe988bfb29 -> 89276a9330fcf18a3c4b7f79ea6c0cd0
+  custom:scripting/monoscript/fileName/Player Action.cs: a80cb126aeae4eae3279b1ce167414de -> 
+  custom:scripting/monoscript/fileName/Player Gun Selector.cs: 96571425e73632567606906c4e4dd21b -> 
+  custom:scripting/monoscript/fileName/Bullet.cs: 4e6d5c58b10435ea673435acbbb0da4b -> e17213f521d9d8e6d7102a4ba21ee9c1
+  custom:scripting/monoscript/fileName/Enemy Health.cs: a4d027726692f4f1a1dc379aafbb87e2 -> 
+  custom:scripting/monoscript/fileName/AbstractAreaOfEffect.cs: d4f7faeacacabfe3cf90fcad5fa19bd0 -> 77c1ce6e1864a956b4d31c259db65594
+  custom:scripting/monoscript/fileName/IModifier.cs: e2d40a0e4bcbde4f760f40762f9cd1fc -> 9a7b05eb101c44930a3c4d514118cd8b
+  custom:scripting/monoscript/fileName/PlayerAction.cs: 985d39e7b50500d035729d8f75893f37 -> 3932dc7f5d863532d116683e30e5e6f3
+  custom:scripting/monoscript/fileName/EnemyMovement.cs: 98c5129cf93758925b0107f10295effd -> fd371b94d0452bed70b0891060a26e5f
+  custom:scripting/monoscript/fileName/TrailConfigScriptableObject.cs: 6eab7ed5edad01304f48e9019943cf98 -> a540cb746be867968a226bb3db126824
+  custom:scripting/monoscript/fileName/PickUpController.cs: 777d515f181318d223004f3f507611f9 -> 
+  custom:scripting/monoscript/fileName/SurfaceType.cs: 0e5c1a9ebcea6d404d1fe3d8fd88ef21 -> 66099f67005033465403c25208937ea4
+  custom:scripting/monoscript/fileName/AmmoConfigScriptableObjectPropertyDrawer.cs: 51d8dd6afeeb7fc7bd0f2fe861f2ec2e -> 4d6e3f271617e38807b1e08e5b96dc8f
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ThirdPersonShooterController.cs: eb7a196ee7e52d156d81d0e5d5898927 -> 
+  custom:scripting/monoscript/fileName/SpawnObjectEffect.cs: eeb2926ba0fbcd58f5779732eeb65fce -> 21549e5323461ecc0365665c368541de
+  custom:scripting/monoscript/fileName/AmmoConfigScriptableObject.cs: 194e946c0c18a68190c3c5ce5596e8cb -> 61f90f79fd9819093c0a073d1bc0fdd5
+  custom:scripting/monoscript/fileName/AbstractValueModifier.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/AudioConfigScriptableObjectPropertyDrawer.cs: c0dc63617eb1d7c60bc39164d18f7b2c -> 3c87e1ee2fcd810e50718bcc64ede80b
+  custom:scripting/monoscript/fileName/Spawn Particle System On Death.cs: 41b39abdf758126a5c95e2e5da4f8c27 -> 
+  custom:scripting/monoscript/fileName/BulletTarget.cs: 8a42b17f44e363892eac3fceae261b5a -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.400 seconds
+Refreshing native plugins compatible for Editor in 1.99 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.901 seconds
+Domain Reload Profiling: 1298ms
+	BeginReloadAssembly (133ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (207ms)
+		LoadAssemblies (231ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (39ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (901ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (433ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (300ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 1.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6101 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (4.9 MB). Loaded Objects now: 6912.
+Memory consumption went from 237.9 MB to 233.1 MB.
+Total: 4.353600 ms (FindLiveObjects: 0.393400 ms CreateObjectMapping: 0.154600 ms MarkObjects: 2.557200 ms  DeleteObjects: 1.248000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/JsonDataService.cs: e60860cdad46bb199939d2bb6e3da4b1 -> f026935cf7a6dba9e3af1d1b9b2dc7c4
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/Gun Pickups.cs: 9e472622ee0d7b819495691ef02efee1 -> 
+  custom:scripting/monoscript/fileName/GunScriptableObjectEditor.cs: a585e75eb7c08c1af5858952c3814444 -> d95f31c758e90103fdc74c4c7a937e2f
+  custom:scripting/monoscript/fileName/ICollisionHandler.cs: 4fddd33d4f279082ce82d181e5ec7673 -> bc2a295fbaa33835a2aefa809827fc03
+  custom:scripting/monoscript/fileName/DeathDestroyCallback.cs: ae6498255b9de1a2e55d99d9ccd684cb -> 1ab99ba805b232e57432bd14b9fa991e
+  custom:scripting/monoscript/fileName/Surface.cs: 95094f06edf3ebe24d74b052e4a43297 -> 68534428341647e57d6a181bef022969
+  custom:scripting/monoscript/fileName/Ammo Config Scriptable Object.cs: 47f4dbaa36ba40d5ba799bb91c2c31e4 -> 
+  custom:scripting/monoscript/fileName/SurfaceEffect.cs: 1dc51154a812101a5576d3bca2073c09 -> 22399b4309ab5cc2c85ddfaa6d6eac80
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/FloatModifier.cs: e21a32c39ce2968825ff4400d41cdfa3 -> 2ca6406414b81d5610d5ab0b32c7456e
+  custom:scripting/monoscript/fileName/AudioConfigScriptableObject.cs: 836c8db00b4bd829500dcba3f8e41cd8 -> ae34c94c52e8b47652c466c4811b9213
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/GunScriptableObject.cs: 41c2704e31df92477cdbd4e4393dbb20 -> 8d5ca171cca37eb27e314efb03a86a50
+  custom:scripting/monoscript/fileName/PlayerIK.cs: 792bc7fe915be3ef2af8363b52efc6ae -> 
+  custom:scripting/monoscript/fileName/ISlowable.cs: 8f8f4c84fd22bb033939350dec359cf9 -> 910fb311f0185ed5788b4ccc07f23c1e
+  custom:scripting/monoscript/fileName/EnemyHealth.cs: 110f063c9f7758b0c01a2919c5697336 -> b9251a5d81940ca7b22404cbfa9defa9
+  custom:scripting/monoscript/fileName/ImpactEffectReplacementModifier.cs: b255265f86535fb4bb51a450cb2346d6 -> 336b1f7f3449579bc473205c578d6969
+  custom:scripting/monoscript/fileName/GunModifierApplier.cs: 01b3a478c3cf06e8ead2ad699bb48f38 -> 8cfe49117fbd0a2f3db11d43006a3845
+  custom:scripting/monoscript/fileName/ImpactTypeModifier.cs: b7d28ee1e1cad5e1d9c8d3f476f303bd -> f35d8719a942215bfb5f389dc0e63e4f
+  custom:scripting/monoscript/fileName/DamageModifier.cs: ebb190d66dc569c62451fe4369c612e2 -> 7ae3f6046c277141eb81de0c917c9a8a
+  custom:scripting/monoscript/fileName/PoolableObject.cs: c67b0f9f0ce5fd450e4aec3442b199b8 -> d154161691f6fc8ba9ff3c098c6dbddb
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:scripting/monoscript/fileName/Vector3Modifier.cs: 52a59b446dc5ac56aa228ae45aa2f70a -> bfc4555fa65faeb3c7244482398dcf65
+  custom:scripting/monoscript/fileName/TrailConfigScriptableObjectPropertyDrawer.cs: f47142f68a516040725c0393d7fd4858 -> a6551f7c063b00f56d8ab78d811d1e07
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Abstract Value Modifier.cs: baf4ef768c5dac2c62db840a5127318e -> 
+  custom:scripting/monoscript/fileName/Shoot Configuration Scriptable Object.cs: 42f0866e786a2fb5d19ee20de245a7f3 -> 
+  custom:scripting/monoscript/fileName/Explode.cs: 546a5bb4e87e9dc75b694aec300a0c04 -> f1e719c4bae748595307d9c3fb58bbe6
+  custom:scripting/monoscript/fileName/Utilities.cs: a0d84f982f1be314ccfebfc0110364af -> 4afc183a3f6c3e542da5a596c51f3a5b
+  custom:scripting/monoscript/fileName/BulletProjectile.cs: 9889cdb978cda4373ee9d166c1f5f3f3 -> 
+  custom:scripting/monoscript/fileName/I Damageable.cs: e64f76ace9702e1e0c6016368cb48d14 -> 
+  custom:scripting/monoscript/fileName/Attachment.cs: 9c6b29555d89d3d438c699e6eea7e550 -> f14c8e261d2f48dfc50e1dcf14907d6c
+  custom:scripting/monoscript/fileName/Gun Scriptable Object.cs: cd2f82d16dcb6520f6c567afe8eadc05 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/SurfaceManager.cs: 0aa3a33e77ffb9a3a1febbc528489e42 -> ae37eca1708437b07d63e32da8638631
+  custom:scripting/monoscript/fileName/BulletPenetrationConfigScriptableObject.cs: 062e0db62b1ed46051ec232e0da81c6d -> 208dca35e535256e6afe9ba44a5bf9f8
+  custom:scripting/monoscript/fileName/ObjectPool.cs: 44ef958af71a66d860d582ad3e685c6a -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/Damage Config Scriptable Object.cs: 798dd4f821239c25e70c6353cb43e333 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/ScriptableObjectCreator.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
+  custom:scripting/monoscript/fileName/DamageConfigScriptableObject.cs: 0039fd9f12f1ee0bc0f5340b7c3d9ee2 -> 1545e92f9f42224b115b39359d2d50d1
+  custom:scripting/monoscript/fileName/Frost.cs: e29bf70ad1f8b5d39f626a74ea37fbd8 -> 9d0e38dc4a3c61ed288ff64fcf1f7e53
+  custom:scripting/monoscript/fileName/ShootConfigScriptableObjectPropertyDrawer.cs: 4ae7adb550f517cb69dca69bb057c0bd -> 29cecd7d900c3283a58b0a28f6fc69e1
+  custom:scripting/monoscript/fileName/AmmoPickup.cs: 2166c5ddd871b1850292b42ab1efacad -> e9b098d793782e784f0b1b53967be096
+  custom:scripting/monoscript/fileName/PlayerGunSelector.cs: 009e1c50d972f1af86c893092ffca3b6 -> 9b8cb64b313cb9101d92a2ef23584f8e
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/LookAtIK.cs: b7e5a0d94fd76df4edf086470fbac08e -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/Bullet Penetration Config Scriptable Object.cs: 39c4b8c98635c7417f1c548cc1364b9c -> 
+  custom:scripting/monoscript/fileName/IDataService.cs: 96364535b02cdd3dfa8d5d96b624ab89 -> 4ee93f2f1765e685fb151faf12aa910f
+  custom:scripting/monoscript/fileName/SpawnParticleSystemOnDeath.cs: a25b8e12f2fe1e45b8dec54f01b26d7d -> de8cba89e7c38ca5f1eec36695e5a4e4
+  custom:scripting/monoscript/fileName/ShootConfigScriptableObject.cs: 1c61ce1b12590eb66f38fc8a8f518560 -> cef5da2a0f72f19fa395b7ae907347be
+  custom:scripting/monoscript/fileName/SimpleClickToShoot.cs: 6dd4e8839ce685b356e641b0afe2772e -> 
+  custom:scripting/monoscript/fileName/Loadout.cs: 75999a4c27e6c570d3c7091cb2534c01 -> 7571a00536551ddf5e6ec9da988c2f74
+  custom:scripting/monoscript/fileName/EnemyPainResponse.cs: 6faafa6c7d56adba697a418f94e907bb -> 2787749355392ec54f69294aef66088f
+  custom:scripting/monoscript/fileName/AttachmentSlot.cs: 0440d824fd02ed1656330a0bc8b36da6 -> cdea3bb153e645e467a7903a24ec61af
+  custom:scripting/monoscript/fileName/PlayerActionEditor.cs: 958d39d02f1073431df39c1b14352c36 -> 9f18f9a663547f8e240bae07059cf932
+  custom:scripting/monoscript/fileName/PlayAudioEffect.cs: 00bb738034b14a204444973c7a013921 -> 0440b77c81855d6e344e482eb6c7af7e
+  custom:scripting/monoscript/fileName/Enemy.cs: 55e62eab2991045b0bcacfe03761ec57 -> 848585670dd5cada5f125876120d8c50
+  custom:scripting/monoscript/fileName/Trail Config Scriptable Object.cs: 78f12ed30ed49c943ff8a7e77519b3fb -> 
+  custom:scripting/monoscript/fileName/ImpactType.cs: 5827c959c3b94c83ea8cb0f6aae80676 -> 3f39bbe75450299bb6c8f40f91381a1d
+  custom:scripting/monoscript/fileName/DamageConfigScriptableObjectPropertyDrawer.cs: 642e9db7cfce23eaa81d9db20174268a -> 29ed1a402778dfee22122f3321ab3496
+  custom:scripting/monoscript/fileName/GunPickup.cs: ffc9f72a029f6b4e40ac5d02441bc439 -> b59c37bfaec7d5e55569cc495f206f20
+  custom:scripting/monoscript/fileName/SliderWithInput.cs: dc2876dd8543808db56d49bf58b42b20 -> 42750342e5a3c5177dfadc3a10691fa0
+  custom:scripting/monoscript/fileName/Ammo Displayer.cs: a3d3a7bb1fb01a2f4778df69feff85b0 -> 
+  custom:scripting/monoscript/fileName/FadeOutDecal.cs: 5a52a3c8109935b4ae0307041ea23d08 -> 
+  custom:scripting/monoscript/fileName/BulletPenetrationConfigScriptableObjectPropertyDrawer.cs: 804b14044b26636b0812efe66658561f -> b266e6101d6575bb914709486d71e7dc
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/AmmoDisplayer.cs: 9405eb42726234bc5910c3aa85ead717 -> 0458fb7f0441507e9892a2f6e04e8bd9
+  custom:scripting/monoscript/fileName/IDamageable.cs: 0143820b2f653153f25947ad89b8c329 -> 144d583aa1c63fd8cc39df7824ac5b3d
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/InvalidPathSpecifiedException.cs: 131f0dc635f42d89b5b05fbe988bfb29 -> 89276a9330fcf18a3c4b7f79ea6c0cd0
+  custom:scripting/monoscript/fileName/Player Action.cs: a80cb126aeae4eae3279b1ce167414de -> 
+  custom:scripting/monoscript/fileName/Player Gun Selector.cs: 96571425e73632567606906c4e4dd21b -> 
+  custom:scripting/monoscript/fileName/Bullet.cs: 4e6d5c58b10435ea673435acbbb0da4b -> e17213f521d9d8e6d7102a4ba21ee9c1
+  custom:scripting/monoscript/fileName/Enemy Health.cs: a4d027726692f4f1a1dc379aafbb87e2 -> 
+  custom:scripting/monoscript/fileName/AbstractAreaOfEffect.cs: d4f7faeacacabfe3cf90fcad5fa19bd0 -> 77c1ce6e1864a956b4d31c259db65594
+  custom:scripting/monoscript/fileName/IModifier.cs: e2d40a0e4bcbde4f760f40762f9cd1fc -> 9a7b05eb101c44930a3c4d514118cd8b
+  custom:scripting/monoscript/fileName/PlayerAction.cs: 985d39e7b50500d035729d8f75893f37 -> 3932dc7f5d863532d116683e30e5e6f3
+  custom:scripting/monoscript/fileName/EnemyMovement.cs: 98c5129cf93758925b0107f10295effd -> fd371b94d0452bed70b0891060a26e5f
+  custom:scripting/monoscript/fileName/TrailConfigScriptableObject.cs: 6eab7ed5edad01304f48e9019943cf98 -> a540cb746be867968a226bb3db126824
+  custom:scripting/monoscript/fileName/PickUpController.cs: 777d515f181318d223004f3f507611f9 -> 
+  custom:scripting/monoscript/fileName/SurfaceType.cs: 0e5c1a9ebcea6d404d1fe3d8fd88ef21 -> 66099f67005033465403c25208937ea4
+  custom:scripting/monoscript/fileName/AmmoConfigScriptableObjectPropertyDrawer.cs: 51d8dd6afeeb7fc7bd0f2fe861f2ec2e -> 4d6e3f271617e38807b1e08e5b96dc8f
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ThirdPersonShooterController.cs: eb7a196ee7e52d156d81d0e5d5898927 -> 
+  custom:scripting/monoscript/fileName/SpawnObjectEffect.cs: eeb2926ba0fbcd58f5779732eeb65fce -> 21549e5323461ecc0365665c368541de
+  custom:scripting/monoscript/fileName/AmmoConfigScriptableObject.cs: 194e946c0c18a68190c3c5ce5596e8cb -> 61f90f79fd9819093c0a073d1bc0fdd5
+  custom:scripting/monoscript/fileName/AbstractValueModifier.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/AudioConfigScriptableObjectPropertyDrawer.cs: c0dc63617eb1d7c60bc39164d18f7b2c -> 3c87e1ee2fcd810e50718bcc64ede80b
+  custom:scripting/monoscript/fileName/Spawn Particle System On Death.cs: 41b39abdf758126a5c95e2e5da4f8c27 -> 
+  custom:scripting/monoscript/fileName/BulletTarget.cs: 8a42b17f44e363892eac3fceae261b5a -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.371 seconds
+Refreshing native plugins compatible for Editor in 2.08 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.969 seconds
+Domain Reload Profiling: 1338ms
+	BeginReloadAssembly (133ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (180ms)
+		LoadAssemblies (225ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (969ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (434ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (301ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 1.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6101 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (4.9 MB). Loaded Objects now: 6928.
+Memory consumption went from 239.9 MB to 235.0 MB.
+Total: 4.750800 ms (FindLiveObjects: 0.406800 ms CreateObjectMapping: 0.300200 ms MarkObjects: 2.742400 ms  DeleteObjects: 1.300700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/JsonDataService.cs: e60860cdad46bb199939d2bb6e3da4b1 -> f026935cf7a6dba9e3af1d1b9b2dc7c4
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/Gun Pickups.cs: 9e472622ee0d7b819495691ef02efee1 -> 
+  custom:scripting/monoscript/fileName/GunScriptableObjectEditor.cs: a585e75eb7c08c1af5858952c3814444 -> d95f31c758e90103fdc74c4c7a937e2f
+  custom:scripting/monoscript/fileName/ICollisionHandler.cs: 4fddd33d4f279082ce82d181e5ec7673 -> bc2a295fbaa33835a2aefa809827fc03
+  custom:scripting/monoscript/fileName/DeathDestroyCallback.cs: ae6498255b9de1a2e55d99d9ccd684cb -> 1ab99ba805b232e57432bd14b9fa991e
+  custom:scripting/monoscript/fileName/Surface.cs: 95094f06edf3ebe24d74b052e4a43297 -> 68534428341647e57d6a181bef022969
+  custom:scripting/monoscript/fileName/Ammo Config Scriptable Object.cs: 47f4dbaa36ba40d5ba799bb91c2c31e4 -> 
+  custom:scripting/monoscript/fileName/SurfaceEffect.cs: 1dc51154a812101a5576d3bca2073c09 -> 22399b4309ab5cc2c85ddfaa6d6eac80
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/FloatModifier.cs: e21a32c39ce2968825ff4400d41cdfa3 -> 2ca6406414b81d5610d5ab0b32c7456e
+  custom:scripting/monoscript/fileName/AudioConfigScriptableObject.cs: 836c8db00b4bd829500dcba3f8e41cd8 -> ae34c94c52e8b47652c466c4811b9213
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/GunScriptableObject.cs: 41c2704e31df92477cdbd4e4393dbb20 -> 8d5ca171cca37eb27e314efb03a86a50
+  custom:scripting/monoscript/fileName/PlayerIK.cs: 792bc7fe915be3ef2af8363b52efc6ae -> 
+  custom:scripting/monoscript/fileName/ISlowable.cs: 8f8f4c84fd22bb033939350dec359cf9 -> 910fb311f0185ed5788b4ccc07f23c1e
+  custom:scripting/monoscript/fileName/EnemyHealth.cs: 110f063c9f7758b0c01a2919c5697336 -> b9251a5d81940ca7b22404cbfa9defa9
+  custom:scripting/monoscript/fileName/ImpactEffectReplacementModifier.cs: b255265f86535fb4bb51a450cb2346d6 -> 336b1f7f3449579bc473205c578d6969
+  custom:scripting/monoscript/fileName/GunModifierApplier.cs: 01b3a478c3cf06e8ead2ad699bb48f38 -> 8cfe49117fbd0a2f3db11d43006a3845
+  custom:scripting/monoscript/fileName/ImpactTypeModifier.cs: b7d28ee1e1cad5e1d9c8d3f476f303bd -> f35d8719a942215bfb5f389dc0e63e4f
+  custom:scripting/monoscript/fileName/DamageModifier.cs: ebb190d66dc569c62451fe4369c612e2 -> 7ae3f6046c277141eb81de0c917c9a8a
+  custom:scripting/monoscript/fileName/PoolableObject.cs: c67b0f9f0ce5fd450e4aec3442b199b8 -> d154161691f6fc8ba9ff3c098c6dbddb
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:scripting/monoscript/fileName/Vector3Modifier.cs: 52a59b446dc5ac56aa228ae45aa2f70a -> bfc4555fa65faeb3c7244482398dcf65
+  custom:scripting/monoscript/fileName/TrailConfigScriptableObjectPropertyDrawer.cs: f47142f68a516040725c0393d7fd4858 -> a6551f7c063b00f56d8ab78d811d1e07
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Abstract Value Modifier.cs: baf4ef768c5dac2c62db840a5127318e -> 
+  custom:scripting/monoscript/fileName/Shoot Configuration Scriptable Object.cs: 42f0866e786a2fb5d19ee20de245a7f3 -> 
+  custom:scripting/monoscript/fileName/Explode.cs: 546a5bb4e87e9dc75b694aec300a0c04 -> f1e719c4bae748595307d9c3fb58bbe6
+  custom:scripting/monoscript/fileName/Utilities.cs: a0d84f982f1be314ccfebfc0110364af -> 4afc183a3f6c3e542da5a596c51f3a5b
+  custom:scripting/monoscript/fileName/BulletProjectile.cs: 9889cdb978cda4373ee9d166c1f5f3f3 -> 
+  custom:scripting/monoscript/fileName/I Damageable.cs: e64f76ace9702e1e0c6016368cb48d14 -> 
+  custom:scripting/monoscript/fileName/Attachment.cs: 9c6b29555d89d3d438c699e6eea7e550 -> f14c8e261d2f48dfc50e1dcf14907d6c
+  custom:scripting/monoscript/fileName/Gun Scriptable Object.cs: cd2f82d16dcb6520f6c567afe8eadc05 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/SurfaceManager.cs: 0aa3a33e77ffb9a3a1febbc528489e42 -> ae37eca1708437b07d63e32da8638631
+  custom:scripting/monoscript/fileName/BulletPenetrationConfigScriptableObject.cs: 062e0db62b1ed46051ec232e0da81c6d -> 208dca35e535256e6afe9ba44a5bf9f8
+  custom:scripting/monoscript/fileName/ObjectPool.cs: 44ef958af71a66d860d582ad3e685c6a -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/Damage Config Scriptable Object.cs: 798dd4f821239c25e70c6353cb43e333 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/ScriptableObjectCreator.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
+  custom:scripting/monoscript/fileName/DamageConfigScriptableObject.cs: 0039fd9f12f1ee0bc0f5340b7c3d9ee2 -> 1545e92f9f42224b115b39359d2d50d1
+  custom:scripting/monoscript/fileName/Frost.cs: e29bf70ad1f8b5d39f626a74ea37fbd8 -> 9d0e38dc4a3c61ed288ff64fcf1f7e53
+  custom:scripting/monoscript/fileName/ShootConfigScriptableObjectPropertyDrawer.cs: 4ae7adb550f517cb69dca69bb057c0bd -> 29cecd7d900c3283a58b0a28f6fc69e1
+  custom:scripting/monoscript/fileName/AmmoPickup.cs: 2166c5ddd871b1850292b42ab1efacad -> e9b098d793782e784f0b1b53967be096
+  custom:scripting/monoscript/fileName/PlayerGunSelector.cs: 009e1c50d972f1af86c893092ffca3b6 -> 9b8cb64b313cb9101d92a2ef23584f8e
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/LookAtIK.cs: b7e5a0d94fd76df4edf086470fbac08e -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/Bullet Penetration Config Scriptable Object.cs: 39c4b8c98635c7417f1c548cc1364b9c -> 
+  custom:scripting/monoscript/fileName/IDataService.cs: 96364535b02cdd3dfa8d5d96b624ab89 -> 4ee93f2f1765e685fb151faf12aa910f
+  custom:scripting/monoscript/fileName/SpawnParticleSystemOnDeath.cs: a25b8e12f2fe1e45b8dec54f01b26d7d -> de8cba89e7c38ca5f1eec36695e5a4e4
+  custom:scripting/monoscript/fileName/ShootConfigScriptableObject.cs: 1c61ce1b12590eb66f38fc8a8f518560 -> cef5da2a0f72f19fa395b7ae907347be
+  custom:scripting/monoscript/fileName/SimpleClickToShoot.cs: 6dd4e8839ce685b356e641b0afe2772e -> 
+  custom:scripting/monoscript/fileName/Loadout.cs: 75999a4c27e6c570d3c7091cb2534c01 -> 7571a00536551ddf5e6ec9da988c2f74
+  custom:scripting/monoscript/fileName/EnemyPainResponse.cs: 6faafa6c7d56adba697a418f94e907bb -> 2787749355392ec54f69294aef66088f
+  custom:scripting/monoscript/fileName/AttachmentSlot.cs: 0440d824fd02ed1656330a0bc8b36da6 -> cdea3bb153e645e467a7903a24ec61af
+  custom:scripting/monoscript/fileName/PlayerActionEditor.cs: 958d39d02f1073431df39c1b14352c36 -> 9f18f9a663547f8e240bae07059cf932
+  custom:scripting/monoscript/fileName/PlayAudioEffect.cs: 00bb738034b14a204444973c7a013921 -> 0440b77c81855d6e344e482eb6c7af7e
+  custom:scripting/monoscript/fileName/Enemy.cs: 55e62eab2991045b0bcacfe03761ec57 -> 848585670dd5cada5f125876120d8c50
+  custom:scripting/monoscript/fileName/Trail Config Scriptable Object.cs: 78f12ed30ed49c943ff8a7e77519b3fb -> 
+  custom:scripting/monoscript/fileName/ImpactType.cs: 5827c959c3b94c83ea8cb0f6aae80676 -> 3f39bbe75450299bb6c8f40f91381a1d
+  custom:scripting/monoscript/fileName/DamageConfigScriptableObjectPropertyDrawer.cs: 642e9db7cfce23eaa81d9db20174268a -> 29ed1a402778dfee22122f3321ab3496
+  custom:scripting/monoscript/fileName/GunPickup.cs: ffc9f72a029f6b4e40ac5d02441bc439 -> b59c37bfaec7d5e55569cc495f206f20
+  custom:scripting/monoscript/fileName/SliderWithInput.cs: dc2876dd8543808db56d49bf58b42b20 -> 42750342e5a3c5177dfadc3a10691fa0
+  custom:scripting/monoscript/fileName/Ammo Displayer.cs: a3d3a7bb1fb01a2f4778df69feff85b0 -> 
+  custom:scripting/monoscript/fileName/FadeOutDecal.cs: 5a52a3c8109935b4ae0307041ea23d08 -> 
+  custom:scripting/monoscript/fileName/BulletPenetrationConfigScriptableObjectPropertyDrawer.cs: 804b14044b26636b0812efe66658561f -> b266e6101d6575bb914709486d71e7dc
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/AmmoDisplayer.cs: 9405eb42726234bc5910c3aa85ead717 -> 0458fb7f0441507e9892a2f6e04e8bd9
+  custom:scripting/monoscript/fileName/IDamageable.cs: 0143820b2f653153f25947ad89b8c329 -> 144d583aa1c63fd8cc39df7824ac5b3d
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/InvalidPathSpecifiedException.cs: 131f0dc635f42d89b5b05fbe988bfb29 -> 89276a9330fcf18a3c4b7f79ea6c0cd0
+  custom:scripting/monoscript/fileName/Player Action.cs: a80cb126aeae4eae3279b1ce167414de -> 
+  custom:scripting/monoscript/fileName/Player Gun Selector.cs: 96571425e73632567606906c4e4dd21b -> 
+  custom:scripting/monoscript/fileName/Bullet.cs: 4e6d5c58b10435ea673435acbbb0da4b -> e17213f521d9d8e6d7102a4ba21ee9c1
+  custom:scripting/monoscript/fileName/Enemy Health.cs: a4d027726692f4f1a1dc379aafbb87e2 -> 
+  custom:scripting/monoscript/fileName/AbstractAreaOfEffect.cs: d4f7faeacacabfe3cf90fcad5fa19bd0 -> 77c1ce6e1864a956b4d31c259db65594
+  custom:scripting/monoscript/fileName/IModifier.cs: e2d40a0e4bcbde4f760f40762f9cd1fc -> 9a7b05eb101c44930a3c4d514118cd8b
+  custom:scripting/monoscript/fileName/PlayerAction.cs: 985d39e7b50500d035729d8f75893f37 -> 3932dc7f5d863532d116683e30e5e6f3
+  custom:scripting/monoscript/fileName/EnemyMovement.cs: 98c5129cf93758925b0107f10295effd -> fd371b94d0452bed70b0891060a26e5f
+  custom:scripting/monoscript/fileName/TrailConfigScriptableObject.cs: 6eab7ed5edad01304f48e9019943cf98 -> a540cb746be867968a226bb3db126824
+  custom:scripting/monoscript/fileName/PickUpController.cs: 777d515f181318d223004f3f507611f9 -> 
+  custom:scripting/monoscript/fileName/SurfaceType.cs: 0e5c1a9ebcea6d404d1fe3d8fd88ef21 -> 66099f67005033465403c25208937ea4
+  custom:scripting/monoscript/fileName/AmmoConfigScriptableObjectPropertyDrawer.cs: 51d8dd6afeeb7fc7bd0f2fe861f2ec2e -> 4d6e3f271617e38807b1e08e5b96dc8f
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ThirdPersonShooterController.cs: eb7a196ee7e52d156d81d0e5d5898927 -> 
+  custom:scripting/monoscript/fileName/SpawnObjectEffect.cs: eeb2926ba0fbcd58f5779732eeb65fce -> 21549e5323461ecc0365665c368541de
+  custom:scripting/monoscript/fileName/AmmoConfigScriptableObject.cs: 194e946c0c18a68190c3c5ce5596e8cb -> 61f90f79fd9819093c0a073d1bc0fdd5
+  custom:scripting/monoscript/fileName/AbstractValueModifier.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/AudioConfigScriptableObjectPropertyDrawer.cs: c0dc63617eb1d7c60bc39164d18f7b2c -> 3c87e1ee2fcd810e50718bcc64ede80b
+  custom:scripting/monoscript/fileName/Spawn Particle System On Death.cs: 41b39abdf758126a5c95e2e5da4f8c27 -> 
+  custom:scripting/monoscript/fileName/BulletTarget.cs: 8a42b17f44e363892eac3fceae261b5a -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.401 seconds
+Refreshing native plugins compatible for Editor in 2.21 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.898 seconds
+Domain Reload Profiling: 1297ms
+	BeginReloadAssembly (132ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (208ms)
+		LoadAssemblies (231ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (40ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (20ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (899ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (433ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (299ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 1.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6101 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (4.9 MB). Loaded Objects now: 6944.
+Memory consumption went from 241.8 MB to 236.9 MB.
+Total: 4.451500 ms (FindLiveObjects: 0.415600 ms CreateObjectMapping: 0.157700 ms MarkObjects: 2.589100 ms  DeleteObjects: 1.288400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/JsonDataService.cs: e60860cdad46bb199939d2bb6e3da4b1 -> f026935cf7a6dba9e3af1d1b9b2dc7c4
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/Gun Pickups.cs: 9e472622ee0d7b819495691ef02efee1 -> 
+  custom:scripting/monoscript/fileName/GunScriptableObjectEditor.cs: a585e75eb7c08c1af5858952c3814444 -> d95f31c758e90103fdc74c4c7a937e2f
+  custom:scripting/monoscript/fileName/ICollisionHandler.cs: 4fddd33d4f279082ce82d181e5ec7673 -> bc2a295fbaa33835a2aefa809827fc03
+  custom:scripting/monoscript/fileName/DeathDestroyCallback.cs: ae6498255b9de1a2e55d99d9ccd684cb -> 1ab99ba805b232e57432bd14b9fa991e
+  custom:scripting/monoscript/fileName/Surface.cs: 95094f06edf3ebe24d74b052e4a43297 -> 68534428341647e57d6a181bef022969
+  custom:scripting/monoscript/fileName/Ammo Config Scriptable Object.cs: 47f4dbaa36ba40d5ba799bb91c2c31e4 -> 
+  custom:scripting/monoscript/fileName/SurfaceEffect.cs: 1dc51154a812101a5576d3bca2073c09 -> 22399b4309ab5cc2c85ddfaa6d6eac80
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/FloatModifier.cs: e21a32c39ce2968825ff4400d41cdfa3 -> 2ca6406414b81d5610d5ab0b32c7456e
+  custom:scripting/monoscript/fileName/AudioConfigScriptableObject.cs: 836c8db00b4bd829500dcba3f8e41cd8 -> ae34c94c52e8b47652c466c4811b9213
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/GunScriptableObject.cs: 41c2704e31df92477cdbd4e4393dbb20 -> 8d5ca171cca37eb27e314efb03a86a50
+  custom:scripting/monoscript/fileName/PlayerIK.cs: 792bc7fe915be3ef2af8363b52efc6ae -> 
+  custom:scripting/monoscript/fileName/ISlowable.cs: 8f8f4c84fd22bb033939350dec359cf9 -> 910fb311f0185ed5788b4ccc07f23c1e
+  custom:scripting/monoscript/fileName/EnemyHealth.cs: 110f063c9f7758b0c01a2919c5697336 -> b9251a5d81940ca7b22404cbfa9defa9
+  custom:scripting/monoscript/fileName/ImpactEffectReplacementModifier.cs: b255265f86535fb4bb51a450cb2346d6 -> 336b1f7f3449579bc473205c578d6969
+  custom:scripting/monoscript/fileName/GunModifierApplier.cs: 01b3a478c3cf06e8ead2ad699bb48f38 -> 8cfe49117fbd0a2f3db11d43006a3845
+  custom:scripting/monoscript/fileName/ImpactTypeModifier.cs: b7d28ee1e1cad5e1d9c8d3f476f303bd -> f35d8719a942215bfb5f389dc0e63e4f
+  custom:scripting/monoscript/fileName/DamageModifier.cs: ebb190d66dc569c62451fe4369c612e2 -> 7ae3f6046c277141eb81de0c917c9a8a
+  custom:scripting/monoscript/fileName/PoolableObject.cs: c67b0f9f0ce5fd450e4aec3442b199b8 -> d154161691f6fc8ba9ff3c098c6dbddb
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:scripting/monoscript/fileName/Vector3Modifier.cs: 52a59b446dc5ac56aa228ae45aa2f70a -> bfc4555fa65faeb3c7244482398dcf65
+  custom:scripting/monoscript/fileName/TrailConfigScriptableObjectPropertyDrawer.cs: f47142f68a516040725c0393d7fd4858 -> a6551f7c063b00f56d8ab78d811d1e07
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Abstract Value Modifier.cs: baf4ef768c5dac2c62db840a5127318e -> 
+  custom:scripting/monoscript/fileName/Shoot Configuration Scriptable Object.cs: 42f0866e786a2fb5d19ee20de245a7f3 -> 
+  custom:scripting/monoscript/fileName/Explode.cs: 546a5bb4e87e9dc75b694aec300a0c04 -> f1e719c4bae748595307d9c3fb58bbe6
+  custom:scripting/monoscript/fileName/Utilities.cs: a0d84f982f1be314ccfebfc0110364af -> 4afc183a3f6c3e542da5a596c51f3a5b
+  custom:scripting/monoscript/fileName/BulletProjectile.cs: 9889cdb978cda4373ee9d166c1f5f3f3 -> 
+  custom:scripting/monoscript/fileName/I Damageable.cs: e64f76ace9702e1e0c6016368cb48d14 -> 
+  custom:scripting/monoscript/fileName/Attachment.cs: 9c6b29555d89d3d438c699e6eea7e550 -> f14c8e261d2f48dfc50e1dcf14907d6c
+  custom:scripting/monoscript/fileName/Gun Scriptable Object.cs: cd2f82d16dcb6520f6c567afe8eadc05 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/SurfaceManager.cs: 0aa3a33e77ffb9a3a1febbc528489e42 -> ae37eca1708437b07d63e32da8638631
+  custom:scripting/monoscript/fileName/BulletPenetrationConfigScriptableObject.cs: 062e0db62b1ed46051ec232e0da81c6d -> 208dca35e535256e6afe9ba44a5bf9f8
+  custom:scripting/monoscript/fileName/ObjectPool.cs: 44ef958af71a66d860d582ad3e685c6a -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/Damage Config Scriptable Object.cs: 798dd4f821239c25e70c6353cb43e333 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/ScriptableObjectCreator.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
+  custom:scripting/monoscript/fileName/DamageConfigScriptableObject.cs: 0039fd9f12f1ee0bc0f5340b7c3d9ee2 -> 1545e92f9f42224b115b39359d2d50d1
+  custom:scripting/monoscript/fileName/Frost.cs: e29bf70ad1f8b5d39f626a74ea37fbd8 -> 9d0e38dc4a3c61ed288ff64fcf1f7e53
+  custom:scripting/monoscript/fileName/ShootConfigScriptableObjectPropertyDrawer.cs: 4ae7adb550f517cb69dca69bb057c0bd -> 29cecd7d900c3283a58b0a28f6fc69e1
+  custom:scripting/monoscript/fileName/AmmoPickup.cs: 2166c5ddd871b1850292b42ab1efacad -> e9b098d793782e784f0b1b53967be096
+  custom:scripting/monoscript/fileName/PlayerGunSelector.cs: 009e1c50d972f1af86c893092ffca3b6 -> 9b8cb64b313cb9101d92a2ef23584f8e
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/LookAtIK.cs: b7e5a0d94fd76df4edf086470fbac08e -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/Bullet Penetration Config Scriptable Object.cs: 39c4b8c98635c7417f1c548cc1364b9c -> 
+  custom:scripting/monoscript/fileName/IDataService.cs: 96364535b02cdd3dfa8d5d96b624ab89 -> 4ee93f2f1765e685fb151faf12aa910f
+  custom:scripting/monoscript/fileName/SpawnParticleSystemOnDeath.cs: a25b8e12f2fe1e45b8dec54f01b26d7d -> de8cba89e7c38ca5f1eec36695e5a4e4
+  custom:scripting/monoscript/fileName/ShootConfigScriptableObject.cs: 1c61ce1b12590eb66f38fc8a8f518560 -> cef5da2a0f72f19fa395b7ae907347be
+  custom:scripting/monoscript/fileName/SimpleClickToShoot.cs: 6dd4e8839ce685b356e641b0afe2772e -> 
+  custom:scripting/monoscript/fileName/Loadout.cs: 75999a4c27e6c570d3c7091cb2534c01 -> 7571a00536551ddf5e6ec9da988c2f74
+  custom:scripting/monoscript/fileName/EnemyPainResponse.cs: 6faafa6c7d56adba697a418f94e907bb -> 2787749355392ec54f69294aef66088f
+  custom:scripting/monoscript/fileName/AttachmentSlot.cs: 0440d824fd02ed1656330a0bc8b36da6 -> cdea3bb153e645e467a7903a24ec61af
+  custom:scripting/monoscript/fileName/PlayerActionEditor.cs: 958d39d02f1073431df39c1b14352c36 -> 9f18f9a663547f8e240bae07059cf932
+  custom:scripting/monoscript/fileName/PlayAudioEffect.cs: 00bb738034b14a204444973c7a013921 -> 0440b77c81855d6e344e482eb6c7af7e
+  custom:scripting/monoscript/fileName/Enemy.cs: 55e62eab2991045b0bcacfe03761ec57 -> 848585670dd5cada5f125876120d8c50
+  custom:scripting/monoscript/fileName/Trail Config Scriptable Object.cs: 78f12ed30ed49c943ff8a7e77519b3fb -> 
+  custom:scripting/monoscript/fileName/ImpactType.cs: 5827c959c3b94c83ea8cb0f6aae80676 -> 3f39bbe75450299bb6c8f40f91381a1d
+  custom:scripting/monoscript/fileName/DamageConfigScriptableObjectPropertyDrawer.cs: 642e9db7cfce23eaa81d9db20174268a -> 29ed1a402778dfee22122f3321ab3496
+  custom:scripting/monoscript/fileName/GunPickup.cs: ffc9f72a029f6b4e40ac5d02441bc439 -> b59c37bfaec7d5e55569cc495f206f20
+  custom:scripting/monoscript/fileName/SliderWithInput.cs: dc2876dd8543808db56d49bf58b42b20 -> 42750342e5a3c5177dfadc3a10691fa0
+  custom:scripting/monoscript/fileName/Ammo Displayer.cs: a3d3a7bb1fb01a2f4778df69feff85b0 -> 
+  custom:scripting/monoscript/fileName/FadeOutDecal.cs: 5a52a3c8109935b4ae0307041ea23d08 -> 
+  custom:scripting/monoscript/fileName/BulletPenetrationConfigScriptableObjectPropertyDrawer.cs: 804b14044b26636b0812efe66658561f -> b266e6101d6575bb914709486d71e7dc
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/AmmoDisplayer.cs: 9405eb42726234bc5910c3aa85ead717 -> 0458fb7f0441507e9892a2f6e04e8bd9
+  custom:scripting/monoscript/fileName/IDamageable.cs: 0143820b2f653153f25947ad89b8c329 -> 144d583aa1c63fd8cc39df7824ac5b3d
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/InvalidPathSpecifiedException.cs: 131f0dc635f42d89b5b05fbe988bfb29 -> 89276a9330fcf18a3c4b7f79ea6c0cd0
+  custom:scripting/monoscript/fileName/Player Action.cs: a80cb126aeae4eae3279b1ce167414de -> 
+  custom:scripting/monoscript/fileName/Player Gun Selector.cs: 96571425e73632567606906c4e4dd21b -> 
+  custom:scripting/monoscript/fileName/Bullet.cs: 4e6d5c58b10435ea673435acbbb0da4b -> e17213f521d9d8e6d7102a4ba21ee9c1
+  custom:scripting/monoscript/fileName/Enemy Health.cs: a4d027726692f4f1a1dc379aafbb87e2 -> 
+  custom:scripting/monoscript/fileName/AbstractAreaOfEffect.cs: d4f7faeacacabfe3cf90fcad5fa19bd0 -> 77c1ce6e1864a956b4d31c259db65594
+  custom:scripting/monoscript/fileName/IModifier.cs: e2d40a0e4bcbde4f760f40762f9cd1fc -> 9a7b05eb101c44930a3c4d514118cd8b
+  custom:scripting/monoscript/fileName/PlayerAction.cs: 985d39e7b50500d035729d8f75893f37 -> 3932dc7f5d863532d116683e30e5e6f3
+  custom:scripting/monoscript/fileName/EnemyMovement.cs: 98c5129cf93758925b0107f10295effd -> fd371b94d0452bed70b0891060a26e5f
+  custom:scripting/monoscript/fileName/TrailConfigScriptableObject.cs: 6eab7ed5edad01304f48e9019943cf98 -> a540cb746be867968a226bb3db126824
+  custom:scripting/monoscript/fileName/PickUpController.cs: 777d515f181318d223004f3f507611f9 -> 
+  custom:scripting/monoscript/fileName/SurfaceType.cs: 0e5c1a9ebcea6d404d1fe3d8fd88ef21 -> 66099f67005033465403c25208937ea4
+  custom:scripting/monoscript/fileName/AmmoConfigScriptableObjectPropertyDrawer.cs: 51d8dd6afeeb7fc7bd0f2fe861f2ec2e -> 4d6e3f271617e38807b1e08e5b96dc8f
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ThirdPersonShooterController.cs: eb7a196ee7e52d156d81d0e5d5898927 -> 
+  custom:scripting/monoscript/fileName/SpawnObjectEffect.cs: eeb2926ba0fbcd58f5779732eeb65fce -> 21549e5323461ecc0365665c368541de
+  custom:scripting/monoscript/fileName/AmmoConfigScriptableObject.cs: 194e946c0c18a68190c3c5ce5596e8cb -> 61f90f79fd9819093c0a073d1bc0fdd5
+  custom:scripting/monoscript/fileName/AbstractValueModifier.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/AudioConfigScriptableObjectPropertyDrawer.cs: c0dc63617eb1d7c60bc39164d18f7b2c -> 3c87e1ee2fcd810e50718bcc64ede80b
+  custom:scripting/monoscript/fileName/Spawn Particle System On Death.cs: 41b39abdf758126a5c95e2e5da4f8c27 -> 
+  custom:scripting/monoscript/fileName/BulletTarget.cs: 8a42b17f44e363892eac3fceae261b5a -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.370 seconds
+Refreshing native plugins compatible for Editor in 2.18 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.918 seconds
+Domain Reload Profiling: 1286ms
+	BeginReloadAssembly (130ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (181ms)
+		LoadAssemblies (225ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (919ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (434ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (300ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 1.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6101 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (4.9 MB). Loaded Objects now: 6960.
+Memory consumption went from 243.7 MB to 238.8 MB.
+Total: 4.887100 ms (FindLiveObjects: 0.398300 ms CreateObjectMapping: 0.296000 ms MarkObjects: 2.863200 ms  DeleteObjects: 1.328900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/JsonDataService.cs: e60860cdad46bb199939d2bb6e3da4b1 -> f026935cf7a6dba9e3af1d1b9b2dc7c4
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/Gun Pickups.cs: 9e472622ee0d7b819495691ef02efee1 -> 
+  custom:scripting/monoscript/fileName/GunScriptableObjectEditor.cs: a585e75eb7c08c1af5858952c3814444 -> d95f31c758e90103fdc74c4c7a937e2f
+  custom:scripting/monoscript/fileName/ICollisionHandler.cs: 4fddd33d4f279082ce82d181e5ec7673 -> bc2a295fbaa33835a2aefa809827fc03
+  custom:scripting/monoscript/fileName/DeathDestroyCallback.cs: ae6498255b9de1a2e55d99d9ccd684cb -> 1ab99ba805b232e57432bd14b9fa991e
+  custom:scripting/monoscript/fileName/Surface.cs: 95094f06edf3ebe24d74b052e4a43297 -> 68534428341647e57d6a181bef022969
+  custom:scripting/monoscript/fileName/Ammo Config Scriptable Object.cs: 47f4dbaa36ba40d5ba799bb91c2c31e4 -> 
+  custom:scripting/monoscript/fileName/SurfaceEffect.cs: 1dc51154a812101a5576d3bca2073c09 -> 22399b4309ab5cc2c85ddfaa6d6eac80
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/FloatModifier.cs: e21a32c39ce2968825ff4400d41cdfa3 -> 2ca6406414b81d5610d5ab0b32c7456e
+  custom:scripting/monoscript/fileName/AudioConfigScriptableObject.cs: 836c8db00b4bd829500dcba3f8e41cd8 -> ae34c94c52e8b47652c466c4811b9213
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/GunScriptableObject.cs: 41c2704e31df92477cdbd4e4393dbb20 -> 8d5ca171cca37eb27e314efb03a86a50
+  custom:scripting/monoscript/fileName/PlayerIK.cs: 792bc7fe915be3ef2af8363b52efc6ae -> 
+  custom:scripting/monoscript/fileName/ISlowable.cs: 8f8f4c84fd22bb033939350dec359cf9 -> 910fb311f0185ed5788b4ccc07f23c1e
+  custom:scripting/monoscript/fileName/EnemyHealth.cs: 110f063c9f7758b0c01a2919c5697336 -> b9251a5d81940ca7b22404cbfa9defa9
+  custom:scripting/monoscript/fileName/ImpactEffectReplacementModifier.cs: b255265f86535fb4bb51a450cb2346d6 -> 336b1f7f3449579bc473205c578d6969
+  custom:scripting/monoscript/fileName/GunModifierApplier.cs: 01b3a478c3cf06e8ead2ad699bb48f38 -> 8cfe49117fbd0a2f3db11d43006a3845
+  custom:scripting/monoscript/fileName/ImpactTypeModifier.cs: b7d28ee1e1cad5e1d9c8d3f476f303bd -> f35d8719a942215bfb5f389dc0e63e4f
+  custom:scripting/monoscript/fileName/DamageModifier.cs: ebb190d66dc569c62451fe4369c612e2 -> 7ae3f6046c277141eb81de0c917c9a8a
+  custom:scripting/monoscript/fileName/PoolableObject.cs: c67b0f9f0ce5fd450e4aec3442b199b8 -> d154161691f6fc8ba9ff3c098c6dbddb
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:scripting/monoscript/fileName/Vector3Modifier.cs: 52a59b446dc5ac56aa228ae45aa2f70a -> bfc4555fa65faeb3c7244482398dcf65
+  custom:scripting/monoscript/fileName/TrailConfigScriptableObjectPropertyDrawer.cs: f47142f68a516040725c0393d7fd4858 -> a6551f7c063b00f56d8ab78d811d1e07
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Abstract Value Modifier.cs: baf4ef768c5dac2c62db840a5127318e -> 
+  custom:scripting/monoscript/fileName/Shoot Configuration Scriptable Object.cs: 42f0866e786a2fb5d19ee20de245a7f3 -> 
+  custom:scripting/monoscript/fileName/Explode.cs: 546a5bb4e87e9dc75b694aec300a0c04 -> f1e719c4bae748595307d9c3fb58bbe6
+  custom:scripting/monoscript/fileName/Utilities.cs: a0d84f982f1be314ccfebfc0110364af -> 4afc183a3f6c3e542da5a596c51f3a5b
+  custom:scripting/monoscript/fileName/BulletProjectile.cs: 9889cdb978cda4373ee9d166c1f5f3f3 -> 
+  custom:scripting/monoscript/fileName/I Damageable.cs: e64f76ace9702e1e0c6016368cb48d14 -> 
+  custom:scripting/monoscript/fileName/Attachment.cs: 9c6b29555d89d3d438c699e6eea7e550 -> f14c8e261d2f48dfc50e1dcf14907d6c
+  custom:scripting/monoscript/fileName/Gun Scriptable Object.cs: cd2f82d16dcb6520f6c567afe8eadc05 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/SurfaceManager.cs: 0aa3a33e77ffb9a3a1febbc528489e42 -> ae37eca1708437b07d63e32da8638631
+  custom:scripting/monoscript/fileName/BulletPenetrationConfigScriptableObject.cs: 062e0db62b1ed46051ec232e0da81c6d -> 208dca35e535256e6afe9ba44a5bf9f8
+  custom:scripting/monoscript/fileName/ObjectPool.cs: 44ef958af71a66d860d582ad3e685c6a -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/Damage Config Scriptable Object.cs: 798dd4f821239c25e70c6353cb43e333 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/ScriptableObjectCreator.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
+  custom:scripting/monoscript/fileName/DamageConfigScriptableObject.cs: 0039fd9f12f1ee0bc0f5340b7c3d9ee2 -> 1545e92f9f42224b115b39359d2d50d1
+  custom:scripting/monoscript/fileName/Frost.cs: e29bf70ad1f8b5d39f626a74ea37fbd8 -> 9d0e38dc4a3c61ed288ff64fcf1f7e53
+  custom:scripting/monoscript/fileName/ShootConfigScriptableObjectPropertyDrawer.cs: 4ae7adb550f517cb69dca69bb057c0bd -> 29cecd7d900c3283a58b0a28f6fc69e1
+  custom:scripting/monoscript/fileName/AmmoPickup.cs: 2166c5ddd871b1850292b42ab1efacad -> e9b098d793782e784f0b1b53967be096
+  custom:scripting/monoscript/fileName/PlayerGunSelector.cs: 009e1c50d972f1af86c893092ffca3b6 -> 9b8cb64b313cb9101d92a2ef23584f8e
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/LookAtIK.cs: b7e5a0d94fd76df4edf086470fbac08e -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/Bullet Penetration Config Scriptable Object.cs: 39c4b8c98635c7417f1c548cc1364b9c -> 
+  custom:scripting/monoscript/fileName/IDataService.cs: 96364535b02cdd3dfa8d5d96b624ab89 -> 4ee93f2f1765e685fb151faf12aa910f
+  custom:scripting/monoscript/fileName/SpawnParticleSystemOnDeath.cs: a25b8e12f2fe1e45b8dec54f01b26d7d -> de8cba89e7c38ca5f1eec36695e5a4e4
+  custom:scripting/monoscript/fileName/ShootConfigScriptableObject.cs: 1c61ce1b12590eb66f38fc8a8f518560 -> cef5da2a0f72f19fa395b7ae907347be
+  custom:scripting/monoscript/fileName/SimpleClickToShoot.cs: 6dd4e8839ce685b356e641b0afe2772e -> 
+  custom:scripting/monoscript/fileName/Loadout.cs: 75999a4c27e6c570d3c7091cb2534c01 -> 7571a00536551ddf5e6ec9da988c2f74
+  custom:scripting/monoscript/fileName/EnemyPainResponse.cs: 6faafa6c7d56adba697a418f94e907bb -> 2787749355392ec54f69294aef66088f
+  custom:scripting/monoscript/fileName/AttachmentSlot.cs: 0440d824fd02ed1656330a0bc8b36da6 -> cdea3bb153e645e467a7903a24ec61af
+  custom:scripting/monoscript/fileName/PlayerActionEditor.cs: 958d39d02f1073431df39c1b14352c36 -> 9f18f9a663547f8e240bae07059cf932
+  custom:scripting/monoscript/fileName/PlayAudioEffect.cs: 00bb738034b14a204444973c7a013921 -> 0440b77c81855d6e344e482eb6c7af7e
+  custom:scripting/monoscript/fileName/Enemy.cs: 55e62eab2991045b0bcacfe03761ec57 -> 848585670dd5cada5f125876120d8c50
+  custom:scripting/monoscript/fileName/Trail Config Scriptable Object.cs: 78f12ed30ed49c943ff8a7e77519b3fb -> 
+  custom:scripting/monoscript/fileName/ImpactType.cs: 5827c959c3b94c83ea8cb0f6aae80676 -> 3f39bbe75450299bb6c8f40f91381a1d
+  custom:scripting/monoscript/fileName/DamageConfigScriptableObjectPropertyDrawer.cs: 642e9db7cfce23eaa81d9db20174268a -> 29ed1a402778dfee22122f3321ab3496
+  custom:scripting/monoscript/fileName/GunPickup.cs: ffc9f72a029f6b4e40ac5d02441bc439 -> b59c37bfaec7d5e55569cc495f206f20
+  custom:scripting/monoscript/fileName/SliderWithInput.cs: dc2876dd8543808db56d49bf58b42b20 -> 42750342e5a3c5177dfadc3a10691fa0
+  custom:scripting/monoscript/fileName/Ammo Displayer.cs: a3d3a7bb1fb01a2f4778df69feff85b0 -> 
+  custom:scripting/monoscript/fileName/FadeOutDecal.cs: 5a52a3c8109935b4ae0307041ea23d08 -> 
+  custom:scripting/monoscript/fileName/BulletPenetrationConfigScriptableObjectPropertyDrawer.cs: 804b14044b26636b0812efe66658561f -> b266e6101d6575bb914709486d71e7dc
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/AmmoDisplayer.cs: 9405eb42726234bc5910c3aa85ead717 -> 0458fb7f0441507e9892a2f6e04e8bd9
+  custom:scripting/monoscript/fileName/IDamageable.cs: 0143820b2f653153f25947ad89b8c329 -> 144d583aa1c63fd8cc39df7824ac5b3d
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/InvalidPathSpecifiedException.cs: 131f0dc635f42d89b5b05fbe988bfb29 -> 89276a9330fcf18a3c4b7f79ea6c0cd0
+  custom:scripting/monoscript/fileName/Player Action.cs: a80cb126aeae4eae3279b1ce167414de -> 
+  custom:scripting/monoscript/fileName/Player Gun Selector.cs: 96571425e73632567606906c4e4dd21b -> 
+  custom:scripting/monoscript/fileName/Bullet.cs: 4e6d5c58b10435ea673435acbbb0da4b -> e17213f521d9d8e6d7102a4ba21ee9c1
+  custom:scripting/monoscript/fileName/Enemy Health.cs: a4d027726692f4f1a1dc379aafbb87e2 -> 
+  custom:scripting/monoscript/fileName/AbstractAreaOfEffect.cs: d4f7faeacacabfe3cf90fcad5fa19bd0 -> 77c1ce6e1864a956b4d31c259db65594
+  custom:scripting/monoscript/fileName/IModifier.cs: e2d40a0e4bcbde4f760f40762f9cd1fc -> 9a7b05eb101c44930a3c4d514118cd8b
+  custom:scripting/monoscript/fileName/PlayerAction.cs: 985d39e7b50500d035729d8f75893f37 -> 3932dc7f5d863532d116683e30e5e6f3
+  custom:scripting/monoscript/fileName/EnemyMovement.cs: 98c5129cf93758925b0107f10295effd -> fd371b94d0452bed70b0891060a26e5f
+  custom:scripting/monoscript/fileName/TrailConfigScriptableObject.cs: 6eab7ed5edad01304f48e9019943cf98 -> a540cb746be867968a226bb3db126824
+  custom:scripting/monoscript/fileName/PickUpController.cs: 777d515f181318d223004f3f507611f9 -> 
+  custom:scripting/monoscript/fileName/SurfaceType.cs: 0e5c1a9ebcea6d404d1fe3d8fd88ef21 -> 66099f67005033465403c25208937ea4
+  custom:scripting/monoscript/fileName/AmmoConfigScriptableObjectPropertyDrawer.cs: 51d8dd6afeeb7fc7bd0f2fe861f2ec2e -> 4d6e3f271617e38807b1e08e5b96dc8f
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ThirdPersonShooterController.cs: eb7a196ee7e52d156d81d0e5d5898927 -> 
+  custom:scripting/monoscript/fileName/SpawnObjectEffect.cs: eeb2926ba0fbcd58f5779732eeb65fce -> 21549e5323461ecc0365665c368541de
+  custom:scripting/monoscript/fileName/AmmoConfigScriptableObject.cs: 194e946c0c18a68190c3c5ce5596e8cb -> 61f90f79fd9819093c0a073d1bc0fdd5
+  custom:scripting/monoscript/fileName/AbstractValueModifier.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/AudioConfigScriptableObjectPropertyDrawer.cs: c0dc63617eb1d7c60bc39164d18f7b2c -> 3c87e1ee2fcd810e50718bcc64ede80b
+  custom:scripting/monoscript/fileName/Spawn Particle System On Death.cs: 41b39abdf758126a5c95e2e5da4f8c27 -> 
+  custom:scripting/monoscript/fileName/BulletTarget.cs: 8a42b17f44e363892eac3fceae261b5a -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.371 seconds
+Refreshing native plugins compatible for Editor in 2.21 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.922 seconds
+Domain Reload Profiling: 1292ms
+	BeginReloadAssembly (129ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (184ms)
+		LoadAssemblies (229ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (923ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (436ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (303ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 2.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6101 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (4.9 MB). Loaded Objects now: 6976.
+Memory consumption went from 245.7 MB to 240.8 MB.
+Total: 4.859900 ms (FindLiveObjects: 0.410300 ms CreateObjectMapping: 0.325000 ms MarkObjects: 2.790200 ms  DeleteObjects: 1.333800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/JsonDataService.cs: e60860cdad46bb199939d2bb6e3da4b1 -> f026935cf7a6dba9e3af1d1b9b2dc7c4
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/Gun Pickups.cs: 9e472622ee0d7b819495691ef02efee1 -> 
+  custom:scripting/monoscript/fileName/GunScriptableObjectEditor.cs: a585e75eb7c08c1af5858952c3814444 -> d95f31c758e90103fdc74c4c7a937e2f
+  custom:scripting/monoscript/fileName/ICollisionHandler.cs: 4fddd33d4f279082ce82d181e5ec7673 -> bc2a295fbaa33835a2aefa809827fc03
+  custom:scripting/monoscript/fileName/DeathDestroyCallback.cs: ae6498255b9de1a2e55d99d9ccd684cb -> 1ab99ba805b232e57432bd14b9fa991e
+  custom:scripting/monoscript/fileName/Surface.cs: 95094f06edf3ebe24d74b052e4a43297 -> 68534428341647e57d6a181bef022969
+  custom:scripting/monoscript/fileName/Ammo Config Scriptable Object.cs: 47f4dbaa36ba40d5ba799bb91c2c31e4 -> 
+  custom:scripting/monoscript/fileName/SurfaceEffect.cs: 1dc51154a812101a5576d3bca2073c09 -> 22399b4309ab5cc2c85ddfaa6d6eac80
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/FloatModifier.cs: e21a32c39ce2968825ff4400d41cdfa3 -> 2ca6406414b81d5610d5ab0b32c7456e
+  custom:scripting/monoscript/fileName/AudioConfigScriptableObject.cs: 836c8db00b4bd829500dcba3f8e41cd8 -> ae34c94c52e8b47652c466c4811b9213
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/GunScriptableObject.cs: 41c2704e31df92477cdbd4e4393dbb20 -> 8d5ca171cca37eb27e314efb03a86a50
+  custom:scripting/monoscript/fileName/PlayerIK.cs: 792bc7fe915be3ef2af8363b52efc6ae -> 
+  custom:scripting/monoscript/fileName/ISlowable.cs: 8f8f4c84fd22bb033939350dec359cf9 -> 910fb311f0185ed5788b4ccc07f23c1e
+  custom:scripting/monoscript/fileName/EnemyHealth.cs: 110f063c9f7758b0c01a2919c5697336 -> b9251a5d81940ca7b22404cbfa9defa9
+  custom:scripting/monoscript/fileName/ImpactEffectReplacementModifier.cs: b255265f86535fb4bb51a450cb2346d6 -> 336b1f7f3449579bc473205c578d6969
+  custom:scripting/monoscript/fileName/GunModifierApplier.cs: 01b3a478c3cf06e8ead2ad699bb48f38 -> 8cfe49117fbd0a2f3db11d43006a3845
+  custom:scripting/monoscript/fileName/ImpactTypeModifier.cs: b7d28ee1e1cad5e1d9c8d3f476f303bd -> f35d8719a942215bfb5f389dc0e63e4f
+  custom:scripting/monoscript/fileName/DamageModifier.cs: ebb190d66dc569c62451fe4369c612e2 -> 7ae3f6046c277141eb81de0c917c9a8a
+  custom:scripting/monoscript/fileName/PoolableObject.cs: c67b0f9f0ce5fd450e4aec3442b199b8 -> d154161691f6fc8ba9ff3c098c6dbddb
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:scripting/monoscript/fileName/Vector3Modifier.cs: 52a59b446dc5ac56aa228ae45aa2f70a -> bfc4555fa65faeb3c7244482398dcf65
+  custom:scripting/monoscript/fileName/TrailConfigScriptableObjectPropertyDrawer.cs: f47142f68a516040725c0393d7fd4858 -> a6551f7c063b00f56d8ab78d811d1e07
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Abstract Value Modifier.cs: baf4ef768c5dac2c62db840a5127318e -> 
+  custom:scripting/monoscript/fileName/Shoot Configuration Scriptable Object.cs: 42f0866e786a2fb5d19ee20de245a7f3 -> 
+  custom:scripting/monoscript/fileName/Explode.cs: 546a5bb4e87e9dc75b694aec300a0c04 -> f1e719c4bae748595307d9c3fb58bbe6
+  custom:scripting/monoscript/fileName/Utilities.cs: a0d84f982f1be314ccfebfc0110364af -> 4afc183a3f6c3e542da5a596c51f3a5b
+  custom:scripting/monoscript/fileName/BulletProjectile.cs: 9889cdb978cda4373ee9d166c1f5f3f3 -> 
+  custom:scripting/monoscript/fileName/I Damageable.cs: e64f76ace9702e1e0c6016368cb48d14 -> 
+  custom:scripting/monoscript/fileName/Attachment.cs: 9c6b29555d89d3d438c699e6eea7e550 -> f14c8e261d2f48dfc50e1dcf14907d6c
+  custom:scripting/monoscript/fileName/Gun Scriptable Object.cs: cd2f82d16dcb6520f6c567afe8eadc05 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/SurfaceManager.cs: 0aa3a33e77ffb9a3a1febbc528489e42 -> ae37eca1708437b07d63e32da8638631
+  custom:scripting/monoscript/fileName/BulletPenetrationConfigScriptableObject.cs: 062e0db62b1ed46051ec232e0da81c6d -> 208dca35e535256e6afe9ba44a5bf9f8
+  custom:scripting/monoscript/fileName/ObjectPool.cs: 44ef958af71a66d860d582ad3e685c6a -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/Damage Config Scriptable Object.cs: 798dd4f821239c25e70c6353cb43e333 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/ScriptableObjectCreator.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
+  custom:scripting/monoscript/fileName/DamageConfigScriptableObject.cs: 0039fd9f12f1ee0bc0f5340b7c3d9ee2 -> 1545e92f9f42224b115b39359d2d50d1
+  custom:scripting/monoscript/fileName/Frost.cs: e29bf70ad1f8b5d39f626a74ea37fbd8 -> 9d0e38dc4a3c61ed288ff64fcf1f7e53
+  custom:scripting/monoscript/fileName/ShootConfigScriptableObjectPropertyDrawer.cs: 4ae7adb550f517cb69dca69bb057c0bd -> 29cecd7d900c3283a58b0a28f6fc69e1
+  custom:scripting/monoscript/fileName/AmmoPickup.cs: 2166c5ddd871b1850292b42ab1efacad -> e9b098d793782e784f0b1b53967be096
+  custom:scripting/monoscript/fileName/PlayerGunSelector.cs: 009e1c50d972f1af86c893092ffca3b6 -> 9b8cb64b313cb9101d92a2ef23584f8e
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/LookAtIK.cs: b7e5a0d94fd76df4edf086470fbac08e -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/Bullet Penetration Config Scriptable Object.cs: 39c4b8c98635c7417f1c548cc1364b9c -> 
+  custom:scripting/monoscript/fileName/IDataService.cs: 96364535b02cdd3dfa8d5d96b624ab89 -> 4ee93f2f1765e685fb151faf12aa910f
+  custom:scripting/monoscript/fileName/SpawnParticleSystemOnDeath.cs: a25b8e12f2fe1e45b8dec54f01b26d7d -> de8cba89e7c38ca5f1eec36695e5a4e4
+  custom:scripting/monoscript/fileName/ShootConfigScriptableObject.cs: 1c61ce1b12590eb66f38fc8a8f518560 -> cef5da2a0f72f19fa395b7ae907347be
+  custom:scripting/monoscript/fileName/SimpleClickToShoot.cs: 6dd4e8839ce685b356e641b0afe2772e -> 
+  custom:scripting/monoscript/fileName/Loadout.cs: 75999a4c27e6c570d3c7091cb2534c01 -> 7571a00536551ddf5e6ec9da988c2f74
+  custom:scripting/monoscript/fileName/EnemyPainResponse.cs: 6faafa6c7d56adba697a418f94e907bb -> 2787749355392ec54f69294aef66088f
+  custom:scripting/monoscript/fileName/AttachmentSlot.cs: 0440d824fd02ed1656330a0bc8b36da6 -> cdea3bb153e645e467a7903a24ec61af
+  custom:scripting/monoscript/fileName/PlayerActionEditor.cs: 958d39d02f1073431df39c1b14352c36 -> 9f18f9a663547f8e240bae07059cf932
+  custom:scripting/monoscript/fileName/PlayAudioEffect.cs: 00bb738034b14a204444973c7a013921 -> 0440b77c81855d6e344e482eb6c7af7e
+  custom:scripting/monoscript/fileName/Enemy.cs: 55e62eab2991045b0bcacfe03761ec57 -> 848585670dd5cada5f125876120d8c50
+  custom:scripting/monoscript/fileName/Trail Config Scriptable Object.cs: 78f12ed30ed49c943ff8a7e77519b3fb -> 
+  custom:scripting/monoscript/fileName/ImpactType.cs: 5827c959c3b94c83ea8cb0f6aae80676 -> 3f39bbe75450299bb6c8f40f91381a1d
+  custom:scripting/monoscript/fileName/DamageConfigScriptableObjectPropertyDrawer.cs: 642e9db7cfce23eaa81d9db20174268a -> 29ed1a402778dfee22122f3321ab3496
+  custom:scripting/monoscript/fileName/GunPickup.cs: ffc9f72a029f6b4e40ac5d02441bc439 -> b59c37bfaec7d5e55569cc495f206f20
+  custom:scripting/monoscript/fileName/SliderWithInput.cs: dc2876dd8543808db56d49bf58b42b20 -> 42750342e5a3c5177dfadc3a10691fa0
+  custom:scripting/monoscript/fileName/Ammo Displayer.cs: a3d3a7bb1fb01a2f4778df69feff85b0 -> 
+  custom:scripting/monoscript/fileName/FadeOutDecal.cs: 5a52a3c8109935b4ae0307041ea23d08 -> 
+  custom:scripting/monoscript/fileName/BulletPenetrationConfigScriptableObjectPropertyDrawer.cs: 804b14044b26636b0812efe66658561f -> b266e6101d6575bb914709486d71e7dc
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/AmmoDisplayer.cs: 9405eb42726234bc5910c3aa85ead717 -> 0458fb7f0441507e9892a2f6e04e8bd9
+  custom:scripting/monoscript/fileName/IDamageable.cs: 0143820b2f653153f25947ad89b8c329 -> 144d583aa1c63fd8cc39df7824ac5b3d
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/InvalidPathSpecifiedException.cs: 131f0dc635f42d89b5b05fbe988bfb29 -> 89276a9330fcf18a3c4b7f79ea6c0cd0
+  custom:scripting/monoscript/fileName/Player Action.cs: a80cb126aeae4eae3279b1ce167414de -> 
+  custom:scripting/monoscript/fileName/Player Gun Selector.cs: 96571425e73632567606906c4e4dd21b -> 
+  custom:scripting/monoscript/fileName/Bullet.cs: 4e6d5c58b10435ea673435acbbb0da4b -> e17213f521d9d8e6d7102a4ba21ee9c1
+  custom:scripting/monoscript/fileName/Enemy Health.cs: a4d027726692f4f1a1dc379aafbb87e2 -> 
+  custom:scripting/monoscript/fileName/AbstractAreaOfEffect.cs: d4f7faeacacabfe3cf90fcad5fa19bd0 -> 77c1ce6e1864a956b4d31c259db65594
+  custom:scripting/monoscript/fileName/IModifier.cs: e2d40a0e4bcbde4f760f40762f9cd1fc -> 9a7b05eb101c44930a3c4d514118cd8b
+  custom:scripting/monoscript/fileName/PlayerAction.cs: 985d39e7b50500d035729d8f75893f37 -> 3932dc7f5d863532d116683e30e5e6f3
+  custom:scripting/monoscript/fileName/EnemyMovement.cs: 98c5129cf93758925b0107f10295effd -> fd371b94d0452bed70b0891060a26e5f
+  custom:scripting/monoscript/fileName/TrailConfigScriptableObject.cs: 6eab7ed5edad01304f48e9019943cf98 -> a540cb746be867968a226bb3db126824
+  custom:scripting/monoscript/fileName/PickUpController.cs: 777d515f181318d223004f3f507611f9 -> 
+  custom:scripting/monoscript/fileName/SurfaceType.cs: 0e5c1a9ebcea6d404d1fe3d8fd88ef21 -> 66099f67005033465403c25208937ea4
+  custom:scripting/monoscript/fileName/AmmoConfigScriptableObjectPropertyDrawer.cs: 51d8dd6afeeb7fc7bd0f2fe861f2ec2e -> 4d6e3f271617e38807b1e08e5b96dc8f
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ThirdPersonShooterController.cs: eb7a196ee7e52d156d81d0e5d5898927 -> 
+  custom:scripting/monoscript/fileName/SpawnObjectEffect.cs: eeb2926ba0fbcd58f5779732eeb65fce -> 21549e5323461ecc0365665c368541de
+  custom:scripting/monoscript/fileName/AmmoConfigScriptableObject.cs: 194e946c0c18a68190c3c5ce5596e8cb -> 61f90f79fd9819093c0a073d1bc0fdd5
+  custom:scripting/monoscript/fileName/AbstractValueModifier.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/AudioConfigScriptableObjectPropertyDrawer.cs: c0dc63617eb1d7c60bc39164d18f7b2c -> 3c87e1ee2fcd810e50718bcc64ede80b
+  custom:scripting/monoscript/fileName/Spawn Particle System On Death.cs: 41b39abdf758126a5c95e2e5da4f8c27 -> 
+  custom:scripting/monoscript/fileName/BulletTarget.cs: 8a42b17f44e363892eac3fceae261b5a -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.400 seconds
+Refreshing native plugins compatible for Editor in 1.96 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.903 seconds
+Domain Reload Profiling: 1300ms
+	BeginReloadAssembly (132ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (207ms)
+		LoadAssemblies (229ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (40ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (20ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (903ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (435ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (300ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 1.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6101 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (4.9 MB). Loaded Objects now: 6992.
+Memory consumption went from 247.6 MB to 242.7 MB.
+Total: 4.682000 ms (FindLiveObjects: 0.420800 ms CreateObjectMapping: 0.320600 ms MarkObjects: 2.606300 ms  DeleteObjects: 1.333600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/JsonDataService.cs: e60860cdad46bb199939d2bb6e3da4b1 -> f026935cf7a6dba9e3af1d1b9b2dc7c4
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/Gun Pickups.cs: 9e472622ee0d7b819495691ef02efee1 -> 
+  custom:scripting/monoscript/fileName/GunScriptableObjectEditor.cs: a585e75eb7c08c1af5858952c3814444 -> d95f31c758e90103fdc74c4c7a937e2f
+  custom:scripting/monoscript/fileName/ICollisionHandler.cs: 4fddd33d4f279082ce82d181e5ec7673 -> bc2a295fbaa33835a2aefa809827fc03
+  custom:scripting/monoscript/fileName/DeathDestroyCallback.cs: ae6498255b9de1a2e55d99d9ccd684cb -> 1ab99ba805b232e57432bd14b9fa991e
+  custom:scripting/monoscript/fileName/Surface.cs: 95094f06edf3ebe24d74b052e4a43297 -> 68534428341647e57d6a181bef022969
+  custom:scripting/monoscript/fileName/Ammo Config Scriptable Object.cs: 47f4dbaa36ba40d5ba799bb91c2c31e4 -> 
+  custom:scripting/monoscript/fileName/SurfaceEffect.cs: 1dc51154a812101a5576d3bca2073c09 -> 22399b4309ab5cc2c85ddfaa6d6eac80
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/FloatModifier.cs: e21a32c39ce2968825ff4400d41cdfa3 -> 2ca6406414b81d5610d5ab0b32c7456e
+  custom:scripting/monoscript/fileName/AudioConfigScriptableObject.cs: 836c8db00b4bd829500dcba3f8e41cd8 -> ae34c94c52e8b47652c466c4811b9213
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/GunScriptableObject.cs: 41c2704e31df92477cdbd4e4393dbb20 -> 8d5ca171cca37eb27e314efb03a86a50
+  custom:scripting/monoscript/fileName/PlayerIK.cs: 792bc7fe915be3ef2af8363b52efc6ae -> 
+  custom:scripting/monoscript/fileName/ISlowable.cs: 8f8f4c84fd22bb033939350dec359cf9 -> 910fb311f0185ed5788b4ccc07f23c1e
+  custom:scripting/monoscript/fileName/EnemyHealth.cs: 110f063c9f7758b0c01a2919c5697336 -> b9251a5d81940ca7b22404cbfa9defa9
+  custom:scripting/monoscript/fileName/ImpactEffectReplacementModifier.cs: b255265f86535fb4bb51a450cb2346d6 -> 336b1f7f3449579bc473205c578d6969
+  custom:scripting/monoscript/fileName/GunModifierApplier.cs: 01b3a478c3cf06e8ead2ad699bb48f38 -> 8cfe49117fbd0a2f3db11d43006a3845
+  custom:scripting/monoscript/fileName/ImpactTypeModifier.cs: b7d28ee1e1cad5e1d9c8d3f476f303bd -> f35d8719a942215bfb5f389dc0e63e4f
+  custom:scripting/monoscript/fileName/DamageModifier.cs: ebb190d66dc569c62451fe4369c612e2 -> 7ae3f6046c277141eb81de0c917c9a8a
+  custom:scripting/monoscript/fileName/PoolableObject.cs: c67b0f9f0ce5fd450e4aec3442b199b8 -> d154161691f6fc8ba9ff3c098c6dbddb
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:scripting/monoscript/fileName/Vector3Modifier.cs: 52a59b446dc5ac56aa228ae45aa2f70a -> bfc4555fa65faeb3c7244482398dcf65
+  custom:scripting/monoscript/fileName/TrailConfigScriptableObjectPropertyDrawer.cs: f47142f68a516040725c0393d7fd4858 -> a6551f7c063b00f56d8ab78d811d1e07
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Abstract Value Modifier.cs: baf4ef768c5dac2c62db840a5127318e -> 
+  custom:scripting/monoscript/fileName/Shoot Configuration Scriptable Object.cs: 42f0866e786a2fb5d19ee20de245a7f3 -> 
+  custom:scripting/monoscript/fileName/Explode.cs: 546a5bb4e87e9dc75b694aec300a0c04 -> f1e719c4bae748595307d9c3fb58bbe6
+  custom:scripting/monoscript/fileName/Utilities.cs: a0d84f982f1be314ccfebfc0110364af -> 4afc183a3f6c3e542da5a596c51f3a5b
+  custom:scripting/monoscript/fileName/BulletProjectile.cs: 9889cdb978cda4373ee9d166c1f5f3f3 -> 
+  custom:scripting/monoscript/fileName/I Damageable.cs: e64f76ace9702e1e0c6016368cb48d14 -> 
+  custom:scripting/monoscript/fileName/Attachment.cs: 9c6b29555d89d3d438c699e6eea7e550 -> f14c8e261d2f48dfc50e1dcf14907d6c
+  custom:scripting/monoscript/fileName/Gun Scriptable Object.cs: cd2f82d16dcb6520f6c567afe8eadc05 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/SurfaceManager.cs: 0aa3a33e77ffb9a3a1febbc528489e42 -> ae37eca1708437b07d63e32da8638631
+  custom:scripting/monoscript/fileName/BulletPenetrationConfigScriptableObject.cs: 062e0db62b1ed46051ec232e0da81c6d -> 208dca35e535256e6afe9ba44a5bf9f8
+  custom:scripting/monoscript/fileName/ObjectPool.cs: 44ef958af71a66d860d582ad3e685c6a -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/Damage Config Scriptable Object.cs: 798dd4f821239c25e70c6353cb43e333 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/ScriptableObjectCreator.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
+  custom:scripting/monoscript/fileName/DamageConfigScriptableObject.cs: 0039fd9f12f1ee0bc0f5340b7c3d9ee2 -> 1545e92f9f42224b115b39359d2d50d1
+  custom:scripting/monoscript/fileName/Frost.cs: e29bf70ad1f8b5d39f626a74ea37fbd8 -> 9d0e38dc4a3c61ed288ff64fcf1f7e53
+  custom:scripting/monoscript/fileName/ShootConfigScriptableObjectPropertyDrawer.cs: 4ae7adb550f517cb69dca69bb057c0bd -> 29cecd7d900c3283a58b0a28f6fc69e1
+  custom:scripting/monoscript/fileName/AmmoPickup.cs: 2166c5ddd871b1850292b42ab1efacad -> e9b098d793782e784f0b1b53967be096
+  custom:scripting/monoscript/fileName/PlayerGunSelector.cs: 009e1c50d972f1af86c893092ffca3b6 -> 9b8cb64b313cb9101d92a2ef23584f8e
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/LookAtIK.cs: b7e5a0d94fd76df4edf086470fbac08e -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/Bullet Penetration Config Scriptable Object.cs: 39c4b8c98635c7417f1c548cc1364b9c -> 
+  custom:scripting/monoscript/fileName/IDataService.cs: 96364535b02cdd3dfa8d5d96b624ab89 -> 4ee93f2f1765e685fb151faf12aa910f
+  custom:scripting/monoscript/fileName/SpawnParticleSystemOnDeath.cs: a25b8e12f2fe1e45b8dec54f01b26d7d -> de8cba89e7c38ca5f1eec36695e5a4e4
+  custom:scripting/monoscript/fileName/ShootConfigScriptableObject.cs: 1c61ce1b12590eb66f38fc8a8f518560 -> cef5da2a0f72f19fa395b7ae907347be
+  custom:scripting/monoscript/fileName/SimpleClickToShoot.cs: 6dd4e8839ce685b356e641b0afe2772e -> 
+  custom:scripting/monoscript/fileName/Loadout.cs: 75999a4c27e6c570d3c7091cb2534c01 -> 7571a00536551ddf5e6ec9da988c2f74
+  custom:scripting/monoscript/fileName/EnemyPainResponse.cs: 6faafa6c7d56adba697a418f94e907bb -> 2787749355392ec54f69294aef66088f
+  custom:scripting/monoscript/fileName/AttachmentSlot.cs: 0440d824fd02ed1656330a0bc8b36da6 -> cdea3bb153e645e467a7903a24ec61af
+  custom:scripting/monoscript/fileName/PlayerActionEditor.cs: 958d39d02f1073431df39c1b14352c36 -> 9f18f9a663547f8e240bae07059cf932
+  custom:scripting/monoscript/fileName/PlayAudioEffect.cs: 00bb738034b14a204444973c7a013921 -> 0440b77c81855d6e344e482eb6c7af7e
+  custom:scripting/monoscript/fileName/Enemy.cs: 55e62eab2991045b0bcacfe03761ec57 -> 848585670dd5cada5f125876120d8c50
+  custom:scripting/monoscript/fileName/Trail Config Scriptable Object.cs: 78f12ed30ed49c943ff8a7e77519b3fb -> 
+  custom:scripting/monoscript/fileName/ImpactType.cs: 5827c959c3b94c83ea8cb0f6aae80676 -> 3f39bbe75450299bb6c8f40f91381a1d
+  custom:scripting/monoscript/fileName/DamageConfigScriptableObjectPropertyDrawer.cs: 642e9db7cfce23eaa81d9db20174268a -> 29ed1a402778dfee22122f3321ab3496
+  custom:scripting/monoscript/fileName/GunPickup.cs: ffc9f72a029f6b4e40ac5d02441bc439 -> b59c37bfaec7d5e55569cc495f206f20
+  custom:scripting/monoscript/fileName/SliderWithInput.cs: dc2876dd8543808db56d49bf58b42b20 -> 42750342e5a3c5177dfadc3a10691fa0
+  custom:scripting/monoscript/fileName/Ammo Displayer.cs: a3d3a7bb1fb01a2f4778df69feff85b0 -> 
+  custom:scripting/monoscript/fileName/FadeOutDecal.cs: 5a52a3c8109935b4ae0307041ea23d08 -> 
+  custom:scripting/monoscript/fileName/BulletPenetrationConfigScriptableObjectPropertyDrawer.cs: 804b14044b26636b0812efe66658561f -> b266e6101d6575bb914709486d71e7dc
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/AmmoDisplayer.cs: 9405eb42726234bc5910c3aa85ead717 -> 0458fb7f0441507e9892a2f6e04e8bd9
+  custom:scripting/monoscript/fileName/IDamageable.cs: 0143820b2f653153f25947ad89b8c329 -> 144d583aa1c63fd8cc39df7824ac5b3d
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/InvalidPathSpecifiedException.cs: 131f0dc635f42d89b5b05fbe988bfb29 -> 89276a9330fcf18a3c4b7f79ea6c0cd0
+  custom:scripting/monoscript/fileName/Player Action.cs: a80cb126aeae4eae3279b1ce167414de -> 
+  custom:scripting/monoscript/fileName/Player Gun Selector.cs: 96571425e73632567606906c4e4dd21b -> 
+  custom:scripting/monoscript/fileName/Bullet.cs: 4e6d5c58b10435ea673435acbbb0da4b -> e17213f521d9d8e6d7102a4ba21ee9c1
+  custom:scripting/monoscript/fileName/Enemy Health.cs: a4d027726692f4f1a1dc379aafbb87e2 -> 
+  custom:scripting/monoscript/fileName/AbstractAreaOfEffect.cs: d4f7faeacacabfe3cf90fcad5fa19bd0 -> 77c1ce6e1864a956b4d31c259db65594
+  custom:scripting/monoscript/fileName/IModifier.cs: e2d40a0e4bcbde4f760f40762f9cd1fc -> 9a7b05eb101c44930a3c4d514118cd8b
+  custom:scripting/monoscript/fileName/PlayerAction.cs: 985d39e7b50500d035729d8f75893f37 -> 3932dc7f5d863532d116683e30e5e6f3
+  custom:scripting/monoscript/fileName/EnemyMovement.cs: 98c5129cf93758925b0107f10295effd -> fd371b94d0452bed70b0891060a26e5f
+  custom:scripting/monoscript/fileName/TrailConfigScriptableObject.cs: 6eab7ed5edad01304f48e9019943cf98 -> a540cb746be867968a226bb3db126824
+  custom:scripting/monoscript/fileName/PickUpController.cs: 777d515f181318d223004f3f507611f9 -> 
+  custom:scripting/monoscript/fileName/SurfaceType.cs: 0e5c1a9ebcea6d404d1fe3d8fd88ef21 -> 66099f67005033465403c25208937ea4
+  custom:scripting/monoscript/fileName/AmmoConfigScriptableObjectPropertyDrawer.cs: 51d8dd6afeeb7fc7bd0f2fe861f2ec2e -> 4d6e3f271617e38807b1e08e5b96dc8f
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ThirdPersonShooterController.cs: eb7a196ee7e52d156d81d0e5d5898927 -> 
+  custom:scripting/monoscript/fileName/SpawnObjectEffect.cs: eeb2926ba0fbcd58f5779732eeb65fce -> 21549e5323461ecc0365665c368541de
+  custom:scripting/monoscript/fileName/AmmoConfigScriptableObject.cs: 194e946c0c18a68190c3c5ce5596e8cb -> 61f90f79fd9819093c0a073d1bc0fdd5
+  custom:scripting/monoscript/fileName/AbstractValueModifier.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/AudioConfigScriptableObjectPropertyDrawer.cs: c0dc63617eb1d7c60bc39164d18f7b2c -> 3c87e1ee2fcd810e50718bcc64ede80b
+  custom:scripting/monoscript/fileName/Spawn Particle System On Death.cs: 41b39abdf758126a5c95e2e5da4f8c27 -> 
+  custom:scripting/monoscript/fileName/BulletTarget.cs: 8a42b17f44e363892eac3fceae261b5a -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.375 seconds
+Refreshing native plugins compatible for Editor in 2.01 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.910 seconds
+Domain Reload Profiling: 1282ms
+	BeginReloadAssembly (131ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (183ms)
+		LoadAssemblies (227ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (910ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (433ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (299ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 1.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6101 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 89 unused Assets / (4.9 MB). Loaded Objects now: 7008.
+Memory consumption went from 249.5 MB to 244.7 MB.
+Total: 4.948000 ms (FindLiveObjects: 0.427600 ms CreateObjectMapping: 0.301700 ms MarkObjects: 2.885200 ms  DeleteObjects: 1.333000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/JsonDataService.cs: e60860cdad46bb199939d2bb6e3da4b1 -> f026935cf7a6dba9e3af1d1b9b2dc7c4
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/Gun Pickups.cs: 9e472622ee0d7b819495691ef02efee1 -> 
+  custom:scripting/monoscript/fileName/GunScriptableObjectEditor.cs: a585e75eb7c08c1af5858952c3814444 -> d95f31c758e90103fdc74c4c7a937e2f
+  custom:scripting/monoscript/fileName/ICollisionHandler.cs: 4fddd33d4f279082ce82d181e5ec7673 -> bc2a295fbaa33835a2aefa809827fc03
+  custom:scripting/monoscript/fileName/DeathDestroyCallback.cs: ae6498255b9de1a2e55d99d9ccd684cb -> 1ab99ba805b232e57432bd14b9fa991e
+  custom:scripting/monoscript/fileName/Surface.cs: 95094f06edf3ebe24d74b052e4a43297 -> 68534428341647e57d6a181bef022969
+  custom:scripting/monoscript/fileName/Ammo Config Scriptable Object.cs: 47f4dbaa36ba40d5ba799bb91c2c31e4 -> 
+  custom:scripting/monoscript/fileName/SurfaceEffect.cs: 1dc51154a812101a5576d3bca2073c09 -> 22399b4309ab5cc2c85ddfaa6d6eac80
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/FloatModifier.cs: e21a32c39ce2968825ff4400d41cdfa3 -> 2ca6406414b81d5610d5ab0b32c7456e
+  custom:scripting/monoscript/fileName/AudioConfigScriptableObject.cs: 836c8db00b4bd829500dcba3f8e41cd8 -> ae34c94c52e8b47652c466c4811b9213
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/GunScriptableObject.cs: 41c2704e31df92477cdbd4e4393dbb20 -> 8d5ca171cca37eb27e314efb03a86a50
+  custom:scripting/monoscript/fileName/PlayerIK.cs: 792bc7fe915be3ef2af8363b52efc6ae -> 
+  custom:scripting/monoscript/fileName/ISlowable.cs: 8f8f4c84fd22bb033939350dec359cf9 -> 910fb311f0185ed5788b4ccc07f23c1e
+  custom:scripting/monoscript/fileName/EnemyHealth.cs: 110f063c9f7758b0c01a2919c5697336 -> b9251a5d81940ca7b22404cbfa9defa9
+  custom:scripting/monoscript/fileName/ImpactEffectReplacementModifier.cs: b255265f86535fb4bb51a450cb2346d6 -> 336b1f7f3449579bc473205c578d6969
+  custom:scripting/monoscript/fileName/GunModifierApplier.cs: 01b3a478c3cf06e8ead2ad699bb48f38 -> 8cfe49117fbd0a2f3db11d43006a3845
+  custom:scripting/monoscript/fileName/ImpactTypeModifier.cs: b7d28ee1e1cad5e1d9c8d3f476f303bd -> f35d8719a942215bfb5f389dc0e63e4f
+  custom:scripting/monoscript/fileName/DamageModifier.cs: ebb190d66dc569c62451fe4369c612e2 -> 7ae3f6046c277141eb81de0c917c9a8a
+  custom:scripting/monoscript/fileName/PoolableObject.cs: c67b0f9f0ce5fd450e4aec3442b199b8 -> d154161691f6fc8ba9ff3c098c6dbddb
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:scripting/monoscript/fileName/Vector3Modifier.cs: 52a59b446dc5ac56aa228ae45aa2f70a -> bfc4555fa65faeb3c7244482398dcf65
+  custom:scripting/monoscript/fileName/TrailConfigScriptableObjectPropertyDrawer.cs: f47142f68a516040725c0393d7fd4858 -> a6551f7c063b00f56d8ab78d811d1e07
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Abstract Value Modifier.cs: baf4ef768c5dac2c62db840a5127318e -> 
+  custom:scripting/monoscript/fileName/Shoot Configuration Scriptable Object.cs: 42f0866e786a2fb5d19ee20de245a7f3 -> 
+  custom:scripting/monoscript/fileName/Explode.cs: 546a5bb4e87e9dc75b694aec300a0c04 -> f1e719c4bae748595307d9c3fb58bbe6
+  custom:scripting/monoscript/fileName/Utilities.cs: a0d84f982f1be314ccfebfc0110364af -> 4afc183a3f6c3e542da5a596c51f3a5b
+  custom:scripting/monoscript/fileName/BulletProjectile.cs: 9889cdb978cda4373ee9d166c1f5f3f3 -> 
+  custom:scripting/monoscript/fileName/I Damageable.cs: e64f76ace9702e1e0c6016368cb48d14 -> 
+  custom:scripting/monoscript/fileName/Attachment.cs: 9c6b29555d89d3d438c699e6eea7e550 -> f14c8e261d2f48dfc50e1dcf14907d6c
+  custom:scripting/monoscript/fileName/Gun Scriptable Object.cs: cd2f82d16dcb6520f6c567afe8eadc05 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/SurfaceManager.cs: 0aa3a33e77ffb9a3a1febbc528489e42 -> ae37eca1708437b07d63e32da8638631
+  custom:scripting/monoscript/fileName/BulletPenetrationConfigScriptableObject.cs: 062e0db62b1ed46051ec232e0da81c6d -> 208dca35e535256e6afe9ba44a5bf9f8
+  custom:scripting/monoscript/fileName/ObjectPool.cs: 44ef958af71a66d860d582ad3e685c6a -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/Damage Config Scriptable Object.cs: 798dd4f821239c25e70c6353cb43e333 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/ScriptableObjectCreator.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
+  custom:scripting/monoscript/fileName/DamageConfigScriptableObject.cs: 0039fd9f12f1ee0bc0f5340b7c3d9ee2 -> 1545e92f9f42224b115b39359d2d50d1
+  custom:scripting/monoscript/fileName/Frost.cs: e29bf70ad1f8b5d39f626a74ea37fbd8 -> 9d0e38dc4a3c61ed288ff64fcf1f7e53
+  custom:scripting/monoscript/fileName/ShootConfigScriptableObjectPropertyDrawer.cs: 4ae7adb550f517cb69dca69bb057c0bd -> 29cecd7d900c3283a58b0a28f6fc69e1
+  custom:scripting/monoscript/fileName/AmmoPickup.cs: 2166c5ddd871b1850292b42ab1efacad -> e9b098d793782e784f0b1b53967be096
+  custom:scripting/monoscript/fileName/PlayerGunSelector.cs: 009e1c50d972f1af86c893092ffca3b6 -> 9b8cb64b313cb9101d92a2ef23584f8e
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/LookAtIK.cs: b7e5a0d94fd76df4edf086470fbac08e -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/Bullet Penetration Config Scriptable Object.cs: 39c4b8c98635c7417f1c548cc1364b9c -> 
+  custom:scripting/monoscript/fileName/IDataService.cs: 96364535b02cdd3dfa8d5d96b624ab89 -> 4ee93f2f1765e685fb151faf12aa910f
+  custom:scripting/monoscript/fileName/SpawnParticleSystemOnDeath.cs: a25b8e12f2fe1e45b8dec54f01b26d7d -> de8cba89e7c38ca5f1eec36695e5a4e4
+  custom:scripting/monoscript/fileName/ShootConfigScriptableObject.cs: 1c61ce1b12590eb66f38fc8a8f518560 -> cef5da2a0f72f19fa395b7ae907347be
+  custom:scripting/monoscript/fileName/SimpleClickToShoot.cs: 6dd4e8839ce685b356e641b0afe2772e -> 
+  custom:scripting/monoscript/fileName/Loadout.cs: 75999a4c27e6c570d3c7091cb2534c01 -> 7571a00536551ddf5e6ec9da988c2f74
+  custom:scripting/monoscript/fileName/EnemyPainResponse.cs: 6faafa6c7d56adba697a418f94e907bb -> 2787749355392ec54f69294aef66088f
+  custom:scripting/monoscript/fileName/AttachmentSlot.cs: 0440d824fd02ed1656330a0bc8b36da6 -> cdea3bb153e645e467a7903a24ec61af
+  custom:scripting/monoscript/fileName/PlayerActionEditor.cs: 958d39d02f1073431df39c1b14352c36 -> 9f18f9a663547f8e240bae07059cf932
+  custom:scripting/monoscript/fileName/PlayAudioEffect.cs: 00bb738034b14a204444973c7a013921 -> 0440b77c81855d6e344e482eb6c7af7e
+  custom:scripting/monoscript/fileName/Enemy.cs: 55e62eab2991045b0bcacfe03761ec57 -> 848585670dd5cada5f125876120d8c50
+  custom:scripting/monoscript/fileName/Trail Config Scriptable Object.cs: 78f12ed30ed49c943ff8a7e77519b3fb -> 
+  custom:scripting/monoscript/fileName/ImpactType.cs: 5827c959c3b94c83ea8cb0f6aae80676 -> 3f39bbe75450299bb6c8f40f91381a1d
+  custom:scripting/monoscript/fileName/DamageConfigScriptableObjectPropertyDrawer.cs: 642e9db7cfce23eaa81d9db20174268a -> 29ed1a402778dfee22122f3321ab3496
+  custom:scripting/monoscript/fileName/GunPickup.cs: ffc9f72a029f6b4e40ac5d02441bc439 -> b59c37bfaec7d5e55569cc495f206f20
+  custom:scripting/monoscript/fileName/SliderWithInput.cs: dc2876dd8543808db56d49bf58b42b20 -> 42750342e5a3c5177dfadc3a10691fa0
+  custom:scripting/monoscript/fileName/Ammo Displayer.cs: a3d3a7bb1fb01a2f4778df69feff85b0 -> 
+  custom:scripting/monoscript/fileName/FadeOutDecal.cs: 5a52a3c8109935b4ae0307041ea23d08 -> 
+  custom:scripting/monoscript/fileName/BulletPenetrationConfigScriptableObjectPropertyDrawer.cs: 804b14044b26636b0812efe66658561f -> b266e6101d6575bb914709486d71e7dc
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/AmmoDisplayer.cs: 9405eb42726234bc5910c3aa85ead717 -> 0458fb7f0441507e9892a2f6e04e8bd9
+  custom:scripting/monoscript/fileName/IDamageable.cs: 0143820b2f653153f25947ad89b8c329 -> 144d583aa1c63fd8cc39df7824ac5b3d
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/InvalidPathSpecifiedException.cs: 131f0dc635f42d89b5b05fbe988bfb29 -> 89276a9330fcf18a3c4b7f79ea6c0cd0
+  custom:scripting/monoscript/fileName/Player Action.cs: a80cb126aeae4eae3279b1ce167414de -> 
+  custom:scripting/monoscript/fileName/Player Gun Selector.cs: 96571425e73632567606906c4e4dd21b -> 
+  custom:scripting/monoscript/fileName/Bullet.cs: 4e6d5c58b10435ea673435acbbb0da4b -> e17213f521d9d8e6d7102a4ba21ee9c1
+  custom:scripting/monoscript/fileName/Enemy Health.cs: a4d027726692f4f1a1dc379aafbb87e2 -> 
+  custom:scripting/monoscript/fileName/AbstractAreaOfEffect.cs: d4f7faeacacabfe3cf90fcad5fa19bd0 -> 77c1ce6e1864a956b4d31c259db65594
+  custom:scripting/monoscript/fileName/IModifier.cs: e2d40a0e4bcbde4f760f40762f9cd1fc -> 9a7b05eb101c44930a3c4d514118cd8b
+  custom:scripting/monoscript/fileName/PlayerAction.cs: 985d39e7b50500d035729d8f75893f37 -> 3932dc7f5d863532d116683e30e5e6f3
+  custom:scripting/monoscript/fileName/EnemyMovement.cs: 98c5129cf93758925b0107f10295effd -> fd371b94d0452bed70b0891060a26e5f
+  custom:scripting/monoscript/fileName/TrailConfigScriptableObject.cs: 6eab7ed5edad01304f48e9019943cf98 -> a540cb746be867968a226bb3db126824
+  custom:scripting/monoscript/fileName/PickUpController.cs: 777d515f181318d223004f3f507611f9 -> 
+  custom:scripting/monoscript/fileName/SurfaceType.cs: 0e5c1a9ebcea6d404d1fe3d8fd88ef21 -> 66099f67005033465403c25208937ea4
+  custom:scripting/monoscript/fileName/AmmoConfigScriptableObjectPropertyDrawer.cs: 51d8dd6afeeb7fc7bd0f2fe861f2ec2e -> 4d6e3f271617e38807b1e08e5b96dc8f
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ThirdPersonShooterController.cs: eb7a196ee7e52d156d81d0e5d5898927 -> 
+  custom:scripting/monoscript/fileName/SpawnObjectEffect.cs: eeb2926ba0fbcd58f5779732eeb65fce -> 21549e5323461ecc0365665c368541de
+  custom:scripting/monoscript/fileName/AmmoConfigScriptableObject.cs: 194e946c0c18a68190c3c5ce5596e8cb -> 61f90f79fd9819093c0a073d1bc0fdd5
+  custom:scripting/monoscript/fileName/AbstractValueModifier.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/AudioConfigScriptableObjectPropertyDrawer.cs: c0dc63617eb1d7c60bc39164d18f7b2c -> 3c87e1ee2fcd810e50718bcc64ede80b
+  custom:scripting/monoscript/fileName/Spawn Particle System On Death.cs: 41b39abdf758126a5c95e2e5da4f8c27 -> 
+  custom:scripting/monoscript/fileName/BulletTarget.cs: 8a42b17f44e363892eac3fceae261b5a -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1356.796484 seconds.
+  path: Assets/Guns/Guns/Mini Guns.asset
+  artifactKey: Guid(e25da259c54725640bf95e7ffe08b90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/Guns/Mini Guns.asset using Guid(e25da259c54725640bf95e7ffe08b90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6de7e8a665ac343023d13f3385bb593') in 0.026547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 0.023720 seconds.
+  path: Assets/Guns/Guns/Missile Hives 2.asset
+  artifactKey: Guid(69f6e4ba3d3f7c84d95ccdc86c421fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/Guns/Missile Hives 2.asset using Guid(69f6e4ba3d3f7c84d95ccdc86c421fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5437ad398844e14c69d5347ed6602a3') in 0.004275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 67
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
