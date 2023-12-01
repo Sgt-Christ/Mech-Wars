@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ed85ee6060fec74c945f411b531c1e9, type: 3}
+  m_Name: Orange Surface
+  m_EditorClassIdentifier: 
+  ImpactTypeEffects:
+  - ImpactType: {fileID: 11400000, guid: 7dc57d2aa5b83284192057f9c033ef58, type: 2}
+    SurfaceEffect: {fileID: 11400000, guid: 7e8b4d74a5e909346983685ee3e1423e, type: 2}
+  - ImpactType: {fileID: 11400000, guid: 47b8e6747a59c4144b8a35e7058aa86f, type: 2}
+    SurfaceEffect: {fileID: 11400000, guid: e5e08d4a45524934d986ad55162b285b, type: 2}
+  - ImpactType: {fileID: 11400000, guid: 4f6ee9613cbc1c74080f4bf67714f991, type: 2}
+    SurfaceEffect: {fileID: 11400000, guid: 55e5642ceb3ed2948a7c3d8c07f3a426, type: 2}
