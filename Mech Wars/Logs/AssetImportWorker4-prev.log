@@ -1,0 +1,882 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.11f1 (d00248457e15) revision 13632072'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 65440 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Program Files\Unity Hub\2022.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+F:/Mech Wars/Mech-Wars/Mech Wars
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+55597
+Successfully changed project path to: F:/Mech Wars/Mech-Wars/Mech Wars
+F:/Mech Wars/Mech-Wars/Mech Wars
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [34580] Host "[IP] 192.168.1.45 [Port] 0 [Flags] 2 [Guid] 51349900 [EditorId] 51349900 [Version] 1048832 [Id] WindowsEditor(7,Erics-Desktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [34580] Host "[IP] 192.168.1.45 [Port] 0 [Flags] 2 [Guid] 51349900 [EditorId] 51349900 [Version] 1048832 [Id] WindowsEditor(7,Erics-Desktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 31 workers.
+Refreshing native plugins compatible for Editor in 6.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.11f1 (d00248457e15)
+[Subsystems] Discovering subsystems at path D:/Program Files/Unity Hub/2022.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/Mech Wars/Mech-Wars/Mech Wars/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6800 XT (ID=0x73bf)
+    Vendor:   ATI
+    VRAM:     16338 MB
+    Driver:   31.0.12027.9001
+Initialize mono
+Mono path[0] = 'D:/Program Files/Unity Hub/2022.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/Unity Hub/2022.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Program Files/Unity Hub/2022.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56720
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files/Unity Hub/2022.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Program Files/Unity Hub/2022.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005007 seconds.
+- Loaded All Assemblies, in  0.274 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.206 seconds
+Domain Reload Profiling: 478ms
+	BeginReloadAssembly (85ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (106ms)
+		LoadAssemblies (83ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (105ms)
+			TypeCache.Refresh (103ms)
+				TypeCache.ScanAssembly (93ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (206ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (159ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (108ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.574 seconds
+Refreshing native plugins compatible for Editor in 1.97 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.640 seconds
+Domain Reload Profiling: 1212ms
+	BeginReloadAssembly (122ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (375ms)
+		LoadAssemblies (243ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (203ms)
+			TypeCache.Refresh (168ms)
+				TypeCache.ScanAssembly (155ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (641ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (503ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (359ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 2.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6287 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 105 unused Assets / (1.8 MB). Loaded Objects now: 6742.
+Memory consumption went from 330.7 MB to 328.9 MB.
+Total: 4.065400 ms (FindLiveObjects: 0.399400 ms CreateObjectMapping: 0.166600 ms MarkObjects: 3.069400 ms  DeleteObjects: 0.429200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1143457.416191 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Magic Effects/Models/IceShard.FBX
+  artifactKey: Guid(a7ca52bcb825d7044a8afdfd569507c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Magic Effects/Models/IceShard.FBX using Guid(a7ca52bcb825d7044a8afdfd569507c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9678af8f8ae3c3eedd360e90749c4af') in 0.366602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 37.491767 seconds.
+  path: Assets/UnityTechnologies/ParticlePack/EffectExamples/Magic Effects/Materials/IceMist.mat
+  artifactKey: Guid(c32a9cac58b398741add6365fbc2e883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/ParticlePack/EffectExamples/Magic Effects/Materials/IceMist.mat using Guid(c32a9cac58b398741add6365fbc2e883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb4f3c3b24204d1729b3d91ca9077889') in 0.029885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 89.610484 seconds.
+  path: Assets/Prefab/Guns/Double Cannon.prefab
+  artifactKey: Guid(386c63e98d1051346b653fdf99939f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Guns/Double Cannon.prefab using Guid(386c63e98d1051346b653fdf99939f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1009bff25531c7bc77995bd290e5bb1') in 0.051647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 88
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Prefab/Guns/MuzzleFlash01 Variant.prefab
+  artifactKey: Guid(9282564cea15ad049b62a2ec8ef8b78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Guns/MuzzleFlash01 Variant.prefab using Guid(9282564cea15ad049b62a2ec8ef8b78c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9430d640e132eeb51f0ffd4014ebcce7') in 0.013758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefab/Guns/Missile Hive V2.prefab
+  artifactKey: Guid(116545ad544005441a930f42933767fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Guns/Missile Hive V2.prefab using Guid(116545ad544005441a930f42933767fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acfca906f44ac63361c706b008c33335') in 0.020533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 129
+========================================================================
+Received Import Request.
+  Time since last request: 42.165041 seconds.
+  path: Assets/Prefab/Guns/Double Cannon.prefab
+  artifactKey: Guid(386c63e98d1051346b653fdf99939f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Guns/Double Cannon.prefab using Guid(386c63e98d1051346b653fdf99939f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a357071ca3043c3a73341d4bef53fbee') in 0.026774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 88
+========================================================================
+Received Import Request.
+  Time since last request: 21.416698 seconds.
+  path: Assets/Prefab/Guns/Double Cannon.prefab
+  artifactKey: Guid(386c63e98d1051346b653fdf99939f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Guns/Double Cannon.prefab using Guid(386c63e98d1051346b653fdf99939f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba9934e83444ef4570201103a775e95') in 0.021941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 88
+========================================================================
+Received Import Request.
+  Time since last request: 9.474480 seconds.
+  path: Assets/Prefab/Guns/Double Cannon.prefab
+  artifactKey: Guid(386c63e98d1051346b653fdf99939f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Guns/Double Cannon.prefab using Guid(386c63e98d1051346b653fdf99939f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0404a9791a44265b8d5bda475fa5d27e') in 0.023410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 88
+========================================================================
+Received Import Request.
+  Time since last request: 26.785157 seconds.
+  path: Assets/Prefab/Guns/Double Cannon.prefab
+  artifactKey: Guid(386c63e98d1051346b653fdf99939f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Guns/Double Cannon.prefab using Guid(386c63e98d1051346b653fdf99939f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc16edbb2fca438f7a8adf0b680b64b') in 0.022422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 88
+========================================================================
+Received Import Request.
+  Time since last request: 5.415850 seconds.
+  path: Assets/Prefab/Guns/Double Cannon.prefab
+  artifactKey: Guid(386c63e98d1051346b653fdf99939f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Guns/Double Cannon.prefab using Guid(386c63e98d1051346b653fdf99939f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce8bdb362dbcc2498573a2644e512a1') in 0.021975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 88
+========================================================================
+Received Import Request.
+  Time since last request: 10.648164 seconds.
+  path: Assets/Prefab/Guns/Double Cannon.prefab
+  artifactKey: Guid(386c63e98d1051346b653fdf99939f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Guns/Double Cannon.prefab using Guid(386c63e98d1051346b653fdf99939f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2409e2161d8bdc10d17f7ce31655a47b') in 0.022936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 88
+========================================================================
+Received Import Request.
+  Time since last request: 4.393849 seconds.
+  path: Assets/Prefab/Guns/Double Cannon.prefab
+  artifactKey: Guid(386c63e98d1051346b653fdf99939f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Guns/Double Cannon.prefab using Guid(386c63e98d1051346b653fdf99939f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6571f60cd3f348c9d0fae186bd7635f9') in 0.025175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 88
+========================================================================
+Received Import Request.
+  Time since last request: 21.317954 seconds.
+  path: Assets/Prefab/Guns/Double Cannon.prefab
+  artifactKey: Guid(386c63e98d1051346b653fdf99939f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Guns/Double Cannon.prefab using Guid(386c63e98d1051346b653fdf99939f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb31d74dea0f095643f7768afe890304') in 0.023673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 88
+========================================================================
+Received Import Request.
+  Time since last request: 12.045760 seconds.
+  path: Assets/Prefab/Guns/Double Cannon.prefab
+  artifactKey: Guid(386c63e98d1051346b653fdf99939f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Guns/Double Cannon.prefab using Guid(386c63e98d1051346b653fdf99939f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a410b6280668f9bff546bf346f56a77f') in 0.024029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 88
+========================================================================
+Received Import Request.
+  Time since last request: 7.418841 seconds.
+  path: Assets/Prefab/Guns/Double Cannon.prefab
+  artifactKey: Guid(386c63e98d1051346b653fdf99939f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Guns/Double Cannon.prefab using Guid(386c63e98d1051346b653fdf99939f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f9fd0a5e3bb13baffb748fad6410d3a') in 0.022658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 88
+========================================================================
+Received Import Request.
+  Time since last request: 7.835578 seconds.
+  path: Assets/Prefab/Guns/Double Cannon.prefab
+  artifactKey: Guid(386c63e98d1051346b653fdf99939f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Guns/Double Cannon.prefab using Guid(386c63e98d1051346b653fdf99939f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c95f97de0decc86968a25d765f487f4') in 0.021906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 88
+========================================================================
+Received Import Request.
+  Time since last request: 8.225689 seconds.
+  path: Assets/Prefab/Guns/Double Cannon.prefab
+  artifactKey: Guid(386c63e98d1051346b653fdf99939f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Guns/Double Cannon.prefab using Guid(386c63e98d1051346b653fdf99939f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db65bad25807fdd4c583225e83fa3cf2') in 0.023838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 88
+========================================================================
+Received Import Request.
+  Time since last request: 8.636816 seconds.
+  path: Assets/Prefab/Guns/Double Cannon.prefab
+  artifactKey: Guid(386c63e98d1051346b653fdf99939f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Guns/Double Cannon.prefab using Guid(386c63e98d1051346b653fdf99939f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeed79e08d7e34877ddb91962924e9b9') in 0.022023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 88
+========================================================================
+Received Import Request.
+  Time since last request: 27.600358 seconds.
+  path: Assets/Prefab/Guns/Double Cannon.prefab
+  artifactKey: Guid(386c63e98d1051346b653fdf99939f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Guns/Double Cannon.prefab using Guid(386c63e98d1051346b653fdf99939f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69097ddfd144afd7f7c80dde37eebb81') in 0.022008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 88
+========================================================================
+Received Import Request.
+  Time since last request: 32.467357 seconds.
+  path: Assets/Prefab/Guns/Double Cannon.prefab
+  artifactKey: Guid(386c63e98d1051346b653fdf99939f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Guns/Double Cannon.prefab using Guid(386c63e98d1051346b653fdf99939f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae39c3edce7ca1e9a883e517c01e059') in 0.024723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 88
+========================================================================
+Received Import Request.
+  Time since last request: 16.293014 seconds.
+  path: Assets/Prefab/Guns/Double Cannon.prefab
+  artifactKey: Guid(386c63e98d1051346b653fdf99939f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Guns/Double Cannon.prefab using Guid(386c63e98d1051346b653fdf99939f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '034f70cb693be24cb3348e9b47dfe2e5') in 0.021884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 88
+========================================================================
+Received Import Request.
+  Time since last request: 16.558329 seconds.
+  path: Assets/Prefab/Guns/Double Cannon.prefab
+  artifactKey: Guid(386c63e98d1051346b653fdf99939f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Guns/Double Cannon.prefab using Guid(386c63e98d1051346b653fdf99939f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c310ee11265464129c64e08247ab5bba') in 0.023295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 88
+========================================================================
+Received Import Request.
+  Time since last request: 6.830431 seconds.
+  path: Assets/Prefab/Guns/Double Cannon.prefab
+  artifactKey: Guid(386c63e98d1051346b653fdf99939f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Guns/Double Cannon.prefab using Guid(386c63e98d1051346b653fdf99939f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f1362b9c20b2becadc7e8887b7dc0ea') in 0.025106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 88
+========================================================================
+Received Import Request.
+  Time since last request: 31.795675 seconds.
+  path: Assets/Prefab/Guns/Double Cannon.prefab
+  artifactKey: Guid(386c63e98d1051346b653fdf99939f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Guns/Double Cannon.prefab using Guid(386c63e98d1051346b653fdf99939f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5d193c07192a7a2bcfd9c7fc0cd83bf') in 0.020981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 12.465294 seconds.
+  path: Assets/Prefab/Guns/Double Cannon.prefab
+  artifactKey: Guid(386c63e98d1051346b653fdf99939f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Guns/Double Cannon.prefab using Guid(386c63e98d1051346b653fdf99939f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71bc6fc791b8bbd30481a4b30e61f7bb') in 0.021414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 14.900259 seconds.
+  path: Assets/Prefab/Guns/Double Cannon.prefab
+  artifactKey: Guid(386c63e98d1051346b653fdf99939f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Guns/Double Cannon.prefab using Guid(386c63e98d1051346b653fdf99939f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f96bc49fe0225ddf0e4299f1091b6d0d') in 0.024199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 80
+========================================================================
+Received Import Request.
+  Time since last request: 21.018192 seconds.
+  path: Assets/Prefab/Guns/MuzzleFlash01 Variant 1.prefab
+  artifactKey: Guid(211e6386c3b9a5e4badd6fd7a557aebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Guns/MuzzleFlash01 Variant 1.prefab using Guid(211e6386c3b9a5e4badd6fd7a557aebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f757df4b2dab59ea5933fc26d4d7220b') in 0.007858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 60
+========================================================================
+Received Import Request.
+  Time since last request: 0.002782 seconds.
+  path: Assets/Prefab/Guns/Double Cannon.prefab
+  artifactKey: Guid(386c63e98d1051346b653fdf99939f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Guns/Double Cannon.prefab using Guid(386c63e98d1051346b653fdf99939f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beba6fe6dc25074bb486ff915e21b20f') in 0.024116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 96
+========================================================================
+Received Import Request.
+  Time since last request: 5.628044 seconds.
+  path: Assets/Prefab/Guns/Double Cannon.prefab
+  artifactKey: Guid(386c63e98d1051346b653fdf99939f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Guns/Double Cannon.prefab using Guid(386c63e98d1051346b653fdf99939f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd969d92117c48755fe5fad6721f6df5e') in 0.038509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Prefab/Guns/MuzzleFlash01 Variant 1.prefab
+  artifactKey: Guid(211e6386c3b9a5e4badd6fd7a557aebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Guns/MuzzleFlash01 Variant 1.prefab using Guid(211e6386c3b9a5e4badd6fd7a557aebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb5322bef7d76409fc230eb490805fee') in 0.000735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 35.451701 seconds.
+  path: Assets/Prefab/Guns/Double Cannon.prefab
+  artifactKey: Guid(386c63e98d1051346b653fdf99939f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Guns/Double Cannon.prefab using Guid(386c63e98d1051346b653fdf99939f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e13d0d3609d0e7d3eca477e59936bcec') in 0.018533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 33.465725 seconds.
+  path: Assets/Prefab/MuzzleFlash01.prefab
+  artifactKey: Guid(e1d65550e6bb2d24881b986c2ed5d01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/MuzzleFlash01.prefab using Guid(e1d65550e6bb2d24881b986c2ed5d01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b01b4b00460167fc52751641ad6e7cb') in 0.009369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 22.272844 seconds.
+  path: Assets/Prefab/MuzzleFlash01.prefab
+  artifactKey: Guid(e1d65550e6bb2d24881b986c2ed5d01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/MuzzleFlash01.prefab using Guid(e1d65550e6bb2d24881b986c2ed5d01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2de2bac690c1fa54e0bf21f20824906') in 0.005809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 5.828530 seconds.
+  path: Assets/Prefab/MuzzleFlash01.prefab
+  artifactKey: Guid(e1d65550e6bb2d24881b986c2ed5d01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/MuzzleFlash01.prefab using Guid(e1d65550e6bb2d24881b986c2ed5d01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3f47a9d3178aef282e3d1be5d0c9a69') in 0.005605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 5.704792 seconds.
+  path: Assets/Prefab/MuzzleFlash01.prefab
+  artifactKey: Guid(e1d65550e6bb2d24881b986c2ed5d01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/MuzzleFlash01.prefab using Guid(e1d65550e6bb2d24881b986c2ed5d01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6630ec870bb2d1844a6aba78b3666780') in 0.005150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 4.018951 seconds.
+  path: Assets/Prefab/MuzzleFlash01.prefab
+  artifactKey: Guid(e1d65550e6bb2d24881b986c2ed5d01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/MuzzleFlash01.prefab using Guid(e1d65550e6bb2d24881b986c2ed5d01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b19feb67adec5259ec04d255441343be') in 0.005294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 29.272112 seconds.
+  path: Assets/Prefab/MuzzleFlash01.prefab
+  artifactKey: Guid(e1d65550e6bb2d24881b986c2ed5d01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/MuzzleFlash01.prefab using Guid(e1d65550e6bb2d24881b986c2ed5d01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c93eee249cbced2510da736ce703323') in 0.006614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 5.418348 seconds.
+  path: Assets/Prefab/MuzzleFlash01.prefab
+  artifactKey: Guid(e1d65550e6bb2d24881b986c2ed5d01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/MuzzleFlash01.prefab using Guid(e1d65550e6bb2d24881b986c2ed5d01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36bbbc529245e15d87b419e49d05438f') in 0.005619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 23.962858 seconds.
+  path: Assets/Prefab/MuzzleFlash01.prefab
+  artifactKey: Guid(e1d65550e6bb2d24881b986c2ed5d01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/MuzzleFlash01.prefab using Guid(e1d65550e6bb2d24881b986c2ed5d01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd4605250d918a92f43699419337a865') in 0.005205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.583924 seconds.
+  path: Assets/Prefab/MuzzleFlash01.prefab
+  artifactKey: Guid(e1d65550e6bb2d24881b986c2ed5d01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/MuzzleFlash01.prefab using Guid(e1d65550e6bb2d24881b986c2ed5d01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17a69572e3e3385420780fce680d44d7') in 0.018378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.581245 seconds.
+  path: Assets/Prefab/MuzzleFlash01.prefab
+  artifactKey: Guid(e1d65550e6bb2d24881b986c2ed5d01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/MuzzleFlash01.prefab using Guid(e1d65550e6bb2d24881b986c2ed5d01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17415d9dda92e63cf230f4c5bf172246') in 0.005086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 3.417619 seconds.
+  path: Assets/Prefab/MuzzleFlash01.prefab
+  artifactKey: Guid(e1d65550e6bb2d24881b986c2ed5d01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/MuzzleFlash01.prefab using Guid(e1d65550e6bb2d24881b986c2ed5d01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21aff23ff4b3149a708751c995955ba8') in 0.005439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.592718 seconds.
+  path: Assets/Prefab/MuzzleFlash01.prefab
+  artifactKey: Guid(e1d65550e6bb2d24881b986c2ed5d01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/MuzzleFlash01.prefab using Guid(e1d65550e6bb2d24881b986c2ed5d01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a99895a605aff3bb1bb4c8b1b62e7a96') in 0.005177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 2.807625 seconds.
+  path: Assets/Prefab/MuzzleFlash01.prefab
+  artifactKey: Guid(e1d65550e6bb2d24881b986c2ed5d01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/MuzzleFlash01.prefab using Guid(e1d65550e6bb2d24881b986c2ed5d01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0107f474bcfd6ac08c292ec36e852b5c') in 0.005406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 234.133553 seconds.
+  path: Assets/Prefab/Guns/Minni Guns.prefab
+  artifactKey: Guid(4bcbc48ec22cc0c4c9e6b6165f500c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Guns/Minni Guns.prefab using Guid(4bcbc48ec22cc0c4c9e6b6165f500c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '011c57133907766173cfd5b8384702aa') in 0.013034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 83
+========================================================================
+Received Import Request.
+  Time since last request: 215.526991 seconds.
+  path: Assets/Prefab/Guns/Missile Hive V1.prefab
+  artifactKey: Guid(ce9c06f3c091ec84383ebfc529b78470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Guns/Missile Hive V1.prefab using Guid(ce9c06f3c091ec84383ebfc529b78470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '549b4dfdd95dadc3c79ea0c925ab69ad') in 0.041315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 202.937086 seconds.
+  path: Assets/Prefab/MuzzleFlash01.prefab
+  artifactKey: Guid(e1d65550e6bb2d24881b986c2ed5d01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/MuzzleFlash01.prefab using Guid(e1d65550e6bb2d24881b986c2ed5d01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f61b87e86523f307e447ee45f45f793') in 0.006465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 7.639663 seconds.
+  path: Assets/Prefab/MuzzleFlash01.prefab
+  artifactKey: Guid(e1d65550e6bb2d24881b986c2ed5d01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/MuzzleFlash01.prefab using Guid(e1d65550e6bb2d24881b986c2ed5d01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '195587e94140afb54379f228068a81d6') in 0.005391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 4.677246 seconds.
+  path: Assets/Prefab/Guns/Double Cannon.prefab
+  artifactKey: Guid(386c63e98d1051346b653fdf99939f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Guns/Double Cannon.prefab using Guid(386c63e98d1051346b653fdf99939f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ce2edf526d232733015e7d059e522d9') in 0.020254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 12.185649 seconds.
+  path: Assets/Prefab/Guns/Minni Guns.prefab
+  artifactKey: Guid(4bcbc48ec22cc0c4c9e6b6165f500c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Guns/Minni Guns.prefab using Guid(4bcbc48ec22cc0c4c9e6b6165f500c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1710ce29bbe9a9938b5417a2d6dcef14') in 0.014232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 90
+========================================================================
+Received Import Request.
+  Time since last request: 11.062026 seconds.
+  path: Assets/Prefab/Guns/Missile Hive V1.prefab
+  artifactKey: Guid(ce9c06f3c091ec84383ebfc529b78470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Guns/Missile Hive V1.prefab using Guid(ce9c06f3c091ec84383ebfc529b78470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e22598329315ea80330d1c93d821b73') in 0.019820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 116
+========================================================================
+Received Import Request.
+  Time since last request: 20.508655 seconds.
+  path: Assets/Prefab/Guns/Missile Hive V2.prefab
+  artifactKey: Guid(116545ad544005441a930f42933767fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Guns/Missile Hive V2.prefab using Guid(116545ad544005441a930f42933767fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d295db7e329d1cb1fdd04892f41d9d9') in 0.020515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 99
+========================================================================
+Received Import Request.
+  Time since last request: 257.208682 seconds.
+  path: Assets/Prefab/Guns/Small Guns.prefab
+  artifactKey: Guid(debdacdf4fa5ef64292ebc822bce24d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Guns/Small Guns.prefab using Guid(debdacdf4fa5ef64292ebc822bce24d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '824a27a8942acff825963ef620c43f5c') in 0.016044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 101
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.402 seconds
+Refreshing native plugins compatible for Editor in 1.91 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.940 seconds
+Domain Reload Profiling: 1340ms
+	BeginReloadAssembly (147ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (192ms)
+		LoadAssemblies (236ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (940ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (446ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (308ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 2.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6071 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (1.7 MB). Loaded Objects now: 6841.
+Memory consumption went from 298.0 MB to 296.3 MB.
+Total: 4.007400 ms (FindLiveObjects: 0.440700 ms CreateObjectMapping: 0.175900 ms MarkObjects: 2.974400 ms  DeleteObjects: 0.415600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 321.674634 seconds.
+  path: Assets/Guns/Trail/Double Cannons Trail Config.asset
+  artifactKey: Guid(3f33433249da3d1479f5b889738b7287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/Trail/Double Cannons Trail Config.asset using Guid(3f33433249da3d1479f5b889738b7287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78621dcdaf68b78c8302e01e0eb8e693') in 0.013479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Guns/Trail/Missile Hive Trail Config.asset
+  artifactKey: Guid(0d5c294537f79684e8097c010bc51be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guns/Trail/Missile Hive Trail Config.asset using Guid(0d5c294537f79684e8097c010bc51be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f89a0ca97b89a9a561d4b529bd82c04d') in 0.000857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.374 seconds
+Refreshing native plugins compatible for Editor in 2.00 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.928 seconds
+Domain Reload Profiling: 1300ms
+	BeginReloadAssembly (132ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (181ms)
+		LoadAssemblies (226ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (928ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (450ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (310ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 2.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6071 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (1.7 MB). Loaded Objects now: 6857.
+Memory consumption went from 299.8 MB to 298.1 MB.
+Total: 4.076700 ms (FindLiveObjects: 0.427700 ms CreateObjectMapping: 0.311000 ms MarkObjects: 2.909800 ms  DeleteObjects: 0.427400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 102.646911 seconds.
+  path: Assets/Prefab/MuzzleFlash01.prefab
+  artifactKey: Guid(e1d65550e6bb2d24881b986c2ed5d01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/MuzzleFlash01.prefab using Guid(e1d65550e6bb2d24881b986c2ed5d01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16fa081ba201fc2388cefde5f51c27b8') in 0.188435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 91.436200 seconds.
+  path: Assets/Prefab/MuzzleFlash01.prefab
+  artifactKey: Guid(e1d65550e6bb2d24881b986c2ed5d01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/MuzzleFlash01.prefab using Guid(e1d65550e6bb2d24881b986c2ed5d01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cabe18a5d800071cf94293ec3adaa6e') in 0.005143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 1.627273 seconds.
+  path: Assets/Prefab/MuzzleFlash01.prefab
+  artifactKey: Guid(e1d65550e6bb2d24881b986c2ed5d01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/MuzzleFlash01.prefab using Guid(e1d65550e6bb2d24881b986c2ed5d01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b32ee15bcd72cee7cb543f24ccae220') in 0.005048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.377 seconds
+Refreshing native plugins compatible for Editor in 1.90 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.947 seconds
+Domain Reload Profiling: 1323ms
+	BeginReloadAssembly (140ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (177ms)
+		LoadAssemblies (221ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (948ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (473ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (331ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 2.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6071 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (1.7 MB). Loaded Objects now: 6909.
+Memory consumption went from 302.0 MB to 300.2 MB.
+Total: 3.742800 ms (FindLiveObjects: 0.491400 ms CreateObjectMapping: 0.168300 ms MarkObjects: 2.663900 ms  DeleteObjects: 0.418500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: d54d2f2da18e7612c182cf67624b6b12 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 84.416482 seconds.
+  path: Assets/Prefab/Guns/Double Cannon.prefab
+  artifactKey: Guid(386c63e98d1051346b653fdf99939f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Guns/Double Cannon.prefab using Guid(386c63e98d1051346b653fdf99939f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe1aa3ad34c8984dbe4aa5c4274c5b1b') in 0.211692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 25.330423 seconds.
+  path: Assets/Prefab/MuzzleFlash01.prefab
+  artifactKey: Guid(e1d65550e6bb2d24881b986c2ed5d01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/MuzzleFlash01.prefab using Guid(e1d65550e6bb2d24881b986c2ed5d01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f844da49b7937876c2cef7faa7bc3e4') in 0.005311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 225.366204 seconds.
+  path: Assets/Impacts/Surface Effects/Blue Bullet Impact Effect.asset
+  artifactKey: Guid(762fba6b0e4ecfe48bca126b274b60f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Impacts/Surface Effects/Blue Bullet Impact Effect.asset using Guid(762fba6b0e4ecfe48bca126b274b60f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '356512b497202b12786c97c938b0a5b6') in 0.003837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.023231 seconds.
+  path: Assets/Impacts/Surface Effects/Orange Bullet Impact Effect.asset
+  artifactKey: Guid(7e8b4d74a5e909346983685ee3e1423e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Impacts/Surface Effects/Orange Bullet Impact Effect.asset using Guid(7e8b4d74a5e909346983685ee3e1423e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '255646c3e767f6d4f95ff16faa7e0f2b') in 0.002256 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

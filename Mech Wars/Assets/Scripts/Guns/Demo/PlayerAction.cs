@@ -33,7 +33,7 @@ namespace LlamAcademy.Guns.Demo
             {
                 GunSelector.ActiveGun.StartReloading();
                 IsReloading = true;
-                PlayerAnimator.SetTrigger("Reload");
+                //PlayerAnimator.SetTrigger("Reload");
                 //InverseKinematics.HandIKAmount = 0.25f;
                 //InverseKinematics.ElbowIKAmount = 0.25f;
             }

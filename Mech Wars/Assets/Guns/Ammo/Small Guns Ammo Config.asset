@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Small Guns Ammo Config
   m_EditorClassIdentifier: 
   MaxAmmo: 120
-  ClipSize: 30
+  ClipSize: 20
   CurrentAmmo: 120
-  CurrentClipAmmo: 30
+  CurrentClipAmmo: 20

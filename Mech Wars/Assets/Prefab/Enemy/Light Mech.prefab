@@ -233,7 +233,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3918207082875099344}
-  - component: {fileID: 1481110247754837711}
   m_Layer: 0
   m_Name: Light Mech
   m_TagString: Untagged
@@ -258,23 +257,6 @@ Transform:
   - {fileID: 2316856691593278149}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!111 &1481110247754837711
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1608397562565136562}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 467b197e888f0634fa248fc214ef7d1c, type: 3}
-  m_Animations:
-  - {fileID: 7400000, guid: 467b197e888f0634fa248fc214ef7d1c, type: 3}
-  - {fileID: 7400002, guid: 467b197e888f0634fa248fc214ef7d1c, type: 3}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 1
 --- !u!1 &1680486346158780170
 GameObject:
   m_ObjectHideFlags: 0
