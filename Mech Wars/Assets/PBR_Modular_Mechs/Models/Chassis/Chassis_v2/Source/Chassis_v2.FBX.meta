@@ -1,158 +1,452 @@
 fileFormatVersion: 2
 guid: 0af16fd28b4292444b74e35cf2c26bf5
 ModelImporter:
-  serializedVersion: 22
-  fileIDToRecycleName:
-    100000: Bone001
-    100002: Bone002
-    100004: Bone003
-    100006: Bone004
-    100008: Bone005
-    100010: Bone006
-    100012: Bone007
-    100014: Bone008
-    100016: Bone009
-    100018: Bone010
-    100020: Bone011
-    100022: Bone012
-    100024: Bone013
-    100026: Bone014
-    100028: Bone015
-    100030: Bone016
-    100032: Bone017
-    100034: Bone018
-    100036: Bone019
-    100038: Bone020
-    100040: //RootNode
-    100042: Chassis_v2
-    100044: Dummy001
-    100046: Dummy002
-    100048: Dummy005
-    100050: Dummy006
-    100052: Bip001
-    100054: Bip001 L Calf
-    100056: Bip001 L Clavicle
-    100058: Bip001 L Finger0
-    100060: Bip001 L Finger0Nub
-    100062: Bip001 L Foot
-    100064: Bip001 L Forearm
-    100066: Bip001 L Hand
-    100068: Bip001 L HorseLink
-    100070: Bip001 L Thigh
-    100072: Bip001 L Toe0
-    100074: Bip001 L Toe01
-    100076: Bip001 L Toe02
-    100078: Bip001 L Toe0Nub
-    100080: Bip001 L UpperArm
-    100082: Bip001 Neck
-    100084: Bip001 Pelvis
-    100086: Bip001 R Calf
-    100088: Bip001 R Clavicle
-    100090: Bip001 R Finger0
-    100092: Bip001 R Finger0Nub
-    100094: Bip001 R Foot
-    100096: Bip001 R Forearm
-    100098: Bip001 R Hand
-    100100: Bip001 R HorseLink
-    100102: Bip001 R Thigh
-    100104: Bip001 R Toe0
-    100106: Bip001 R Toe01
-    100108: Bip001 R Toe02
-    100110: Bip001 R Toe0Nub
-    100112: Bip001 R UpperArm
-    100114: Bip001 Spine
-    100116: Bip001 Spine1
-    100118: Bip001 Spine2
-    100120: Bip001 Spine3
-    100122: Bip001 Footsteps
-    100124: Bip001 Head
-    100126: Bip001 HeadNub
-    100128: Torso_joint
-    400000: Bone001
-    400002: Bone002
-    400004: Bone003
-    400006: Bone004
-    400008: Bone005
-    400010: Bone006
-    400012: Bone007
-    400014: Bone008
-    400016: Bone009
-    400018: Bone010
-    400020: Bone011
-    400022: Bone012
-    400024: Bone013
-    400026: Bone014
-    400028: Bone015
-    400030: Bone016
-    400032: Bone017
-    400034: Bone018
-    400036: Bone019
-    400038: Bone020
-    400040: //RootNode
-    400042: Chassis_v2
-    400044: Dummy001
-    400046: Dummy002
-    400048: Dummy005
-    400050: Dummy006
-    400052: Bip001
-    400054: Bip001 L Calf
-    400056: Bip001 L Clavicle
-    400058: Bip001 L Finger0
-    400060: Bip001 L Finger0Nub
-    400062: Bip001 L Foot
-    400064: Bip001 L Forearm
-    400066: Bip001 L Hand
-    400068: Bip001 L HorseLink
-    400070: Bip001 L Thigh
-    400072: Bip001 L Toe0
-    400074: Bip001 L Toe01
-    400076: Bip001 L Toe02
-    400078: Bip001 L Toe0Nub
-    400080: Bip001 L UpperArm
-    400082: Bip001 Neck
-    400084: Bip001 Pelvis
-    400086: Bip001 R Calf
-    400088: Bip001 R Clavicle
-    400090: Bip001 R Finger0
-    400092: Bip001 R Finger0Nub
-    400094: Bip001 R Foot
-    400096: Bip001 R Forearm
-    400098: Bip001 R Hand
-    400100: Bip001 R HorseLink
-    400102: Bip001 R Thigh
-    400104: Bip001 R Toe0
-    400106: Bip001 R Toe01
-    400108: Bip001 R Toe02
-    400110: Bip001 R Toe0Nub
-    400112: Bip001 R UpperArm
-    400114: Bip001 Spine
-    400116: Bip001 Spine1
-    400118: Bip001 Spine2
-    400120: Bip001 Spine3
-    400122: Bip001 Footsteps
-    400124: Bip001 Head
-    400126: Bip001 HeadNub
-    400128: Torso_joint
-    2100000: 18 - Default
-    2300000: Chassis_v2
-    3300000: Chassis_v2
-    4300000: Chassis_v2
-    7400000: Walk
-    7400002: Back
-    7400004: Turn_R
-    7400006: Turn_L
-    7400008: Idle
-    7400010: Jump_Jet
-    7400012: Fly_Jet
-    7400014: Landing
-    7400016: Shutdown
-    7400018: Armed
-    9500000: //RootNode
-    11100000: //RootNode
-    13700000: Chassis_v2
+  serializedVersion: 22200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Bone001
+  - first:
+      1: 100002
+    second: Bone002
+  - first:
+      1: 100004
+    second: Bone003
+  - first:
+      1: 100006
+    second: Bone004
+  - first:
+      1: 100008
+    second: Bone005
+  - first:
+      1: 100010
+    second: Bone006
+  - first:
+      1: 100012
+    second: Bone007
+  - first:
+      1: 100014
+    second: Bone008
+  - first:
+      1: 100016
+    second: Bone009
+  - first:
+      1: 100018
+    second: Bone010
+  - first:
+      1: 100020
+    second: Bone011
+  - first:
+      1: 100022
+    second: Bone012
+  - first:
+      1: 100024
+    second: Bone013
+  - first:
+      1: 100026
+    second: Bone014
+  - first:
+      1: 100028
+    second: Bone015
+  - first:
+      1: 100030
+    second: Bone016
+  - first:
+      1: 100032
+    second: Bone017
+  - first:
+      1: 100034
+    second: Bone018
+  - first:
+      1: 100036
+    second: Bone019
+  - first:
+      1: 100038
+    second: Bone020
+  - first:
+      1: 100040
+    second: //RootNode
+  - first:
+      1: 100042
+    second: Chassis_v2
+  - first:
+      1: 100044
+    second: Dummy001
+  - first:
+      1: 100046
+    second: Dummy002
+  - first:
+      1: 100048
+    second: Dummy005
+  - first:
+      1: 100050
+    second: Dummy006
+  - first:
+      1: 100052
+    second: Bip001
+  - first:
+      1: 100054
+    second: Bip001 L Calf
+  - first:
+      1: 100056
+    second: Bip001 L Clavicle
+  - first:
+      1: 100058
+    second: Bip001 L Finger0
+  - first:
+      1: 100060
+    second: Bip001 L Finger0Nub
+  - first:
+      1: 100062
+    second: Bip001 L Foot
+  - first:
+      1: 100064
+    second: Bip001 L Forearm
+  - first:
+      1: 100066
+    second: Bip001 L Hand
+  - first:
+      1: 100068
+    second: Bip001 L HorseLink
+  - first:
+      1: 100070
+    second: Bip001 L Thigh
+  - first:
+      1: 100072
+    second: Bip001 L Toe0
+  - first:
+      1: 100074
+    second: Bip001 L Toe01
+  - first:
+      1: 100076
+    second: Bip001 L Toe02
+  - first:
+      1: 100078
+    second: Bip001 L Toe0Nub
+  - first:
+      1: 100080
+    second: Bip001 L UpperArm
+  - first:
+      1: 100082
+    second: Bip001 Neck
+  - first:
+      1: 100084
+    second: Bip001 Pelvis
+  - first:
+      1: 100086
+    second: Bip001 R Calf
+  - first:
+      1: 100088
+    second: Bip001 R Clavicle
+  - first:
+      1: 100090
+    second: Bip001 R Finger0
+  - first:
+      1: 100092
+    second: Bip001 R Finger0Nub
+  - first:
+      1: 100094
+    second: Bip001 R Foot
+  - first:
+      1: 100096
+    second: Bip001 R Forearm
+  - first:
+      1: 100098
+    second: Bip001 R Hand
+  - first:
+      1: 100100
+    second: Bip001 R HorseLink
+  - first:
+      1: 100102
+    second: Bip001 R Thigh
+  - first:
+      1: 100104
+    second: Bip001 R Toe0
+  - first:
+      1: 100106
+    second: Bip001 R Toe01
+  - first:
+      1: 100108
+    second: Bip001 R Toe02
+  - first:
+      1: 100110
+    second: Bip001 R Toe0Nub
+  - first:
+      1: 100112
+    second: Bip001 R UpperArm
+  - first:
+      1: 100114
+    second: Bip001 Spine
+  - first:
+      1: 100116
+    second: Bip001 Spine1
+  - first:
+      1: 100118
+    second: Bip001 Spine2
+  - first:
+      1: 100120
+    second: Bip001 Spine3
+  - first:
+      1: 100122
+    second: Bip001 Footsteps
+  - first:
+      1: 100124
+    second: Bip001 Head
+  - first:
+      1: 100126
+    second: Bip001 HeadNub
+  - first:
+      1: 100128
+    second: Torso_joint
+  - first:
+      4: 400000
+    second: Bone001
+  - first:
+      4: 400002
+    second: Bone002
+  - first:
+      4: 400004
+    second: Bone003
+  - first:
+      4: 400006
+    second: Bone004
+  - first:
+      4: 400008
+    second: Bone005
+  - first:
+      4: 400010
+    second: Bone006
+  - first:
+      4: 400012
+    second: Bone007
+  - first:
+      4: 400014
+    second: Bone008
+  - first:
+      4: 400016
+    second: Bone009
+  - first:
+      4: 400018
+    second: Bone010
+  - first:
+      4: 400020
+    second: Bone011
+  - first:
+      4: 400022
+    second: Bone012
+  - first:
+      4: 400024
+    second: Bone013
+  - first:
+      4: 400026
+    second: Bone014
+  - first:
+      4: 400028
+    second: Bone015
+  - first:
+      4: 400030
+    second: Bone016
+  - first:
+      4: 400032
+    second: Bone017
+  - first:
+      4: 400034
+    second: Bone018
+  - first:
+      4: 400036
+    second: Bone019
+  - first:
+      4: 400038
+    second: Bone020
+  - first:
+      4: 400040
+    second: //RootNode
+  - first:
+      4: 400042
+    second: Chassis_v2
+  - first:
+      4: 400044
+    second: Dummy001
+  - first:
+      4: 400046
+    second: Dummy002
+  - first:
+      4: 400048
+    second: Dummy005
+  - first:
+      4: 400050
+    second: Dummy006
+  - first:
+      4: 400052
+    second: Bip001
+  - first:
+      4: 400054
+    second: Bip001 L Calf
+  - first:
+      4: 400056
+    second: Bip001 L Clavicle
+  - first:
+      4: 400058
+    second: Bip001 L Finger0
+  - first:
+      4: 400060
+    second: Bip001 L Finger0Nub
+  - first:
+      4: 400062
+    second: Bip001 L Foot
+  - first:
+      4: 400064
+    second: Bip001 L Forearm
+  - first:
+      4: 400066
+    second: Bip001 L Hand
+  - first:
+      4: 400068
+    second: Bip001 L HorseLink
+  - first:
+      4: 400070
+    second: Bip001 L Thigh
+  - first:
+      4: 400072
+    second: Bip001 L Toe0
+  - first:
+      4: 400074
+    second: Bip001 L Toe01
+  - first:
+      4: 400076
+    second: Bip001 L Toe02
+  - first:
+      4: 400078
+    second: Bip001 L Toe0Nub
+  - first:
+      4: 400080
+    second: Bip001 L UpperArm
+  - first:
+      4: 400082
+    second: Bip001 Neck
+  - first:
+      4: 400084
+    second: Bip001 Pelvis
+  - first:
+      4: 400086
+    second: Bip001 R Calf
+  - first:
+      4: 400088
+    second: Bip001 R Clavicle
+  - first:
+      4: 400090
+    second: Bip001 R Finger0
+  - first:
+      4: 400092
+    second: Bip001 R Finger0Nub
+  - first:
+      4: 400094
+    second: Bip001 R Foot
+  - first:
+      4: 400096
+    second: Bip001 R Forearm
+  - first:
+      4: 400098
+    second: Bip001 R Hand
+  - first:
+      4: 400100
+    second: Bip001 R HorseLink
+  - first:
+      4: 400102
+    second: Bip001 R Thigh
+  - first:
+      4: 400104
+    second: Bip001 R Toe0
+  - first:
+      4: 400106
+    second: Bip001 R Toe01
+  - first:
+      4: 400108
+    second: Bip001 R Toe02
+  - first:
+      4: 400110
+    second: Bip001 R Toe0Nub
+  - first:
+      4: 400112
+    second: Bip001 R UpperArm
+  - first:
+      4: 400114
+    second: Bip001 Spine
+  - first:
+      4: 400116
+    second: Bip001 Spine1
+  - first:
+      4: 400118
+    second: Bip001 Spine2
+  - first:
+      4: 400120
+    second: Bip001 Spine3
+  - first:
+      4: 400122
+    second: Bip001 Footsteps
+  - first:
+      4: 400124
+    second: Bip001 Head
+  - first:
+      4: 400126
+    second: Bip001 HeadNub
+  - first:
+      4: 400128
+    second: Torso_joint
+  - first:
+      21: 2100000
+    second: 18 - Default
+  - first:
+      23: 2300000
+    second: Chassis_v2
+  - first:
+      33: 3300000
+    second: Chassis_v2
+  - first:
+      43: 4300000
+    second: Chassis_v2
+  - first:
+      74: 7400000
+    second: Walk
+  - first:
+      74: 7400002
+    second: Back
+  - first:
+      74: 7400004
+    second: Turn_R
+  - first:
+      74: 7400006
+    second: Turn_L
+  - first:
+      74: 7400008
+    second: Idle
+  - first:
+      74: 7400010
+    second: Jump_Jet
+  - first:
+      74: 7400012
+    second: Fly_Jet
+  - first:
+      74: 7400014
+    second: Landing
+  - first:
+      74: 7400016
+    second: Shutdown
+  - first:
+      74: 7400018
+    second: Armed
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      111: 11100000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Chassis_v2
   externalObjects: {}
   materials:
-    importMaterials: 0
+    materialImportMode: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -161,6 +455,7 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
     motionNodeName: 
     rigImportErrors: 
     rigImportWarnings: 
@@ -170,7 +465,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 0
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -181,6 +476,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Walk
       takeName: Modular_mech_v2
+      internalID: 0
       firstFrame: 1
       lastFrame: 71
       wrapMode: 2
@@ -209,6 +505,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Back
       takeName: Modular_mech_v2
+      internalID: 0
       firstFrame: 74
       lastFrame: 145
       wrapMode: 2
@@ -237,6 +534,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Turn_L
       takeName: Modular_mech_v2
+      internalID: 0
       firstFrame: 148
       lastFrame: 194
       wrapMode: 1
@@ -265,6 +563,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Turn_R
       takeName: Modular_mech_v2
+      internalID: 0
       firstFrame: 195
       lastFrame: 247
       wrapMode: 1
@@ -293,6 +592,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Idle
       takeName: Modular_mech_v2
+      internalID: 0
       firstFrame: 248
       lastFrame: 295
       wrapMode: 2
@@ -321,6 +621,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Jump_Jet
       takeName: Modular_mech_v2
+      internalID: 0
       firstFrame: 296
       lastFrame: 332
       wrapMode: 1
@@ -349,6 +650,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Fly_Jet
       takeName: Modular_mech_v2
+      internalID: 0
       firstFrame: 333
       lastFrame: 376
       wrapMode: 2
@@ -377,6 +679,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Landing
       takeName: Modular_mech_v2
+      internalID: 0
       firstFrame: 377
       lastFrame: 406
       wrapMode: 1
@@ -405,6 +708,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Shutdown
       takeName: Modular_mech_v2
+      internalID: 0
       firstFrame: 406
       lastFrame: 423
       wrapMode: 1
@@ -433,6 +737,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Armed
       takeName: Modular_mech_v2_chassis
+      internalID: 0
       firstFrame: 424
       lastFrame: 449
       wrapMode: 1
@@ -464,32 +769,49 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 0
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -499,14 +821,19 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 1
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 

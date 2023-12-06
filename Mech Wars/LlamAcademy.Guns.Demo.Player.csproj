@@ -61,10 +61,12 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Guns\Demo\Enemy\Enemy.cs" />
     <Compile Include="Assets\Scripts\Guns\Demo\Enemy\EnemyPainResponse.cs" />
+    <Compile Include="Assets\Scripts\Guns\Demo\Enemy\Enemy Movement.cs" />
     <Compile Include="Assets\Scripts\Guns\Demo\Enemy\EnemyHealth.cs" />
     <Compile Include="Assets\Scripts\Guns\Demo\AmmoPickup.cs" />
     <Compile Include="Assets\Scripts\Guns\Demo\UI\AttachmentSlot.cs" />
     <Compile Include="Assets\Scripts\Guns\Demo\PlayerGunSelector.cs" />
+    <Compile Include="Assets\Scripts\Guns\Demo\Mouse look.cs" />
     <Compile Include="Assets\Scripts\Guns\Demo\UI\MainMenuController.cs" />
     <Compile Include="Assets\Scripts\Guns\Demo\SpawnParticleSystemOnDeath.cs" />
     <Compile Include="Assets\Scripts\Guns\Demo\PlayerAction.cs" />
@@ -73,7 +75,6 @@
     <Compile Include="Assets\Scripts\Guns\Demo\GunPickup.cs" />
     <Compile Include="Assets\Scripts\Guns\Demo\GunModifierApplier.cs" />
     <Compile Include="Assets\Scripts\Guns\Demo\AmmoDisplayer.cs" />
-    <Compile Include="Assets\Scripts\Guns\Demo\Enemy\EnemyMovement.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Scripts\Guns\Demo\LlamAcademy.Guns.Demo.asmdef" />
