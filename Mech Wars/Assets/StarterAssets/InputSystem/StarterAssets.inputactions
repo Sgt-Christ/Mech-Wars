@@ -49,51 +49,6 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
-                },
-                {
-                    "name": "Shoot",
-                    "type": "Button",
-                    "id": "bde2911a-04c9-4e02-9bed-3c49e8349c8c",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "Weapon1",
-                    "type": "Button",
-                    "id": "45a4d513-e28c-4c5b-a445-902c829c2dc9",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "Drop & Pickup 2",
-                    "type": "Button",
-                    "id": "62759cf5-7e07-49f2-9ac3-0c8c40c01cba",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "Drop & Pickup 3",
-                    "type": "Button",
-                    "id": "a2e5c19f-b4e1-40cb-8bbd-7013e1046a23",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "Drop & Pickup 4",
-                    "type": "Button",
-                    "id": "b5d7e4b5-5f22-46a0-bf2b-e86c84f2b312",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -292,83 +247,6 @@
                     "processors": "",
                     "groups": "Gamepad",
                     "action": "Aim",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "deb42aff-c9d0-4754-b8a4-b774aba5c978",
-                    "path": "<Mouse>/leftButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "KeyboardMouse",
-                    "action": "Shoot",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "61ecd31b-2632-4860-bc58-33a46c224bd3",
-                    "path": "<Gamepad>/rightTrigger",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Gamepad",
-                    "action": "Shoot",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "ac5f6aaf-abb6-44dc-973d-e6f2da78ee09",
-                    "path": "<Keyboard>/1",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "KeyboardMouse",
-                    "action": "Weapon1",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "bc900ba7-b079-4e43-bb65-83bf09d23ac5",
-                    "path": "<Keyboard>/numpad1",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "KeyboardMouse",
-                    "action": "Weapon1",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "c669342a-5aa6-4014-9d08-49ea179acae2",
-                    "path": "<Keyboard>/2",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "KeyboardMouse",
-                    "action": "Drop & Pickup 2",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "2af344fa-1f0a-457a-9265-c512b1bcb03b",
-                    "path": "<Keyboard>/3",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "KeyboardMouse",
-                    "action": "Drop & Pickup 3",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "eafbb639-78b9-41a9-9d8d-153cbdc222f3",
-                    "path": "<Keyboard>/4",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "KeyboardMouse",
-                    "action": "Drop & Pickup 4",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

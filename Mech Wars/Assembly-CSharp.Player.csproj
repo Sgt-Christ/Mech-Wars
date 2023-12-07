@@ -759,13 +759,13 @@
       <Project>{90CF4018-E6EE-66F7-A4F5-EF3393ABBDF0}</Project>
       <Name>Unity.RenderPipelines.Universal.Shaders.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="LlamAcademy.Guns.Demo.Player.csproj">
-      <Project>{E6CB1158-8D30-566E-4852-917D86B69ED6}</Project>
-      <Name>LlamAcademy.Guns.Demo.Player</Name>
-    </ProjectReference>
     <ProjectReference Include="LlamAcademy.ImpactSystem.Player.csproj">
       <Project>{53683C40-BDD2-82F7-B241-33B03B779BEF}</Project>
       <Name>LlamAcademy.ImpactSystem.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="LlamAcademy.Guns.Demo.Player.csproj">
+      <Project>{E6CB1158-8D30-566E-4852-917D86B69ED6}</Project>
+      <Name>LlamAcademy.Guns.Demo.Player</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

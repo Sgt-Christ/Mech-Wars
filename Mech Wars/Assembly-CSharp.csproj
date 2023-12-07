@@ -776,11 +776,11 @@
     <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
       <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VSCode.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
       <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
@@ -922,13 +922,13 @@
       <Project>{AACE770E-B9FA-4A8E-165B-129C5767627B}</Project>
       <Name>LlamAcademy.Guns.Editors</Name>
     </ProjectReference>
-    <ProjectReference Include="LlamAcademy.Guns.Demo.csproj">
-      <Project>{ED7B0C6B-7971-FDD6-5201-A1BB02733AAF}</Project>
-      <Name>LlamAcademy.Guns.Demo</Name>
-    </ProjectReference>
     <ProjectReference Include="LlamAcademy.ImpactSystem.csproj">
       <Project>{E37359A0-AE57-2994-2B2D-49FF5067A908}</Project>
       <Name>LlamAcademy.ImpactSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="LlamAcademy.Guns.Demo.csproj">
+      <Project>{ED7B0C6B-7971-FDD6-5201-A1BB02733AAF}</Project>
+      <Name>LlamAcademy.Guns.Demo</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
