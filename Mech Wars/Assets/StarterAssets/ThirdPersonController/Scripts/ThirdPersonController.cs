@@ -131,7 +131,18 @@ namespace StarterAssets
             if (_mainCamera == null)
             {
                 _mainCamera = GameObject.FindGameObjectWithTag("MainCamera");
+                GameStateManager.Instance.OnGameStateChanged += OnGameStateChanged;
             }
+        }
+
+        void OnDestroy()
+        {
+            GameStateManager.Instance.OnGameStateChanged -= OnGameStateChanged;
+        }
+
+        private void OnGameStateChanged(GameState newGameState)
+        {
+            enabled = newGameState == GameState.Gameplay;
         }
 
         private void Start()

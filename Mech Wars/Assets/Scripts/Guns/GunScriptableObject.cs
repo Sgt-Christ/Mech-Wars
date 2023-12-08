@@ -39,6 +39,8 @@ namespace LlamAcademy.Guns
         private ObjectPool<Bullet> BulletPool;
         private bool LastFrameWantedToShoot;
 
+        
+
         /// <summary>
         /// Spawns the Gun Model into the scene
         /// </summary>

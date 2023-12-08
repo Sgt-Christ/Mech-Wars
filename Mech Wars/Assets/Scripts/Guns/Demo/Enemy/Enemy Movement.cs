@@ -24,6 +24,7 @@ namespace LlamAcademy.Guns.Demo.Enemy
         {
             Animator = GetComponent<Animator>();
             Agent = GetComponent<NavMeshAgent>();
+
             //LookAt = GetComponent<LookAtIK>();
             if (Triangulation.vertices == null || Triangulation.vertices.Length == 0)
             {
